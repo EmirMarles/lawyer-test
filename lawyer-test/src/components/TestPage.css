@@ -1,0 +1,22 @@
+.test-page-layout{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 30px;
+
+}
+
+.prev-next-button{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.popup{
+    position: fixed;
+    bottom: 0;
+    border: 2px solid black;
+    padding: 20px;
+}

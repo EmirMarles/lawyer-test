@@ -1,0 +1,10 @@
+
+What to do next:
+  - Make choosing option more user friendly 
+  - Make button 'Next' turn 'Submit' when on the last page.
+   - Check if all the questions are not set to null before submitting
+  - Save data locally (in cookies) for hard reset.
+  - Timer?
+
+ Extra:
+  - Progress bar for questions answered

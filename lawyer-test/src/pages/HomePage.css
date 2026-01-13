@@ -1,0 +1,31 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+}
+
+.home-layout {
+    background-color: rgb(238, 219, 163);
+    margin: 0px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* SIZING */
+    width: 900px;
+    min-height: 2000px;
+}
+
+.test-header{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.start-test{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+.start-test:hover{
+    cursor: pointer;
+}

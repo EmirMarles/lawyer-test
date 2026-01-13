@@ -1,0 +1,17 @@
+.incorrect-option{
+    color : red;
+}
+
+.incorrect-option:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.correct-option{
+    color: green
+}
+
+.correct-option:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

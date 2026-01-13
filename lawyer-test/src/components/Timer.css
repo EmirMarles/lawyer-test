@@ -1,0 +1,10 @@
+.timer-component{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+    /* sizing */
+    padding: 1rem;
+    width: 4rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.option:focus{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.option-chosen{
+    color: blue
+}
+
+.option-chosen:hover{
+    cursor: pointer;
+}
