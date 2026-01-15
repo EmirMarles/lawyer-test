@@ -4,7 +4,6 @@ import { TestPage } from "../components/TestPage"
 import { Routes, Route, } from "react-router-dom"
 import { divideQuestions } from "../utils/arraysHelper"
 import { useNavigate } from "react-router-dom"
-// import { hasAnswers } from "../utils/hasAnswers"
 
 export default function MainTestPage({ setAnswers }) {
 

@@ -14,7 +14,7 @@ function App() {
 
 
   useEffect(() => {
-    // saving answers locally 
+    // saving results locally from an API
     localStorage.setItem('apiAnswer', JSON.stringify(answers))
   }, [answers])
 

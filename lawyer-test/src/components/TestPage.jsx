@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState, useRef } from "react"
 import { Question } from "./Question"
 import './TestPage.css'
 import { useNavigate } from "react-router-dom"
@@ -16,10 +16,10 @@ export function TestPage({ timerCountdown,
     setArrayOfAnswers,
     setAnswers
 }) {
-
     const navigate = useNavigate()
     const [pageQuestionIndex, setPageQuestionIndex] = useState(0)
     const [showPopUp, setShowPopUp] = useState(false)
+    const endRef = useRef(null)
 
     useEffect(() => {
         const setPageIndex = (num) => {
@@ -43,6 +43,10 @@ export function TestPage({ timerCountdown,
     const movePage = () => {
         if (pageIndex < 4) {
             navigate(`/main-test-page/test-page${pageIndex + 2}`)
+            window.scrollTo({
+                top: 0,
+                left: 0,
+            })
         }
     }
 
@@ -50,6 +54,10 @@ export function TestPage({ timerCountdown,
         console.log('MOVING BACK index: ', pageIndex)
         if (pageIndex > 0) {
             navigate(`/main-test-page/test-page${(pageIndex + 1) - 1}`)
+            window.scrollTo({
+                top: 0,
+                left: 0,
+            })
         }
     }
 
@@ -93,11 +101,12 @@ export function TestPage({ timerCountdown,
                 console.error(err)
             }
         }
-        // HOW TO REDIRECT TO THE PAGE WITH THE DATA ON THE //
+        // HOW TO REDIRECT TO THE PAGE WITH DATA //
 
         if (hasAllAnswers(arrayOfAnswers)) {
             sendAnswers();
             navigate('/results')
+            window.scrollTo(0, 0)
         }
     }
 
@@ -107,14 +116,35 @@ export function TestPage({ timerCountdown,
         return
     }
 
-    const fillInTheQuestions = () =>{
+    const fillInTheQuestions = () => {
         let newArr = [...arrayOfAnswers]
+        let answers = [
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
+            '0', '1', '2', '3'
+        ]
         newArr[22] = "2"
         newArr[45] = "2"
         newArr[68] = "3"
         newArr[91] = "3"
-        setArrayOfAnswers(newArr)
-        return 
+        setArrayOfAnswers(answers)
+        return
+    }
+
+    const handleScrollTop = () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }
+
+    const handleScrollBottom = () => {
+        endRef?.current.scrollIntoView({ behavior: 'smooth' })
     }
 
     return (
@@ -125,6 +155,7 @@ export function TestPage({ timerCountdown,
             {/* <Timer timerCountdown={timerCountdown} setTimerCountdown={setTimerCountdown}></Timer> */}
             <div className="header">This is the test page!</div>
             <div className="questions-grid">
+                <button className="scroll-to-top" onClick={handleScrollTop}>Scroll to top</button>
                 <div className="questions">
                     {questions.map((question, index) => {
                         const globalIndex = pageQuestionIndex + index
@@ -140,13 +171,15 @@ export function TestPage({ timerCountdown,
                 </div>
                 {showPopUp &&
                     (<div className="popup">Please Fill in all the questions : {pageIndex}!</div>)}
-                <div className="prev-next-button">
-                    <button className="prev" onClick={movePageBack}>Previous Page</button>
-                    {pageIndex === 3
-                        ? (<button className="nex" onClick={handleSubmit}> Submit </button>)
-                        : (<button className="next" onClick={movePage}>Next Page </button>)
-                    }
-                </div>
+                <button className="but scroll-to-bottom" onClick={handleScrollBottom}>Scroll to bottom</button>
             </div>
+            <div className="prev-next-button">
+                <button className="prev" onClick={movePageBack}>Previous Page</button>
+                {pageIndex === 3
+                    ? (<button className="nex" onClick={handleSubmit}> Submit </button>)
+                    : (<button className="next" onClick={movePage}>Next Page </button>)
+                }
+            </div>
+            <div className="empty" ref={endRef}></div>
         </div>)
 }
