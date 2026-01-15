@@ -14,7 +14,9 @@ export function TestPage({ timerCountdown,
     questions,
     arrayOfAnswers,
     setArrayOfAnswers,
-    setAnswers
+    setAnswers,
+    progressBarValue,
+    setProgressBarValue
 }) {
     const navigate = useNavigate()
     const [pageQuestionIndex, setPageQuestionIndex] = useState(0)
@@ -151,11 +153,10 @@ export function TestPage({ timerCountdown,
         <div className="test-page-layout">
             <button className="setStateAnswers" onClick={setstate}>Set State</button>
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions</button>
-            {/* <button onClick={setTimer}>set timer</button> */}
-            {/* <Timer timerCountdown={timerCountdown} setTimerCountdown={setTimerCountdown}></Timer> */}
+            <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">This is the test page!</div>
             <div className="questions-grid">
-                <button className="scroll-to-top" onClick={handleScrollTop}>Scroll to top</button>
+                <button className="scroll-to-top" onClick={handleScrollTop}>To Top</button>
                 <div className="questions">
                     {questions.map((question, index) => {
                         const globalIndex = pageQuestionIndex + index
@@ -171,7 +172,7 @@ export function TestPage({ timerCountdown,
                 </div>
                 {showPopUp &&
                     (<div className="popup">Please Fill in all the questions : {pageIndex}!</div>)}
-                <button className="but scroll-to-bottom" onClick={handleScrollBottom}>Scroll to bottom</button>
+                <button className="scroll-to-bottom" onClick={handleScrollBottom}>To Bottom</button>
             </div>
             <div className="prev-next-button">
                 <button className="prev" onClick={movePageBack}>Previous Page</button>

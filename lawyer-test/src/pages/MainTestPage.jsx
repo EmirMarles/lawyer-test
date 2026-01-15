@@ -4,6 +4,8 @@ import { TestPage } from "../components/TestPage"
 import { Routes, Route, } from "react-router-dom"
 import { divideQuestions } from "../utils/arraysHelper"
 import { useNavigate } from "react-router-dom"
+import { calculateProgress } from "../utils/calculateProrgess"
+import { answers } from "../constants/answers"
 
 export default function MainTestPage({ setAnswers }) {
 
@@ -12,6 +14,8 @@ export default function MainTestPage({ setAnswers }) {
     const [arrayOfAnswers, setArrayOfAnswers] = useState(() => {
         return JSON.parse(localStorage.getItem('answers')) || (new Array(91).fill(null))
     })
+    const [progressBarValue, setProgressBarValue] = useState(0)
+
     const navigate = useNavigate()
 
     // SAVING THE ANSWERS LOCALLY //
@@ -19,6 +23,13 @@ export default function MainTestPage({ setAnswers }) {
     useEffect(() => {
         localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
         console.log('answers saved locally:', JSON.parse(localStorage.getItem('answers')))
+
+        // calculating the progress bar
+        const setProgress = () => {
+            const percentage = calculateProgress(answers)
+            setProgressBarValue(percentage)
+        }
+        setProgress();
     }, [arrayOfAnswers])
 
     // GETTING QUESTIONS FROM DB //
@@ -52,7 +63,9 @@ export default function MainTestPage({ setAnswers }) {
                 setArrayOfAnswers: setArrayOfAnswers,
                 questions: arrayOfArrays[0],
                 timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown
+                setTimerCountdown: setTimerCountdown,
+                progressBarValue: progressBarValue,
+                setProgressBarValue: setProgressBarValue
             },
         },
         {
@@ -65,7 +78,9 @@ export default function MainTestPage({ setAnswers }) {
                 setArrayOfAnswers: setArrayOfAnswers,
                 questions: arrayOfArrays[1],
                 timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown
+                setTimerCountdown: setTimerCountdown,
+                progressBarValue: progressBarValue,
+                setProgressBarValue: setProgressBarValue
             },
         },
         {
@@ -78,7 +93,9 @@ export default function MainTestPage({ setAnswers }) {
                 setArrayOfAnswers: setArrayOfAnswers,
                 questions: arrayOfArrays[2],
                 timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown
+                setTimerCountdown: setTimerCountdown,
+                progressBarValue: progressBarValue,
+                setProgressBarValue: setProgressBarValue
             },
         },
         {
@@ -92,7 +109,9 @@ export default function MainTestPage({ setAnswers }) {
                 questions: arrayOfArrays[3],
                 timerCountdown: timerCountdown,
                 setTimerCountdown: setTimerCountdown,
-                setAnswers: setAnswers
+                setAnswers: setAnswers,
+                progressBarValue: progressBarValue,
+                setProgressBarValue: setProgressBarValue
             },
         }
     ]
@@ -105,8 +124,8 @@ export default function MainTestPage({ setAnswers }) {
                     return (<Route
                         key={index}
                         path={Page.path}
-                        element={<PageComponent 
-                            {...Page.props} 
+                        element={<PageComponent
+                            {...Page.props}
                             pageIndex={Page.pageId} />}
                     >
                     </Route>)
