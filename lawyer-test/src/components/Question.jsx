@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './Question.css'
 import { QuestionOptions } from './QuestionOption'
+import { calculateProgress } from '../utils/calculateProrgess'
+import { answers } from '../constants/answers'
 
 // each TestPage has its own 
 // INDEXES with questions, and each question option has its own INDEXES of question options  
@@ -8,7 +10,8 @@ export function Question({
     question,
     arrayOfAnswers,
     setArrayOfAnswers,
-    globalIndex
+    globalIndex,
+    setProgressBarValue
 }) {
     const [chosenOption, setChosenOption] = useState(null)
 
@@ -41,6 +44,7 @@ export function Question({
         let newArray = [...arrayOfAnswers];
         newArray[globalIndex] = chosenOption
         setArrayOfAnswers(newArray)
+
         // maybe the problem is here?
         // localStorage.setItem('answers', JSON.stringify(newArray))
     }, [chosenOption])

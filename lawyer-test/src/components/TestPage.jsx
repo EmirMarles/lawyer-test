@@ -151,10 +151,10 @@ export function TestPage({ timerCountdown,
 
     return (
         <div className="test-page-layout">
-            <button className="setStateAnswers" onClick={setstate}>Set State</button>
+            <button className="setStateAnswers" onClick={setstate}>Reset Answers</button>
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
-            <div className="header">This is the test page!</div>
+            <div className="header">Test Page <span className="number">{pageQuestionIndex + 1}</span></div>
             <div className="questions-grid">
                 <button className="scroll-to-top" onClick={handleScrollTop}>To Top</button>
                 <div className="questions">
@@ -167,6 +167,7 @@ export function TestPage({ timerCountdown,
                             globalIndex={globalIndex}
                             arrayOfAnswers={arrayOfAnswers}
                             setArrayOfAnswers={setArrayOfAnswers}
+                            setProgressBarValue={setProgressBarValue}
                         />)
                     })}
                 </div>

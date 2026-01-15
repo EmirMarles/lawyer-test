@@ -18,15 +18,14 @@ export default function MainTestPage({ setAnswers }) {
 
     const navigate = useNavigate()
 
-    // SAVING THE ANSWERS LOCALLY //
+    // SAVING THE ANSWERS LOCALLY AND CALCULATING PROGRESS BAR//
 
     useEffect(() => {
-        localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
+        // localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
         console.log('answers saved locally:', JSON.parse(localStorage.getItem('answers')))
 
-        // calculating the progress bar
         const setProgress = () => {
-            const percentage = calculateProgress(answers)
+            const percentage = calculateProgress(arrayOfAnswers)
             setProgressBarValue(percentage)
         }
         setProgress();

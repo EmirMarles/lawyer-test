@@ -50,4 +50,16 @@
 .progress-bar{
     height: 20px;
     width: 270px;
+    position: fixed;
+    top: 0;
+}
+
+.header{
+    font-size : 2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.number{
+    font-weight: bold;
 }
