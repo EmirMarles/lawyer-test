@@ -89,7 +89,8 @@ export function TestPage({ timerCountdown,
             return
         }
 
-        // sending the answers to the backend
+        // SENDING THE ANSWERS TO THE BACKEND //
+
         const sendAnswers = async () => {
             try {
                 const answers = arrayOfAnswers
@@ -103,7 +104,6 @@ export function TestPage({ timerCountdown,
                 console.error(err)
             }
         }
-        // HOW TO REDIRECT TO THE PAGE WITH DATA //
 
         if (hasAllAnswers(arrayOfAnswers)) {
             sendAnswers();
@@ -119,7 +119,6 @@ export function TestPage({ timerCountdown,
     }
 
     const fillInTheQuestions = () => {
-        let newArr = [...arrayOfAnswers]
         let answers = [
             '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
             '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
@@ -129,10 +128,7 @@ export function TestPage({ timerCountdown,
             '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
             '0', '1', '2', '3'
         ]
-        newArr[22] = "2"
-        newArr[45] = "2"
-        newArr[68] = "3"
-        newArr[91] = "3"
+        
         setArrayOfAnswers(answers)
         return
     }
@@ -154,7 +150,7 @@ export function TestPage({ timerCountdown,
             <button className="setStateAnswers" onClick={setstate}>Reset Answers</button>
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
-            <div className="header">Test Page <span className="number">{pageQuestionIndex + 1}</span></div>
+            <div className="header">Test Page <span className="number">{pageIndex + 1}</span></div>
             <div className="questions-grid">
                 <button className="scroll-to-top" onClick={handleScrollTop}>To Top</button>
                 <div className="questions">
@@ -178,7 +174,7 @@ export function TestPage({ timerCountdown,
             <div className="prev-next-button">
                 <button className="prev" onClick={movePageBack}>Previous Page</button>
                 {pageIndex === 3
-                    ? (<button className="nex" onClick={handleSubmit}> Submit </button>)
+                    ? (<button className="next" onClick={handleSubmit}> Submit </button>)
                     : (<button className="next" onClick={movePage}>Next Page </button>)
                 }
             </div>

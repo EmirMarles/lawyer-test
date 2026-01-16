@@ -35,7 +35,7 @@ export function QuestionOptions({ index, chosenOption, setChosenOption, option }
             setTrue();
             return; 
         }
-    }, [chosenOption, index])
+    }, [chosenOption])
 
     if (isChosen) {
         return (<li

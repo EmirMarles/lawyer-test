@@ -12,6 +12,16 @@
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    gap: 500px;
+}
+
+.prev{
+    padding-bottom: 20px;
+    height: 20px;
+}
+
+.next{
+    size: 100px
 }
 
 .popup{

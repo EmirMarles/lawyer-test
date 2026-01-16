@@ -5,28 +5,33 @@ import { Routes, Route, } from "react-router-dom"
 import { divideQuestions } from "../utils/arraysHelper"
 import { useNavigate } from "react-router-dom"
 import { calculateProgress } from "../utils/calculateProrgess"
-import { answers } from "../constants/answers"
 
 export default function MainTestPage({ setAnswers }) {
 
     const [arrayOfArrays, setArrayOfArrays] = useState([null])
     const [timerCountdown, setTimerCountdown] = useState(90)
     const [arrayOfAnswers, setArrayOfAnswers] = useState(() => {
+        // const arrAnswers = localStorage.getItem('answers')
+        // return arrAnswers !== null ? JSON.parse(arrAnswers) : new Array(91).fill(null)
         return JSON.parse(localStorage.getItem('answers')) || (new Array(91).fill(null))
     })
-    const [progressBarValue, setProgressBarValue] = useState(0)
+    const [progressBarValue, setProgressBarValue] = useState(() => {
+        const stored = localStorage.getItem('progressbar')
+        return stored !== null ? JSON.parse(stored) : 0
+    })
 
     const navigate = useNavigate()
 
     // SAVING THE ANSWERS LOCALLY AND CALCULATING PROGRESS BAR//
 
     useEffect(() => {
-        // localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
+        localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
         console.log('answers saved locally:', JSON.parse(localStorage.getItem('answers')))
 
         const setProgress = () => {
             const percentage = calculateProgress(arrayOfAnswers)
             setProgressBarValue(percentage)
+            localStorage.setItem('progressbar', JSON.stringify(percentage))
         }
         setProgress();
     }, [arrayOfAnswers])
