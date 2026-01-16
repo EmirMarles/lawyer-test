@@ -9,7 +9,7 @@ export const getQuestions = async (req, res) => {
         console.error('Error getting questions!', err)
         res.status(500).json({ message: err })
     }
-}
+}   
 
 export const checkAnswers = async (req, res) => {
     try {

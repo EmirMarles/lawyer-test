@@ -1,12 +1,13 @@
 import './HomePage.css'
 import { useNavigate } from 'react-router-dom'
 
-export function HomePage() {
+export function HomePage({setTimerBool}) {
 
     const navigate = useNavigate()
 
     const handleStart = () =>{
         navigate('/main-test-page')
+        setTimerBool(true)
     }
     
     return (

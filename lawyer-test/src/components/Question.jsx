@@ -6,7 +6,7 @@ import { QuestionOptions } from './QuestionOption'
 // INDEXES with questions, and each question option has its own INDEXES of question options  
 export function Question({
     question,
-    // arrayOfAnswers,
+    arrayOfAnswers,
     setArrayOfAnswers,
     globalIndex,
     // setProgressBarValue
@@ -17,12 +17,10 @@ export function Question({
 
     useEffect(() => {
         const getLocalAnswers = () => {
-            const storageAnswers = JSON.parse(localStorage.getItem('answers')) || []
-            console.log('GLOBAL INDEX:', globalIndex)
-
+            const storageAnswers = arrayOfAnswers;
             const chosenOpt = storageAnswers[globalIndex]
             if (chosenOpt !== null && chosenOpt !== undefined) {
-                console.log('SETTING CHOSEN OPTION:', chosenOpt)
+                // console.log('SETTING CHOSEN OPTION:', chosenOpt)
                 setChosenOption(chosenOpt)
             } else {
                 setChosenOption(null)
@@ -30,14 +28,15 @@ export function Question({
             }
         }
         getLocalAnswers();
-    }, [globalIndex])
+    }, [])
 
 
     // UPDATING THE STATE OF ANSWERS //
 
     useEffect(() => {
-        if (!globalIndex) return;
+        if (globalIndex === null || chosenOption === null) return;
         setArrayOfAnswers(prev => {
+            if (prev[globalIndex] === chosenOption) return prev
             const updated = [...prev]
             updated[globalIndex] = chosenOption
             return updated

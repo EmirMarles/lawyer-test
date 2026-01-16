@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from "react"
 import { Question } from "./Question"
 import './TestPage.css'
 import { useNavigate } from "react-router-dom"
-// import Timer from "./Timer"
+import Timer from "./Timer"
 import { hasAllAnswers } from "../utils/hasAnswers"
 import axios from 'axios'
 
@@ -16,7 +16,8 @@ export function TestPage({ timerCountdown,
     setArrayOfAnswers,
     setAnswers,
     progressBarValue,
-    setProgressBarValue
+    setProgressBarValue,
+    timerBool
 }) {
     const navigate = useNavigate()
     const [pageQuestionIndex, setPageQuestionIndex] = useState(0)
@@ -61,10 +62,6 @@ export function TestPage({ timerCountdown,
                 left: 0,
             })
         }
-    }
-
-    if (questions === null || questions === undefined) {
-        return (<div>There is a problem loading screen</div>)
     }
 
     const handleSubmit = () => {
@@ -113,8 +110,8 @@ export function TestPage({ timerCountdown,
     }
 
     const setstate = () => {
-        setArrayOfAnswers(new Array(92).fill(null))
-        localStorage.removeItem('answers')
+        // setArrayOfAnswers(new Array(92).fill(null))
+        // localStorage.removeItem('answers')
         return
     }
 
@@ -128,7 +125,6 @@ export function TestPage({ timerCountdown,
             '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
             '0', '1', '2', '3'
         ]
-        
         setArrayOfAnswers(answers)
         return
     }
@@ -145,10 +141,15 @@ export function TestPage({ timerCountdown,
         endRef?.current.scrollIntoView({ behavior: 'smooth' })
     }
 
+    if (questions === null || questions === undefined) {
+        return (<div>There is a problem loading screen</div>)
+    }
+
     return (
         <div className="test-page-layout">
+            <Timer timerBool={timerBool}></Timer>
             <button className="setStateAnswers" onClick={setstate}>Reset Answers</button>
-            <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions</button>
+            <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions in</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">Test Page <span className="number">{pageIndex + 1}</span></div>
             <div className="questions-grid">

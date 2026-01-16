@@ -8,10 +8,11 @@ import { useEffect } from 'react'
 
 function App() {
 
-  const [answers, setAnswers] = useState(()=>{
+  const [answers, setAnswers] = useState(() => {
     return (JSON.parse(localStorage.getItem('apiAnswer')) || null)
   })
 
+  const [timerBool, setTimerBool] = useState(false)
 
   useEffect(() => {
     // saving results locally from an API
@@ -21,13 +22,15 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/" element={<HomePage setTimerBool={setTimerBool} />}></Route>
         <Route path="main-test-page/*" element={<MainTestPage
           answers={answers}
           setAnswers={setAnswers}
+          timerBool={timerBool}
         />}></Route>
         <Route path="results" element={< ResultsPage
           answers={answers}
+          setTimerBool={setTimerBool}
         />}></Route>
       </Routes>
     </BrowserRouter>

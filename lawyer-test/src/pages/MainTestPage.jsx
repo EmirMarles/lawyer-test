@@ -6,28 +6,31 @@ import { divideQuestions } from "../utils/arraysHelper"
 import { useNavigate } from "react-router-dom"
 import { calculateProgress } from "../utils/calculateProrgess"
 
-export default function MainTestPage({ setAnswers }) {
+export default function MainTestPage({ setAnswers, timerBool }) {
 
     const [arrayOfArrays, setArrayOfArrays] = useState([null])
     const [timerCountdown, setTimerCountdown] = useState(90)
     const [arrayOfAnswers, setArrayOfAnswers] = useState(() => {
-        // const arrAnswers = localStorage.getItem('answers')
-        // return arrAnswers !== null ? JSON.parse(arrAnswers) : new Array(91).fill(null)
-        return JSON.parse(localStorage.getItem('answers')) || (new Array(91).fill(null))
+        const arrAnswers = localStorage.getItem('answers')
+        return arrAnswers !== null ? JSON.parse(arrAnswers) : new Array(91).fill(null)
     })
     const [progressBarValue, setProgressBarValue] = useState(() => {
         const stored = localStorage.getItem('progressbar')
         return stored !== null ? JSON.parse(stored) : 0
     })
-
+    // const [hydrated, setHydrated] = useState(false)
     const navigate = useNavigate()
 
-    // SAVING THE ANSWERS LOCALLY AND CALCULATING PROGRESS BAR//
+    // SAVING THE ANSWERS //
 
     useEffect(() => {
         localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
         console.log('answers saved locally:', JSON.parse(localStorage.getItem('answers')))
+    }, [arrayOfAnswers])
 
+
+    // SETTING THE PROGRESS BAR //
+    useEffect(() => {
         const setProgress = () => {
             const percentage = calculateProgress(arrayOfAnswers)
             setProgressBarValue(percentage)
@@ -55,6 +58,7 @@ export default function MainTestPage({ setAnswers }) {
         }
     }, [])
 
+    // RAMPING UP THE TIMER
 
     const pagesData = [
         {
@@ -69,7 +73,8 @@ export default function MainTestPage({ setAnswers }) {
                 timerCountdown: timerCountdown,
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue
+                setProgressBarValue: setProgressBarValue,
+                timerBool: timerBool
             },
         },
         {
@@ -84,7 +89,8 @@ export default function MainTestPage({ setAnswers }) {
                 timerCountdown: timerCountdown,
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue
+                setProgressBarValue: setProgressBarValue,
+                timerBool: timerBool
             },
         },
         {
@@ -99,7 +105,8 @@ export default function MainTestPage({ setAnswers }) {
                 timerCountdown: timerCountdown,
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue
+                setProgressBarValue: setProgressBarValue,
+                timerBool: timerBool
             },
         },
         {
@@ -115,7 +122,8 @@ export default function MainTestPage({ setAnswers }) {
                 setTimerCountdown: setTimerCountdown,
                 setAnswers: setAnswers,
                 progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue
+                setProgressBarValue: setProgressBarValue,
+                timerBool: timerBool
             },
         }
     ]
@@ -123,10 +131,9 @@ export default function MainTestPage({ setAnswers }) {
     return (
         <>
             <Routes>
-                {pagesData.map((Page, index) => {
+                {pagesData.map((Page) => {
                     const PageComponent = Page.component;
                     return (<Route
-                        key={index}
                         path={Page.path}
                         element={<PageComponent
                             {...Page.props}
