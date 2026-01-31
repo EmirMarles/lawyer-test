@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom"
 import { calculateProgress } from "../utils/calculateProrgess"
 import axios from 'axios'
 
-const apiUrl = import.meta.env.VITE_API_URL;
+const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
 export default function MainTestPage({ setAnswers, timerBool }) {
 
