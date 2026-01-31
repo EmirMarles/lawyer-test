@@ -1,70 +1,105 @@
-import { questions } from '../consts/questions.js'
+import { getRandomQuestions } from '../data/loadQuestions.js'
 import { calculateGrade } from '../utils/gradeCalculation.js'
+import { createSession, getSession, deleteSession } from '../utils/sessions.js'
 
 export const getQuestions = async (req, res) => {
     try {
-        const quests = questions
-        res.status(200).json(quests)
+        const allQuestions = getRandomQuestions(100);
+
+        const questionsForClient = allQuestions.map(({ questionId, questionText, options }) => ({
+            questionId,
+            questionText,
+            options,
+        }));
+
+        const sessionId = createSession(allQuestions);
+
+        res.status(200).json({
+            sessionId,
+            questions: questionsForClient,
+        });
     } catch (err) {
-        console.error('Error getting questions!', err)
-        res.status(500).json({ message: err })
+        console.error('Error getting questions!', err);
+        res.status(500).json({ message: err.message });
     }
-}   
+};
 
 export const checkAnswers = async (req, res) => {
     try {
-        const { answers } = req.body
-        const checkQuestions = questions
+        const { sessionId, answers } = req.body;
+
+        if (!sessionId) {
+            return res.status(400).json({
+                success: false,
+                message: 'Session ID is required',
+            });
+        }
 
         if (!answers || answers.length === 0) {
             return res.status(400).json({
                 success: false,
-                message: "no answers!"
-            })
+                message: 'No answers provided',
+            });
         }
 
-        let finalArray = []
+        const session = getSession(sessionId);
+        if (!session) {
+            return res.status(400).json({
+                success: false,
+                message: 'Invalid or expired session',
+            });
+        }
 
-        // calculation for percentage / grade
+        const checkQuestions = session.questions;
+        deleteSession(sessionId);
 
-        let incorrectAnswers = 0
+        if (answers.length !== checkQuestions.length) {
+            return res.status(400).json({
+                success: false,
+                message: `Expected ${checkQuestions.length} answers, got ${answers.length}`,
+            });
+        }
+
+        const finalArray = [];
+        let incorrectCount = 0;
 
         for (let i = 0; i < answers.length; i++) {
-            if (Number(answers[i]) === checkQuestions[i].correctAnswerIndex) {
-                finalArray[i] = {
+            const userAnswerIndex = Number(answers[i]);
+            const correctIndex = checkQuestions[i].correctAnswerIndex;
+
+            if (userAnswerIndex === correctIndex) {
+                finalArray.push({
                     questionId: checkQuestions[i].questionId,
                     isCorrect: true,
                     correctAnswer: null,
-                    incorrectAnswer: null
-                }
+                    incorrectAnswer: null,
+                });
             } else {
-                finalArray[i] = {
+                const userAnswer = Number.isNaN(userAnswerIndex) || userAnswerIndex < 0 || userAnswerIndex >= checkQuestions[i].options.length
+                    ? null
+                    : checkQuestions[i].options[userAnswerIndex];
+
+                finalArray.push({
                     questionId: checkQuestions[i].questionId,
                     isCorrect: false,
                     correctAnswer: checkQuestions[i].correctAnswer,
-                    incorrectAnswer: checkQuestions[i].options[Number(answers[i])]
-                }
-                incorrectAnswers++;
+                    incorrectAnswer: userAnswer,
+                    questionText: checkQuestions[i].questionText,
+                    options: checkQuestions[i].options,
+                });
+                incorrectCount++;
             }
         }
 
-        // 3 incorrect answers out of 92
-        const grade = calculateGrade(incorrectAnswers)
-
-        // const obj = {
-        //     grade: grade,
-        //     checkedAnswers: finalArray
-        // }
-        // console.log(obj)
+        const grade = calculateGrade(incorrectCount, checkQuestions.length);
 
         res.status(200).json({
             success: true,
-            grade: grade,
-            checkedAnswers: finalArray
-        })
-
+            grade,
+            checkedAnswers: finalArray,
+        });
     } catch (err) {
-        console.error('error!', err)
-        res.status(500).json({ message: "error" })
+        console.error('Error checking answers:', err);
+        res.status(500).json({ message: 'Server error' });
     }
-}
+};
