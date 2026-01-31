@@ -17,30 +17,14 @@ export function TestPage({ timerCountdown,
     setAnswers,
     progressBarValue,
     setProgressBarValue,
-    timerBool
+    timerBool,
+    sessionId
 }) {
     const navigate = useNavigate()
-    const [pageQuestionIndex, setPageQuestionIndex] = useState(0)
     const [showPopUp, setShowPopUp] = useState(false)
     const endRef = useRef(null)
-
-    useEffect(() => {
-        const setPageIndex = (num) => {
-            setPageQuestionIndex(num)
-        }
-        if (pageIndex === 0) {
-            setPageIndex(0)
-        }
-        else if (pageIndex === 1) {
-            setPageIndex(23)
-        }
-        else if (pageIndex === 2) {
-            setPageIndex(46)
-        }
-        else {
-            setPageIndex(69)
-        }
-    }, [pageIndex])
+    const chunkSize = 25
+    const pageQuestionIndex = pageIndex * chunkSize
 
 
     const movePage = () => {
@@ -90,12 +74,13 @@ export function TestPage({ timerCountdown,
 
         const sendAnswers = async () => {
             try {
-                const answers = arrayOfAnswers
                 console.log('sending an API request')
-                const response = await axios.post(`${apiUrl}/api/questions/checkAnswers`, { answers })
+                const response = await axios.post(`${apiUrl}/api/questions/checkAnswers`, {
+                    sessionId,
+                    answers: arrayOfAnswers
+                })
                 console.log('response from an API:', response.data)
                 setAnswers(response.data)
-                // WE SAVE THE RESPONSE TO THE STATE?
             }
             catch (err) {
                 console.error(err)
@@ -116,17 +101,8 @@ export function TestPage({ timerCountdown,
     }
 
     const fillInTheQuestions = () => {
-        let answers = [
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3', '0', '1', '2', '3', '0', '1', '2', '3',
-            '0', '1', '2', '3'
-        ]
-        setArrayOfAnswers(answers)
-        return
+        const answers = Array.from({ length: 100 }, (_, i) => String(i % 4));
+        setArrayOfAnswers(answers);
     }
 
     const handleScrollTop = () => {
@@ -147,13 +123,13 @@ export function TestPage({ timerCountdown,
 
     return (
         <div className="test-page-layout">
-            <Timer timerBool={timerBool}></Timer>
+            {/* <Timer timerBool={timerBool}></Timer> */}
             <button className="setStateAnswers" onClick={setstate}>Reset Answers</button>
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions in</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">Test Page <span className="number">{pageIndex + 1}</span></div>
             <div className="questions-grid">
-                <button className="scroll-to-top" onClick={handleScrollTop}>To Top</button>
+                <button className="scroll-to-top" onClick={handleScrollTop}>Пролистать вверх</button>
                 <div className="questions">
                     {questions.map((question, index) => {
                         const globalIndex = pageQuestionIndex + index
@@ -170,7 +146,7 @@ export function TestPage({ timerCountdown,
                 </div>
                 {showPopUp &&
                     (<div className="popup">Please Fill in all the questions : {pageIndex}!</div>)}
-                <button className="scroll-to-bottom" onClick={handleScrollBottom}>To Bottom</button>
+                <button className="scroll-to-bottom" onClick={handleScrollBottom}>Пролистать вниз</button>
             </div>
             <div className="prev-next-button">
                 <button className="prev" onClick={movePageBack}>Previous Page</button>

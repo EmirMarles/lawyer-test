@@ -1,18 +1,9 @@
 export function calculateProgress(arr) {
-
-    if (arr === null && arr === undefined) {
-        return
-    }
-    const questionAmount = 92
-    let amountOfQuestionsAnswered = 0
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] !== null) {
-            amountOfQuestionsAnswered++
-        }
-    }
-    let percentage = (amountOfQuestionsAnswered / questionAmount) * 100
-    let rounded = Math.floor(percentage)
-    return rounded
+    if (arr === null || arr === undefined) return 0;
+    const questionAmount = arr.length;
+    const amountOfQuestionsAnswered = arr.filter(a => a !== null).length;
+    const percentage = (amountOfQuestionsAnswered / questionAmount) * 100;
+    return Math.floor(percentage);
 }
 
 let answers = [

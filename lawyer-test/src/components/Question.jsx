@@ -30,7 +30,6 @@ export function Question({
         getLocalAnswers();
     }, [])
 
-
     // UPDATING THE STATE OF ANSWERS //
 
     useEffect(() => {
@@ -45,7 +44,7 @@ export function Question({
 
     return (
         <div className="question-component">
-            <h4 className="question-text">{globalIndex}. {question.questionText}</h4>
+            <h4 className="question-text">{globalIndex + 1}. {question.questionText}</h4>
             <ul className="question-options">
                 {question.options.map((option, index) => {
                     return <QuestionOptions

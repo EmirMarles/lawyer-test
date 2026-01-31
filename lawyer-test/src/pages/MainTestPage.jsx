@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react"
-import { questions } from "../constants/questions"
 import { TestPage } from "../components/TestPage"
 import { Routes, Route, } from "react-router-dom"
 import { divideQuestions } from "../utils/arraysHelper"
 import { useNavigate } from "react-router-dom"
 import { calculateProgress } from "../utils/calculateProrgess"
+import axios from 'axios'
+
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export default function MainTestPage({ setAnswers, timerBool }) {
 
     const [arrayOfArrays, setArrayOfArrays] = useState([null])
+    const [sessionId, setSessionId] = useState(null)
+    const [loading, setLoading] = useState(true)
+    const [error, setError] = useState(null)
     const [timerCountdown, setTimerCountdown] = useState(90)
     const [arrayOfAnswers, setArrayOfAnswers] = useState(() => {
         const arrAnswers = localStorage.getItem('answers')
-        return arrAnswers !== null ? JSON.parse(arrAnswers) : new Array(91).fill(null)
+        return arrAnswers !== null ? JSON.parse(arrAnswers) : new Array(100).fill(null)
     })
     const [progressBarValue, setProgressBarValue] = useState(() => {
         const stored = localStorage.getItem('progressbar')
@@ -39,23 +44,30 @@ export default function MainTestPage({ setAnswers, timerBool }) {
         setProgress();
     }, [arrayOfAnswers])
 
-    // GETTING QUESTIONS FROM DB //
+    // GETTING QUESTIONS FROM API //
 
     useEffect(() => {
-        let questionsFromDb = null
-        const getQuestions = () => {
-            questionsFromDb = questions
-        }
-        const saveArrayOfArrays = (arrayOfQuestions) => {
-            setArrayOfArrays(arrayOfQuestions)
-        }
-
-        getQuestions();
-        let arrayOfQuestions = divideQuestions(questionsFromDb)
-        saveArrayOfArrays(arrayOfQuestions);
-        if (arrayOfArrays) {
-            navigate('test-page1')
-        }
+        const fetchQuestions = async () => {
+            try {
+                setLoading(true);
+                setError(null);
+                const response = await axios.get(`${apiUrl}/api/questions/getQuestions`);
+                const { sessionId: sid, questions } = response.data;
+                setSessionId(sid);
+                const arrayOfQuestions = divideQuestions(questions);
+                setArrayOfArrays(arrayOfQuestions);
+                localStorage.removeItem('answers');
+                localStorage.removeItem('progressbar');
+                setArrayOfAnswers(new Array(100).fill(null));
+                navigate('test-page1');
+            } catch (err) {
+                console.error('Error fetching questions:', err);
+                setError('Failed to load questions. Please try again.');
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchQuestions();
     }, [])
 
     // RAMPING UP THE TIMER
@@ -123,10 +135,18 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setAnswers: setAnswers,
                 progressBarValue: progressBarValue,
                 setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool
+                timerBool: timerBool,
+                sessionId: sessionId
             },
         }
     ]
+
+    if (loading) {
+        return <div className="loading-screen">Loading questions...</div>;
+    }
+    if (error) {
+        return <div className="error-screen">{error}</div>;
+    }
 
     return (
         <>

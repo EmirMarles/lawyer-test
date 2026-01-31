@@ -1,23 +1,11 @@
 export function divideQuestions(array) {
-    let arrayOfArrays = new Array(4).fill([])
-    let mainLength = array.length / 4
-    let mainArrayIndex = 0
-
-    let i = 0
-    while (i < arrayOfArrays.length) {
-        // this fucking line
-        arrayOfArrays[i] = []
-        let j = 0
-        while (mainArrayIndex < mainLength) {
-            arrayOfArrays[i][j] = array[mainArrayIndex]
-            mainArrayIndex++;
-            j++;
-        }
-        mainLength += 23
-        i++;
+    const chunkSize = Math.ceil(array.length / 4);
+    const result = [];
+    for (let i = 0; i < 4; i++) {
+        const start = i * chunkSize;
+        result.push(array.slice(start, start + chunkSize));
     }
-
-    return (arrayOfArrays)
+    return result;
 }
 
 // const result = divideQuestions(questions)
