@@ -1,0 +1,15 @@
+{
+  "name": "lawyer-test-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Parser for questions from Word or text",
+  "scripts": {
+    "parse": "node parser.js",
+    "parse:docx": "node parser.js --docx",
+    "parse:docx:all": "node parser.js --docx --keep-no-answer",
+    "parse:txt": "node parser.js --txt"
+  },
+  "dependencies": {
+    "mammoth": "^1.6.0"
+  }
+}

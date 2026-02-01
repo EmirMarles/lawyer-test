@@ -6,7 +6,9 @@ const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const questions = require('./questions.json');
+// Use judge questions (from project root) for the test
+const judgeQuestionsPath = path.join(__dirname, '../../../judge-questions.js');
+const questions = require(judgeQuestionsPath);
 
 export function getAllQuestions() {
     return questions;
