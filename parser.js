@@ -12,7 +12,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const INPUT_TXT = path.join(__dirname, "questions.txt");
 const INPUT_DOCX = path.join(__dirname, "вопросы с вариантами ответов на рус..docx");
 const OUTPUT_JSON = path.join(__dirname, "questions.json");
-const OUTPUT_JUDGE_JS = path.join(__dirname, "judge-questions.js");
+const OUTPUT_JUDGE_CJS = path.join(__dirname, "judge-questions.cjs");
 
 /* =========================
    CATEGORY LIST
@@ -426,8 +426,8 @@ async function main() {
         applySplitMergedOptions(questions);
         const validQuestions = validateQuestions(questions, { keepNoAnswer });
         const output = "// Judge questions parsed from Word (bold = correct answer)\n// Same structure as server/src/data/questions.json\n\nmodule.exports = " + JSON.stringify(validQuestions, null, 2) + ";\n";
-        fs.writeFileSync(OUTPUT_JUDGE_JS, output, "utf-8");
-        console.log("✅ Parsed judge questions:", validQuestions.length, "→", OUTPUT_JUDGE_JS);
+        fs.writeFileSync(OUTPUT_JUDGE_CJS, output, "utf-8");
+        console.log("✅ Parsed judge questions:", validQuestions.length, "→", OUTPUT_JUDGE_CJS);
         return;
     }
 

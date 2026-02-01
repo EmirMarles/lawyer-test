@@ -6,8 +6,8 @@ const require = createRequire(import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Use judge questions (from project root) for the test
-const judgeQuestionsPath = path.join(__dirname, '../../../judge-questions.js');
+// Use judge questions (from project root) for the test. .cjs so require() works with "type": "module".
+const judgeQuestionsPath = path.join(__dirname, '../../../judge-questions.cjs');
 const questions = require(judgeQuestionsPath);
 
 export function getAllQuestions() {
