@@ -75,11 +75,17 @@ export function TestPage({ timerCountdown,
 
         const sendAnswers = async () => {
             try {
+                const token = answerToken ?? sessionStorage.getItem('answerToken');
+                const sid = sessionId ?? sessionStorage.getItem('sessionId');
+                if (!token) {
+                    alert('Session lost. Please go back and start a new test.');
+                    return;
+                }
                 console.log('sending an API request')
                 const response = await axios.post(`${apiUrl}/api/questions/checkAnswers`, {
-                    sessionId,
+                    sessionId: sid,
                     answers: arrayOfAnswers,
-                    answerToken
+                    answerToken: token
                 })
                 console.log('response from an API:', response.data)
                 setAnswers(response.data)

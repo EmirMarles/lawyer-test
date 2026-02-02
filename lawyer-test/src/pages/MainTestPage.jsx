@@ -56,6 +56,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 const { sessionId: sid, questions, answerToken: token } = response.data;
                 setSessionId(sid);
                 setAnswerToken(token);
+                if (token) sessionStorage.setItem('answerToken', token);
+                if (sid) sessionStorage.setItem('sessionId', sid);
                 const arrayOfQuestions = divideQuestions(questions);
                 setArrayOfArrays(arrayOfQuestions);
                 localStorage.removeItem('answers');
@@ -88,7 +90,9 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
                 setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool
+                timerBool: timerBool,
+                sessionId,
+                answerToken
             },
         },
         {
@@ -104,7 +108,9 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
                 setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool
+                timerBool: timerBool,
+                sessionId,
+                answerToken
             },
         },
         {
@@ -120,7 +126,9 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setTimerCountdown: setTimerCountdown,
                 progressBarValue: progressBarValue,
                 setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool
+                timerBool: timerBool,
+                sessionId,
+                answerToken
             },
         },
         {
