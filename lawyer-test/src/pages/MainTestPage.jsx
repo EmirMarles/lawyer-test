@@ -12,6 +12,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
 
     const [arrayOfArrays, setArrayOfArrays] = useState([null])
     const [sessionId, setSessionId] = useState(null)
+    const [answerToken, setAnswerToken] = useState(null)
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
     const [timerCountdown, setTimerCountdown] = useState(90)
@@ -52,8 +53,9 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setLoading(true);
                 setError(null);
                 const response = await axios.get(`${apiUrl}/api/questions/getQuestions`);
-                const { sessionId: sid, questions } = response.data;
+                const { sessionId: sid, questions, answerToken: token } = response.data;
                 setSessionId(sid);
+                setAnswerToken(token);
                 const arrayOfQuestions = divideQuestions(questions);
                 setArrayOfArrays(arrayOfQuestions);
                 localStorage.removeItem('answers');
@@ -136,7 +138,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 progressBarValue: progressBarValue,
                 setProgressBarValue: setProgressBarValue,
                 timerBool: timerBool,
-                sessionId: sessionId
+                sessionId: sessionId,
+                answerToken: answerToken
             },
         }
     ]

@@ -18,7 +18,8 @@ export function TestPage({ timerCountdown,
     progressBarValue,
     setProgressBarValue,
     timerBool,
-    sessionId
+    sessionId,
+    answerToken
 }) {
     const navigate = useNavigate()
     const [showPopUp, setShowPopUp] = useState(false)
@@ -77,7 +78,8 @@ export function TestPage({ timerCountdown,
                 console.log('sending an API request')
                 const response = await axios.post(`${apiUrl}/api/questions/checkAnswers`, {
                     sessionId,
-                    answers: arrayOfAnswers
+                    answers: arrayOfAnswers,
+                    answerToken
                 })
                 console.log('response from an API:', response.data)
                 setAnswers(response.data)

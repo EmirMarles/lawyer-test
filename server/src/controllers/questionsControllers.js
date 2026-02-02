@@ -1,6 +1,7 @@
+import { randomUUID } from 'crypto';
 import { getRandomQuestions } from '../data/loadQuestions.js'
 import { calculateGrade } from '../utils/gradeCalculation.js'
-import { createSession, getSession, deleteSession } from '../utils/sessions.js'
+import { createAnswerToken, verifyAnswerToken } from '../utils/answerToken.js'
 
 export const getQuestions = async (req, res) => {
     try {
@@ -12,11 +13,13 @@ export const getQuestions = async (req, res) => {
             options,
         }));
 
-        const sessionId = createSession(allQuestions);
+        const sessionId = randomUUID();
+        const answerToken = createAnswerToken(sessionId, allQuestions);
 
         res.status(200).json({
             sessionId,
             questions: questionsForClient,
+            answerToken,
         });
     } catch (err) {
         console.error('Error getting questions!', err);
@@ -26,12 +29,12 @@ export const getQuestions = async (req, res) => {
 
 export const checkAnswers = async (req, res) => {
     try {
-        const { sessionId, answers } = req.body;
+        const { sessionId, answers, answerToken } = req.body;
 
-        if (!sessionId) {
+        if (!answerToken) {
             return res.status(400).json({
                 success: false,
-                message: 'Session ID is required',
+                message: 'Answer token is required. Please start a new test if you lost your session.',
             });
         }
 
@@ -42,16 +45,22 @@ export const checkAnswers = async (req, res) => {
             });
         }
 
-        const session = getSession(sessionId);
-        if (!session) {
+        const payload = verifyAnswerToken(answerToken);
+        if (!payload) {
             return res.status(400).json({
                 success: false,
-                message: 'Invalid or expired session',
+                message: 'Invalid or expired session. Please start a new test.',
             });
         }
 
-        const checkQuestions = session.questions;
-        deleteSession(sessionId);
+        if (sessionId && payload.sessionId !== sessionId) {
+            return res.status(400).json({
+                success: false,
+                message: 'Session mismatch. Please start a new test.',
+            });
+        }
+
+        const checkQuestions = payload.questions;
 
         if (answers.length !== checkQuestions.length) {
             return res.status(400).json({
