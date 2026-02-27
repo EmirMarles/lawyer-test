@@ -15,7 +15,6 @@ export function HomePage({ setTimerBool, selectedCategory, setSelectedCategory }
     const handleStart = () => {
         navigate('/main-test-page')
         setTimerBool(true)
-        // setSelectedCategory(CATEGORIES[0].key)
     }
 
     const handleStartCategoryTest = async () => {
@@ -28,7 +27,15 @@ export function HomePage({ setTimerBool, selectedCategory, setSelectedCategory }
             if (!categoryKey) {
                 throw new Error('Category key is required');
             }
-            navigate(`/main-test-page`, { state: { categoryKey: categoryKey } })
+            navigate(`/main-test-page`,
+                {
+                    state:
+                    {
+                        categoryKey: categoryKey,
+                        categoryName: CATEGORIES.find(category => category.key === categoryKey)?.name
+                    }
+                },
+            )
             setTimerBool(true)
         } catch (err) {
             console.error(err);

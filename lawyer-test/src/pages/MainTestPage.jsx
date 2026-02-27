@@ -26,11 +26,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
     // const [hydrated, setHydrated] = useState(false)
     const navigate = useNavigate()
     const location = useLocation()
-    // Prefer category from navigation state; fall back to category in URL (/main-test-page/category-KEY)
-    const stateCategoryKey = location.state?.categoryKey
-    const urlCategoryMatch = location.pathname.match(/category-([^/]+)/)
-    const urlCategoryKey = urlCategoryMatch ? decodeURIComponent(urlCategoryMatch[1]) : null
-    const categoryKey = stateCategoryKey || urlCategoryKey || null;
+    const categoryKey = location.state?.categoryKey || null;
 
     // SAVING THE ANSWERS //
 
@@ -83,6 +79,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 const response = await axios.get(`${apiUrl}/api/questions/by-category`, {
                     params: { categoryKey }
                 });
+                console.log('response from an API:', response.data)
                 const { questions, sessionId: sid, answerToken: token } = response.data;
                 setSessionId(sid || null);
                 setAnswerToken(token || null);
@@ -93,7 +90,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 localStorage.removeItem('answers');
                 localStorage.removeItem('progressbar');
                 setArrayOfAnswers(new Array(100).fill(null));
-                navigate('/main-test-page/test-page1');
+                navigate('test-page1', { state: { categoryKey } });
             } catch (err) {
                 console.error('Error fetching category questions:', err);
                 const msg = err.response?.data?.message || 'Failed to load category questions';

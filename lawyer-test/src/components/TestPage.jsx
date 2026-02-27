@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom"
 import Timer from "./Timer"
 import { hasAllAnswers } from "../utils/hasAnswers"
 import axios from 'axios'
+import { CATEGORIES } from "../const/categories.js"
 
 const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
@@ -31,7 +32,9 @@ export function TestPage({ timerCountdown,
 
     const movePage = () => {
         if (pageIndex < 4) {
-            navigate(`/main-test-page/test-page${pageIndex + 2}`)
+            navigate(`/main-test-page/test-page${pageIndex + 2}`, {
+                state: categoryKey ? { categoryKey } : undefined
+            })
             window.scrollTo({
                 top: 0,
                 left: 0,
@@ -42,7 +45,9 @@ export function TestPage({ timerCountdown,
     const movePageBack = () => {
         console.log('MOVING BACK index: ', pageIndex)
         if (pageIndex > 0) {
-            navigate(`/main-test-page/test-page${(pageIndex + 1) - 1}`)
+            navigate(`/main-test-page/test-page${(pageIndex + 1) - 1}`, {
+                state: categoryKey ? { categoryKey } : undefined
+            })
             window.scrollTo({
                 top: 0,
                 left: 0,
@@ -131,7 +136,12 @@ export function TestPage({ timerCountdown,
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">Страница теста <span className="number">{pageIndex + 1}</span></div>
             {categoryKey
-                ? (<div className="header">Выбранная категория теста: {CATEGORIES.find(category => category.key === categoryKey)?.name}</div>)
+                ? (
+                    <div className="header">
+                        Выбранная категория теста:{" "}
+                        {CATEGORIES.find(category => category.key === categoryKey)?.label || categoryKey}
+                    </div>
+                )
                 : (<div className="header">Выбранная категория теста: Все категории</div>)}
 
             <div className="questions-grid">
