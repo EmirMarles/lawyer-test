@@ -16,6 +16,7 @@ app.use(cors({
     origin: (origin, callback) => {
         const allowed = [
             'http://localhost:5173',
+            'http://localhost:5173/',
             process.env.FRONTEND_URL
         ].filter(Boolean);
         const isAllowed = !origin || allowed.includes(origin) || (typeof origin === 'string' && origin.endsWith('.onrender.com'));

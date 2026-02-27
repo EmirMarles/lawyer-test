@@ -102,12 +102,6 @@ export function TestPage({ timerCountdown,
         }
     }
 
-    const setstate = () => {
-        // setArrayOfAnswers(new Array(92).fill(null))
-        // localStorage.removeItem('answers')
-        return
-    }
-
     const fillInTheQuestions = () => {
         const answers = Array.from({ length: 100 }, (_, i) => String(i % 4));
         setArrayOfAnswers(answers);
