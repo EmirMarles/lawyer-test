@@ -110,6 +110,13 @@ export default function MainTestPage({ setAnswers, timerBool }) {
 
     // RAMPING UP THE TIMER
 
+    const offsets = [
+        0,
+        (arrayOfArrays[0]?.length || 0),
+        (arrayOfArrays[0]?.length || 0) + (arrayOfArrays[1]?.length || 0),
+        (arrayOfArrays[0]?.length || 0) + (arrayOfArrays[1]?.length || 0) + (arrayOfArrays[2]?.length || 0),
+    ];
+
     const pagesData = [
         {
             path: '/test-page1',
@@ -117,17 +124,18 @@ export default function MainTestPage({ setAnswers, timerBool }) {
             pageId: 0,
             props: {
                 title: "Test-page1",
-                arrayOfAnswers: arrayOfAnswers,
-                setArrayOfAnswers: setArrayOfAnswers,
-                questions: arrayOfArrays[0],
-                timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown,
-                progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool,
+                arrayOfAnswers,
+                setArrayOfAnswers,
+                questions: arrayOfArrays[0] || [],
+                timerCountdown,
+                setTimerCountdown,
+                progressBarValue,
+                setProgressBarValue,
+                timerBool,
                 sessionId,
                 answerToken,
-                categoryKey: categoryKey
+                categoryKey,
+                offset: offsets[0],
             },
         },
         {
@@ -136,17 +144,18 @@ export default function MainTestPage({ setAnswers, timerBool }) {
             component: TestPage,
             props: {
                 title: "Test-page2",
-                arrayOfAnswers: arrayOfAnswers,
-                setArrayOfAnswers: setArrayOfAnswers,
-                questions: arrayOfArrays[1],
-                timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown,
-                progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool,
+                arrayOfAnswers,
+                setArrayOfAnswers,
+                questions: arrayOfArrays[1] || [],
+                timerCountdown,
+                setTimerCountdown,
+                progressBarValue,
+                setProgressBarValue,
+                timerBool,
                 sessionId,
                 answerToken,
-                categoryKey: categoryKey
+                categoryKey,
+                offset: offsets[1],
             },
         },
         {
@@ -155,17 +164,18 @@ export default function MainTestPage({ setAnswers, timerBool }) {
             component: TestPage,
             props: {
                 title: "Test-page3",
-                arrayOfAnswers: arrayOfAnswers,
-                setArrayOfAnswers: setArrayOfAnswers,
-                questions: arrayOfArrays[2],
-                timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown,
-                progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool,
+                arrayOfAnswers,
+                setArrayOfAnswers,
+                questions: arrayOfArrays[2] || [],
+                timerCountdown,
+                setTimerCountdown,
+                progressBarValue,
+                setProgressBarValue,
+                timerBool,
                 sessionId,
                 answerToken,
-                categoryKey: categoryKey
+                categoryKey,
+                offset: offsets[2],
             },
         },
         {
@@ -174,18 +184,19 @@ export default function MainTestPage({ setAnswers, timerBool }) {
             pageId: 3,
             props: {
                 title: "Test-page4",
-                arrayOfAnswers: arrayOfAnswers,
-                setArrayOfAnswers: setArrayOfAnswers,
-                questions: arrayOfArrays[3],
-                timerCountdown: timerCountdown,
-                setTimerCountdown: setTimerCountdown,
-                setAnswers: setAnswers,
-                progressBarValue: progressBarValue,
-                setProgressBarValue: setProgressBarValue,
-                timerBool: timerBool,
-                sessionId: sessionId,
-                answerToken: answerToken,
-                categoryKey: categoryKey
+                arrayOfAnswers,
+                setArrayOfAnswers,
+                questions: arrayOfArrays[3] || [],
+                timerCountdown,
+                setTimerCountdown,
+                setAnswers,
+                progressBarValue,
+                setProgressBarValue,
+                timerBool,
+                sessionId,
+                answerToken,
+                categoryKey,
+                offset: offsets[3],
             },
         }
     ]

@@ -9,7 +9,8 @@ import { CATEGORIES } from "../const/categories.js"
 
 const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
-export function TestPage({ timerCountdown,
+export function TestPage({
+    timerCountdown,
     setTimerCountdown,
     pageIndex,
     questions,
@@ -21,13 +22,13 @@ export function TestPage({ timerCountdown,
     timerBool,
     sessionId,
     answerToken,
-    categoryKey
+    categoryKey,
+    offset
 }) {
     const navigate = useNavigate()
     const [showPopUp, setShowPopUp] = useState(false)
     const endRef = useRef(null)
-    const chunkSize = 25
-    const pageQuestionIndex = pageIndex * chunkSize
+    const pageQuestionIndex = offset ?? (pageIndex * (questions?.length || 0))
 
 
     const movePage = () => {
