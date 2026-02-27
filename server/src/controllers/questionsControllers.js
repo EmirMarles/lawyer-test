@@ -1,12 +1,23 @@
 import { randomUUID } from 'crypto';
-import { getRandomQuestions } from '../data/loadQuestions.js'
 import { calculateGrade } from '../utils/gradeCalculation.js'
 import { createAnswerToken, verifyAnswerToken } from '../utils/answerToken.js'
 import { connectDB } from '../db.js';
 
+// 1) Get N random questions from all categories (default 100), from MongoDB
 export const getQuestions = async (req, res) => {
     try {
-        const allQuestions = getRandomQuestions(100);
+        const count = Number(req.query.count) || 100;
+
+        const db = await connectDB();
+        const collection = db.collection('questions');
+
+        const allQuestions = await collection
+            .aggregate([{ $sample: { size: count } }])
+            .toArray();
+
+        if (!allQuestions.length) {
+            return res.status(404).json({ message: 'No questions found in database' });
+        }
 
         const questionsForClient = allQuestions.map(({ questionId, questionText, options }) => ({
             questionId,
@@ -28,7 +39,7 @@ export const getQuestions = async (req, res) => {
     }
 };
 
-// Get all questions for a given categoryKey (e.g. "I.", "II.", "UNCLASSIFIED")
+// 2) Get all questions for a given categoryKey (e.g. "I.", "II.", "UNCLASSIFIED") from MongoDB
 export const getQuestionsByCategory = async (req, res) => {
     try {
         const { categoryKey } = req.query;
@@ -41,7 +52,7 @@ export const getQuestionsByCategory = async (req, res) => {
         }
 
         const db = await connectDB();
-        const collection = db.collection('questionsByCategory');
+        const collection = db.collection('questions');
 
         const docs = await collection
             .find({ categoryKey })

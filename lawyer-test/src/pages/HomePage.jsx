@@ -63,30 +63,36 @@ export function HomePage({ setTimerBool }) {
     return (
         <div className="home-page">
             <div className='home-layout'>
-                <div className="test-header">Welcome to Lawyer Test!</div>
-                <button className="start-test" onClick={handleStart}>Start Test!</button>
+                <div className="test-header">Добро пожаловать в Тест Судового Эксперта!</div>
+                <button className="start-test" onClick={handleStart}>Начать тест по всем категориям</button>
 
                 <div className="category-section">
-                    <h2>Select category</h2>
-                    <select
-                        value={selectedCategory}
-                        onChange={(e) => setSelectedCategory(e.target.value)}
-                    >
-                        {CATEGORIES.map((c) => (
-                            <option key={c.key} value={c.key}>
-                                {c.key} {c.label}
-                            </option>
-                        ))}
-                    </select>
-                    <button
-                        className="start-test"
-                        onClick={handleFetchCategory}
-                        disabled={loadingCategory}
-                    >
-                        {loadingCategory ? 'Loading…' : 'Load category questions'}
-                    </button>
+                    <h2>Тест по категориям:</h2>
+                    <div className="category-select-container">
+                        <div className="category-select-label">Выберите категорию:
+                            <select
+                                value={selectedCategory}
+                                onChange={(e) => setSelectedCategory(e.target.value)}
+                            >
+                                {CATEGORIES.map((c) => (
+                                    <option key={c.key} value={c.key}>
+                                        {c.key} {c.label}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
+                        <div className="button-label">
+                            <button
+                                className="start-test"
+                                onClick={handleFetchCategory}
+                                disabled={loadingCategory}
+                            >
+                                {loadingCategory ? 'Загрузка…' : 'Начать тест по выбранной категории'}
+                            </button>
+                        </div>
+                    </div>
                     {categoryError && (
-                        <div className="error-screen">{categoryError}</div>
+                        <div className="error-screen">"Ошибка при загрузке вопросов: "{categoryError}</div>
                     )}
                     {categoryInfo && (
                         <div className="category-info">
