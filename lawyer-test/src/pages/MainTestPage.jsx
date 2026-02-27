@@ -79,7 +79,12 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 const response = await axios.get(`${apiUrl}/api/questions/by-category`, {
                     params: { categoryKey }
                 });
-                const arrayOfQuestions = divideQuestions(response.data.questions);
+                const { questions, sessionId: sid, answerToken: token } = response.data;
+                setSessionId(sid || null);
+                setAnswerToken(token || null);
+                if (token) sessionStorage.setItem('answerToken', token);
+                if (sid) sessionStorage.setItem('sessionId', sid);
+                const arrayOfQuestions = divideQuestions(questions);
                 setArrayOfArrays(arrayOfQuestions);
                 localStorage.removeItem('answers');
                 localStorage.removeItem('progressbar');
@@ -120,7 +125,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setProgressBarValue: setProgressBarValue,
                 timerBool: timerBool,
                 sessionId,
-                answerToken
+                answerToken,
+                categoryKey: categoryKey
             },
         },
         {
@@ -138,7 +144,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setProgressBarValue: setProgressBarValue,
                 timerBool: timerBool,
                 sessionId,
-                answerToken
+                answerToken,
+                categoryKey: categoryKey
             },
         },
         {
@@ -156,7 +163,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setProgressBarValue: setProgressBarValue,
                 timerBool: timerBool,
                 sessionId,
-                answerToken
+                answerToken,
+                categoryKey: categoryKey
             },
         },
         {
@@ -175,7 +183,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setProgressBarValue: setProgressBarValue,
                 timerBool: timerBool,
                 sessionId: sessionId,
-                answerToken: answerToken
+                answerToken: answerToken,
+                categoryKey: categoryKey
             },
         }
     ]

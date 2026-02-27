@@ -72,12 +72,17 @@ export const getQuestionsByCategory = async (req, res) => {
             options,
         }));
 
+        const sessionId = randomUUID();
+        const answerToken = createAnswerToken(sessionId, docs);
+
         res.status(200).json({
             success: true,
             categoryKey,
             categoryName: docs[0].categoryName,
             count: docs.length,
             questions: questionsForClient,
+            sessionId,
+            answerToken,
         });
     } catch (err) {
         console.error('Error getting questions by category!', err);
