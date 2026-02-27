@@ -19,7 +19,8 @@ export function TestPage({ timerCountdown,
     setProgressBarValue,
     timerBool,
     sessionId,
-    answerToken
+    answerToken,
+    categoryKey
 }) {
     const navigate = useNavigate()
     const [showPopUp, setShowPopUp] = useState(false)
@@ -128,7 +129,8 @@ export function TestPage({ timerCountdown,
             {/* <Timer timerBool={timerBool}></Timer> */}
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions in</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
-            <div className="header">Test Page <span className="number">{pageIndex + 1}</span></div>
+            <div className="header">Страница теста <span className="number">{pageIndex + 1}</span></div>
+            {categoryKey && <div className="header">Выбранная категория теста: {categoryKey}</div>}
             <div className="questions-grid">
                 <button className="scroll-to-top" onClick={handleScrollTop}>Пролистать вверх</button>
                 <div className="questions">
