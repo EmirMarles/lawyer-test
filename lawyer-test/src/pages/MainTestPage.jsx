@@ -61,8 +61,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setArrayOfArrays(arrayOfQuestions);
                 localStorage.removeItem('answers');
                 localStorage.removeItem('progressbar');
-                setArrayOfAnswers(new Array(100).fill(null));
-                navigate('test-page1');
+                setArrayOfAnswers(new Array(questions.length).fill(null));
+                navigate('test-page1', { state: { categoryKey } });
             } catch (err) {
                 console.error('Error fetching questions:', err);
                 setError('Failed to load questions. Please try again.');
@@ -89,7 +89,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setArrayOfArrays(arrayOfQuestions);
                 localStorage.removeItem('answers');
                 localStorage.removeItem('progressbar');
-                setArrayOfAnswers(new Array(100).fill(null));
+                setArrayOfAnswers(new Array(questions.length).fill(null));
                 navigate('test-page1', { state: { categoryKey } });
             } catch (err) {
                 console.error('Error fetching category questions:', err);
