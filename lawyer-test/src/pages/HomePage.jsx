@@ -29,7 +29,7 @@ export function HomePage({ setTimerBool, selectedCategory, setSelectedCategory }
             if (!categoryKey) {
                 throw new Error('Category key is required');
             }
-            navigate(`/main-test-page/category-${categoryKey}`, { state: { categoryKey: categoryKey } })
+            navigate(`/main-test-page`, { state: { categoryKey: categoryKey } })
             setTimerBool(true)
         } catch (err) {
             console.error(err);
