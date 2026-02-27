@@ -130,7 +130,10 @@ export function TestPage({ timerCountdown,
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions in</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">Страница теста <span className="number">{pageIndex + 1}</span></div>
-            {categoryKey && <div className="header">Выбранная категория теста: {categoryKey}</div>}
+            {categoryKey
+                ? (<div className="header">Выбранная категория теста: {CATEGORIES.find(category => category.key === categoryKey)?.name}</div>)
+                : (<div className="header">Выбранная категория теста: Все категории</div>)}
+
             <div className="questions-grid">
                 <button className="scroll-to-top" onClick={handleScrollTop}>Пролистать вверх</button>
                 <div className="questions">
