@@ -126,7 +126,6 @@ export function TestPage({ timerCountdown,
     return (
         <div className="test-page-layout">
             {/* <Timer timerBool={timerBool}></Timer> */}
-            <button className="setStateAnswers" onClick={setstate}>Reset Answers</button>
             <button className="fillInTheQuestions" onClick={fillInTheQuestions}>Fill the questions in</button>
             <progress value={progressBarValue} max={100} className="progress-bar"></progress>
             <div className="header">Test Page <span className="number">{pageIndex + 1}</span></div>
