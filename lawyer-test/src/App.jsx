@@ -5,12 +5,15 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ResultsPage } from './pages/ResultsPage'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import { CATEGORIES } from './const/categories.js'
 
 function App() {
 
   const [answers, setAnswers] = useState(() => {
     return (JSON.parse(localStorage.getItem('apiAnswer')) || null)
   })
+
+  const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].key);
 
   const [timerBool, setTimerBool] = useState(false)
 
@@ -22,7 +25,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage setTimerBool={setTimerBool} />}></Route>
+        <Route path="/" element={<HomePage 
+        setTimerBool={setTimerBool} 
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+        />}></Route>
         <Route path="main-test-page/*" element={<MainTestPage
           answers={answers}
           setAnswers={setAnswers}

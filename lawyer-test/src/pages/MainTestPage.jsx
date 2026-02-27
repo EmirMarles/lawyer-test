@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react"
 import { TestPage } from "../components/TestPage"
-import { Routes, Route, } from "react-router-dom"
+import { Routes, Route, useNavigate, useLocation } from "react-router-dom"
 import { divideQuestions } from "../utils/arraysHelper"
-import { useNavigate } from "react-router-dom"
 import { calculateProgress } from "../utils/calculateProrgess"
 import axios from 'axios'
 
@@ -26,6 +25,8 @@ export default function MainTestPage({ setAnswers, timerBool }) {
     })
     // const [hydrated, setHydrated] = useState(false)
     const navigate = useNavigate()
+    const location = useLocation()
+    const categoryKey = location.state?.categoryKey || null;
 
     // SAVING THE ANSWERS //
 
@@ -45,10 +46,9 @@ export default function MainTestPage({ setAnswers, timerBool }) {
         setProgress();
     }, [arrayOfAnswers])
 
-    // GETTING QUESTIONS FROM API //
-
+    // GETTING QUESTIONS FROM API (all categories or specific category)
     useEffect(() => {
-        const fetchQuestions = async () => {
+        const fetchAll = async () => {
             try {
                 setLoading(true);
                 setError(null);
@@ -71,8 +71,36 @@ export default function MainTestPage({ setAnswers, timerBool }) {
                 setLoading(false);
             }
         };
-        fetchQuestions();
-    }, [])
+
+        const fetchCategory = async () => {
+            try {
+                setLoading(true);
+                setError(null);
+                const response = await axios.get(`${apiUrl}/api/questions/by-category`, {
+                    params: { categoryKey }
+                });
+                const arrayOfQuestions = divideQuestions(response.data.questions);
+                setArrayOfArrays(arrayOfQuestions);
+                localStorage.removeItem('answers');
+                localStorage.removeItem('progressbar');
+                setArrayOfAnswers(new Array(100).fill(null));
+                navigate('/main-test-page/test-page1');
+            } catch (err) {
+                console.error('Error fetching category questions:', err);
+                const msg = err.response?.data?.message || 'Failed to load category questions';
+                setError(msg);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        if (categoryKey) {
+            fetchCategory();
+        } else {
+            fetchAll();
+        }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [categoryKey]);
 
     // RAMPING UP THE TIMER
 

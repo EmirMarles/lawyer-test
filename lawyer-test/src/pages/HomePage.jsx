@@ -2,34 +2,13 @@ import './HomePage.css'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import axios from 'axios'
+import { CATEGORIES } from '../const/categories.js'
 
 const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
 
-const CATEGORIES = [
-    { key: 'I.', label: 'Вопросы по Уголовно-процессуальному праву Кыргызской Республики' },
-    { key: 'II.', label: 'Вопросы по Уголовно-исполнительному законодательству Кыргызской Республики' },
-    { key: 'III.', label: 'Вопросы по Трудовому праву Кыргызской Республики' },
-    { key: 'IV.', label: 'Вопросы по Семейному праву Кыргызской Республики' },
-    { key: 'V.', label: 'Вопросы по Международному праву' },
-    { key: 'VI.', label: 'Вопросы по Конституционному праву Кыргызской Республики' },
-    { key: 'VII.', label: 'Вопросы по Уголовному праву Кыргызской Республики' },
-    { key: 'VIII.', label: 'Вопросы по Исполнительному производству' },
-    { key: 'IX.', label: 'Вопросы по Таможенному праву Кыргызской Республики' },
-    { key: 'X.', label: 'Вопросы по Таможенному праву Кыргызской Республики' },
-    { key: 'XI.', label: 'Вопросы по Гражданскому процессуальному праву Кыргызской Республики' },
-    { key: 'XII.', label: 'Вопросы по Досудебным (внесудебным) способам урегулирования спора' },
-    { key: 'XIII.', label: 'Вопросы по Гендерному праву' },
-    { key: 'XIV.', label: 'Вопросы по Административно-процессуальному праву Кыргызской Республики' },
-    { key: 'XV.', label: 'Вопросы по Гражданскому праву Кыргызской Республики' },
-    { key: 'XVI.', label: 'Вопросы по Земельному праву Кыргызской Республики' },
-    { key: 'XVII.', label: 'Вопросы по Природоресурсному праву' },
-    { key: 'XVIII.', label: 'Вопросы по компьютерной грамотности' },
-];
-
-export function HomePage({ setTimerBool }) {
+export function HomePage({ setTimerBool, selectedCategory, setSelectedCategory }) {
 
     const navigate = useNavigate();
-    const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].key);
     const [categoryInfo, setCategoryInfo] = useState(null);
     const [loadingCategory, setLoadingCategory] = useState(false);
     const [categoryError, setCategoryError] = useState(null);
@@ -37,20 +16,21 @@ export function HomePage({ setTimerBool }) {
     const handleStart = () => {
         navigate('/main-test-page')
         setTimerBool(true)
+        // setSelectedCategory(CATEGORIES[0].key)
     }
 
-    const handleFetchCategory = async () => {
+    const handleStartCategoryTest = async () => {
         try {
             setLoadingCategory(true);
             setCategoryError(null);
             setCategoryInfo(null);
-            const response = await axios.get(`${apiUrl}/api/questions/by-category`, {
-                params: { categoryKey: selectedCategory }
-            });
-            setCategoryInfo({
-                name: response.data.categoryName,
-                count: response.data.count
-            });
+            const categoryKey = selectedCategory
+
+            if (!categoryKey) {
+                throw new Error('Category key is required');
+            }
+            navigate(`/main-test-page/category-${categoryKey}`, { state: { categoryKey: categoryKey } })
+            setTimerBool(true)
         } catch (err) {
             console.error(err);
             const msg = err.response?.data?.message || 'Failed to load category questions';
@@ -84,7 +64,7 @@ export function HomePage({ setTimerBool }) {
                         <div className="button-label">
                             <button
                                 className="start-test"
-                                onClick={handleFetchCategory}
+                                onClick={handleStartCategoryTest}
                                 disabled={loadingCategory}
                             >
                                 {loadingCategory ? 'Загрузка…' : 'Начать тест по выбранной категории'}
