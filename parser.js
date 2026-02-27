@@ -184,10 +184,23 @@ function runParser(lines, options = {}) {
     let currentQuestion = null;
     let currentOption = null;
     let globalQuestionId = 1;
+    // Track roman numeral section like I, II, III, etc.
+    let currentRoman = null;
 
     for (const raw of lines) {
         const line = isDocx ? raw.text : raw;
         const lineIsCorrect = isDocx ? raw.isCorrect : false;
+
+        // Roman numeral category headings like "I.", "II.", "III. Конституционное право"
+        if (isDocx) {
+            const mRoman = line.match(/^([IVXLCDM]+)\.\s*(.*)$/);
+            if (mRoman && !isQuestionStart(line)) {
+                // Store with trailing dot to match the document ("I.", "II.", etc.)
+                currentRoman = `${mRoman[1]}.`;
+                categoryBuffer = "";
+                continue;
+            }
+        }
 
         /* ---------- CATEGORY DETECTION (MULTI-LINE) ---------- */
         categoryBuffer = categoryBuffer ? categoryBuffer + " " + line : line;
@@ -198,7 +211,9 @@ function runParser(lines, options = {}) {
 
         if (matchedCategory) {
             if (normalizedBuffer === matchedCategory.normalized) {
-                currentCategory = matchedCategory.original;
+                const base = matchedCategory.original;
+                const label = currentRoman ? `${currentRoman} ${base}` : base;
+                currentCategory = label;
                 lastKnownCategory = currentCategory;
                 categoryBuffer = "";
             }
@@ -220,7 +235,7 @@ function runParser(lines, options = {}) {
                 options: [],
                 correctAnswer: "",
                 correctAnswerIndex: -1,
-                category: currentCategory || lastKnownCategory || "UNCLASSIFIED",
+                category: (isDocx && currentRoman) ? currentRoman : (currentCategory || lastKnownCategory || "UNCLASSIFIED"),
                 language: "ru"
             };
             currentOption = null;
@@ -425,9 +440,35 @@ async function main() {
         applyInlineOptionsExtraction(questions);
         applySplitMergedOptions(questions);
         const validQuestions = validateQuestions(questions, { keepNoAnswer });
+
+        // Write main judge questions file (all categories)
         const output = "// Judge questions parsed from Word (bold = correct answer)\n// Same structure as server/src/data/questions.json\n\nmodule.exports = " + JSON.stringify(validQuestions, null, 2) + ";\n";
         fs.writeFileSync(OUTPUT_JUDGE_CJS, output, "utf-8");
         console.log("✅ Parsed judge questions:", validQuestions.length, "→", OUTPUT_JUDGE_CJS);
+
+        // Also split by category (roman-numbered sections such as \"I. Конституционное право\")
+        const byCategory = new Map();
+        for (const q of validQuestions) {
+            const cat = q.category || "UNCLASSIFIED";
+            if (!byCategory.has(cat)) byCategory.set(cat, []);
+            byCategory.get(cat).push(q);
+        }
+
+        const categoriesDir = path.join(__dirname, "categories");
+        if (!fs.existsSync(categoriesDir)) {
+            fs.mkdirSync(categoriesDir, { recursive: true });
+        }
+
+        for (const [cat, qs] of byCategory) {
+            const safeName = (cat || "UNCLASSIFIED")
+                .replace(/[^a-zA-Z0-9_а-яА-Я-]+/g, "_")
+                .replace(/_+/g, "_")
+                .replace(/^_+|_+$/g, "") || "UNCLASSIFIED";
+            const filePath = path.join(categoriesDir, `${safeName}.cjs`);
+            const content = "// Questions for category: " + cat + "\n\nmodule.exports = " + JSON.stringify(qs, null, 2) + ";\n";
+            fs.writeFileSync(filePath, content, "utf-8");
+        }
+
         return;
     }
 

@@ -1,21 +1,22 @@
 import { MongoClient } from "mongodb";
 
-const url = ''
+// Prefer environment variables in production; fall back to local Mongo for dev
+const url = process.env.MONGODB_URI || process.env.MONGO_URL || 'mongodb://localhost:27017';
 const client = new MongoClient(url);
 
-let db
-
+let db;
 
 export async function connectDB() {
     if (!db) {
-        await client.connect()
-        db = client.db("examDB")
-        console.log('Connected to MongoDB!')
+        await client.connect();
+        db = client.db("examDB");
+        console.log('Connected to MongoDB!');
     }
-    return db
+    return db;
 }
 
-export async function closeDB(){
+export async function closeDB() {
     await client.close();
-    console.log("MongoDB connecion closed")
+    db = undefined;
+    console.log("MongoDB connection closed");
 }

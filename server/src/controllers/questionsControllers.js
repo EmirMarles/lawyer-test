@@ -2,6 +2,7 @@ import { randomUUID } from 'crypto';
 import { getRandomQuestions } from '../data/loadQuestions.js'
 import { calculateGrade } from '../utils/gradeCalculation.js'
 import { createAnswerToken, verifyAnswerToken } from '../utils/answerToken.js'
+import { connectDB } from '../db.js';
 
 export const getQuestions = async (req, res) => {
     try {
@@ -24,6 +25,52 @@ export const getQuestions = async (req, res) => {
     } catch (err) {
         console.error('Error getting questions!', err);
         res.status(500).json({ message: err.message });
+    }
+};
+
+// Get all questions for a given categoryKey (e.g. "I.", "II.", "UNCLASSIFIED")
+export const getQuestionsByCategory = async (req, res) => {
+    try {
+        const { categoryKey } = req.query;
+
+        if (!categoryKey) {
+            return res.status(400).json({
+                success: false,
+                message: 'categoryKey query parameter is required (e.g. "I.", "II.", "UNCLASSIFIED")',
+            });
+        }
+
+        const db = await connectDB();
+        const collection = db.collection('questionsByCategory');
+
+        const docs = await collection
+            .find({ categoryKey })
+            .sort({ questionId: 1 })
+            .toArray();
+
+        if (!docs.length) {
+            return res.status(404).json({
+                success: false,
+                message: `No questions found for categoryKey "${categoryKey}"`,
+            });
+        }
+
+        const questionsForClient = docs.map(({ questionId, questionText, options }) => ({
+            questionId,
+            questionText,
+            options,
+        }));
+
+        res.status(200).json({
+            success: true,
+            categoryKey,
+            categoryName: docs[0].categoryName,
+            count: docs.length,
+            questions: questionsForClient,
+        });
+    } catch (err) {
+        console.error('Error getting questions by category!', err);
+        res.status(500).json({ success: false, message: err.message });
     }
 };
 

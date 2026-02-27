@@ -1,5 +1,4 @@
-// Judge questions parsed from Word (bold = correct answer)
-// Same structure as server/src/data/questions.json
+// Questions for category: UNCLASSIFIED
 
 module.exports = [
   {
@@ -13,7 +12,7 @@ module.exports = [
     ],
     "correctAnswer": "в) суд",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -27,7 +26,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Генеральный прокурор",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -41,7 +40,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента внесения сведений в Единый реестр преступлений",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -55,7 +54,7 @@ module.exports = [
     ],
     "correctAnswer": "в) прокурору для исполнения",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -69,7 +68,7 @@ module.exports = [
     ],
     "correctAnswer": "в) судебное решение",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -83,7 +82,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинет Министров",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -97,7 +96,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лицу, от которого поступило заявление о преступлении",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -111,7 +110,7 @@ module.exports = [
     ],
     "correctAnswer": "в) следственный судья",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -125,7 +124,7 @@ module.exports = [
     ],
     "correctAnswer": "в) немедленно",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -139,7 +138,7 @@ module.exports = [
     ],
     "correctAnswer": "г) до истечения 45 часов с момента фактического задержания.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -153,7 +152,7 @@ module.exports = [
     ],
     "correctAnswer": "б) проверка не нужна",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -167,7 +166,7 @@ module.exports = [
     ],
     "correctAnswer": "г) немедленно после фактического задержания.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -181,7 +180,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в отношении одного и того же лица может быть применена только одна мера пресечения.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -195,7 +194,7 @@ module.exports = [
     ],
     "correctAnswer": "г) когда в ней отпадает дальнейшая необходимость.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -209,7 +208,7 @@ module.exports = [
     ],
     "correctAnswer": "в) возвращает уголовное дело прокурору",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -223,7 +222,7 @@ module.exports = [
     ],
     "correctAnswer": "г) дела с участием присяжных заседателей.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -237,7 +236,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по месту совершения преступления.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -251,7 +250,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до начала судебного разбирательства",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -265,7 +264,7 @@ module.exports = [
     ],
     "correctAnswer": "г) споры о подсудности между судами не допускаются.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -279,7 +278,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течении 5 суток со дня поступления дела в суд",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -293,7 +292,7 @@ module.exports = [
     ],
     "correctAnswer": "а) при наличии ходатайства стороны об исключении недопустимых доказательств",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -307,7 +306,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в закрытом судебном заседании с участием сторон",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -321,7 +320,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не обсуждается, доказательства не исследуются.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -335,7 +334,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судьей единолично или судом коллегиально, а также с участием присяжных заседателей в случаях, предусмотренных УПК",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -349,7 +348,7 @@ module.exports = [
     ],
     "correctAnswer": "в) судья открывает судебное заседание и объявляет, какое дело подлежит разбирательству",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -363,7 +362,7 @@ module.exports = [
     ],
     "correctAnswer": "в) руководить судебным заседанием и принимть меры для равноправия и состязательности сторон",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -377,7 +376,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее 10 суток с момента поступления дела в суд",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -391,7 +390,7 @@ module.exports = [
     ],
     "correctAnswer": "в) следственный судья",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -405,7 +404,7 @@ module.exports = [
     ],
     "correctAnswer": "б) все материалы досудебного производства",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -419,7 +418,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по вопросам, разрешаемым судом во время судебного разбирательства, судья выносит постановления, суд выносит определения",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -433,7 +432,7 @@ module.exports = [
     ],
     "correctAnswer": "б) подлежат обращению в доход государства",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -447,7 +446,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в момент доставления задержанного в орган следствия",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -461,7 +460,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 48-ми часов",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -475,7 +474,7 @@ module.exports = [
     ],
     "correctAnswer": "в) обвиняемого",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -489,7 +488,7 @@ module.exports = [
     ],
     "correctAnswer": "а) следственным судьей, судом",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -503,7 +502,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не более 1-го года.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -517,7 +516,7 @@ module.exports = [
     ],
     "correctAnswer": "а) возможно, лишь в исключительных случаях",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -531,7 +530,7 @@ module.exports = [
     ],
     "correctAnswer": "б) органом дознания",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -545,7 +544,7 @@ module.exports = [
     ],
     "correctAnswer": "в) допускается, если он пропущен по уважительной причине",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -559,7 +558,7 @@ module.exports = [
     ],
     "correctAnswer": "б) расходы на проведение экспертизы в экспертных учреждениях",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -573,7 +572,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если местопребывание обвиняемого неизвестно",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -587,7 +586,7 @@ module.exports = [
     ],
     "correctAnswer": "б) о признании действия (бездействия) или решения соответствующего должностного лица незаконным или необоснованным и о его обязанности устранить допущенное нарушение",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -601,7 +600,7 @@ module.exports = [
     ],
     "correctAnswer": "в) заявление ходатайств возможно на любой стадии уголовного судопроизводства",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -615,7 +614,7 @@ module.exports = [
     ],
     "correctAnswer": "б) допускается осмотр места происшествия и назначение экспертизы",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -629,7 +628,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение 5 суток",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -643,7 +642,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если обвиняемому будет предъявлено новое обвинение в совершении тяжкого или особо тяжкого преступления.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -657,7 +656,7 @@ module.exports = [
     ],
     "correctAnswer": "г) на срок до 6-х месяцев.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -671,7 +670,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не более 8-ми часов",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -685,7 +684,7 @@ module.exports = [
     ],
     "correctAnswer": "а) повестки",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -699,7 +698,7 @@ module.exports = [
     ],
     "correctAnswer": "в) если между двумя ранее допрошенными лицами, имеются существенные противоречия в показаниях",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -713,7 +712,7 @@ module.exports = [
     ],
     "correctAnswer": "в) установление причины смерти, характера и степени тяжести причиненного вреда здоровью",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -727,7 +726,7 @@ module.exports = [
     ],
     "correctAnswer": "а) возможно",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -741,7 +740,7 @@ module.exports = [
     ],
     "correctAnswer": "г) неустановление местонахождения обвиняемого.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -755,7 +754,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в срок не более пяти суток",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -769,7 +768,7 @@ module.exports = [
     ],
     "correctAnswer": "г) признает ли он свою вину полностью или частично, или отрицает вину в предъявленном ему обвинении.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -783,7 +782,7 @@ module.exports = [
     ],
     "correctAnswer": "в) исключить своим постановлением отдельные пункты обвинения или переквалифицировать действия обвиняемого в сторону смягчения",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -797,7 +796,7 @@ module.exports = [
     ],
     "correctAnswer": "а) постановление",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -811,7 +810,7 @@ module.exports = [
     ],
     "correctAnswer": "в) своевременность вручения копии обвинительного акта",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -825,7 +824,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 2-х месячный срок со дня поступления в суд.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -839,7 +838,7 @@ module.exports = [
     ],
     "correctAnswer": "а) время, на которое судебное разбирательство было приостановлено по основаниям, предусмотренным настоящим Кодексом",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -853,7 +852,7 @@ module.exports = [
     ],
     "correctAnswer": "г) может.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -867,7 +866,7 @@ module.exports = [
     ],
     "correctAnswer": "б) да, если он находится вне пределов Кыргызской Республики и уклоняется от явки в суд",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -881,7 +880,7 @@ module.exports = [
     ],
     "correctAnswer": "г) государственный обвинитель.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -895,7 +894,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не позднее 5-ти суток по окончании судебного заседания",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -909,7 +908,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 5-ти суток со дня ознакомления с протоколом судебного заседания",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -923,7 +922,7 @@ module.exports = [
     ],
     "correctAnswer": "б) с оглашения обвинителем обвинительного акта",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -937,7 +936,7 @@ module.exports = [
     ],
     "correctAnswer": "б) после окончания прений сторон",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -951,7 +950,7 @@ module.exports = [
     ],
     "correctAnswer": "в) постановление о прекращении уголовного дела и применении к обвиняемому принудительных мер медицинского характера",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -965,7 +964,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с назначением наказания, подлежащего отбыванию",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -979,7 +978,7 @@ module.exports = [
     ],
     "correctAnswer": "б) отсутствие события преступления",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -993,7 +992,7 @@ module.exports = [
     ],
     "correctAnswer": "в) из вводной, описательно-мотивировочной и резолютивной",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1007,7 +1006,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 5-ти суток после провозглашения приговора.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1021,7 +1020,7 @@ module.exports = [
     ],
     "correctAnswer": "а) представление",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1035,7 +1034,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 30-ти суток со дня провозглашения приговора.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1049,7 +1048,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 7-ми суток со дня вынесения приговора",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1063,7 +1062,7 @@ module.exports = [
     ],
     "correctAnswer": "б) быстрое и полное раскрытие преступлений, изобличение и привлечение к уголовной ответственности лиц, их совершивших, справедливое судебное разбирательство и правильное применение уголовного закона",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1077,7 +1076,7 @@ module.exports = [
     ],
     "correctAnswer": "г) суд первой инстанции.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1091,7 +1090,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по представлению органа и (или) учреждения, исполняющих наказание, вправе освободить от дальнейшего отбывания наказания.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1105,7 +1104,7 @@ module.exports = [
     ],
     "correctAnswer": "г) ранее обжалованные в апелляционном порядке решения судов первой инстанции.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1119,7 +1118,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 5-ти суток до истечения срока содержания под стражей",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1133,7 +1132,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не подлежат",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1147,7 +1146,7 @@ module.exports = [
     ],
     "correctAnswer": "г) никакими сроками не ограничен.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1161,7 +1160,7 @@ module.exports = [
     ],
     "correctAnswer": "а) установления вступившим в законную силу приговором суда преступные действия следователя",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1175,7 +1174,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да, с 16-летнего возраста",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1189,7 +1188,7 @@ module.exports = [
     ],
     "correctAnswer": "г) да, если есть основания полагать, что его действия наносят ущерб интересам ребенка или направлены на воспрепятствование досудебному производству.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1203,7 +1202,7 @@ module.exports = [
     ],
     "correctAnswer": "а) мера процессуального принуждения",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1217,7 +1216,7 @@ module.exports = [
     ],
     "correctAnswer": "б) да, подлежит",
     "correctAnswerIndex": 1,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1231,7 +1230,7 @@ module.exports = [
     ],
     "correctAnswer": "г) лишь в течение года со дня вступления их в законную силу.",
     "correctAnswerIndex": 3,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1245,7 +1244,7 @@ module.exports = [
     ],
     "correctAnswer": "а) поручение, ходатайство",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1259,7 +1258,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Международный договор Кыргызской Республики с соответствующим иностранным государством",
     "correctAnswerIndex": 0,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1273,7 +1272,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не менее 3-х",
     "correctAnswerIndex": 2,
-    "category": "I.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1287,7 +1286,7 @@ module.exports = [
     ],
     "correctAnswer": "г) защита прав человека при исполнении наказаний и принудительных мер уголовно-правового воздействия.",
     "correctAnswerIndex": 3,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1301,7 +1300,7 @@ module.exports = [
     ],
     "correctAnswer": "б) регулирование порядка трудового и бытового устройство",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1316,7 +1315,7 @@ module.exports = [
     ],
     "correctAnswer": "а) при реорганизации или ликвидации исправительного учреждения, в случае болезни осужденного, а также для обеспечения его безопасности",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1330,7 +1329,7 @@ module.exports = [
     ],
     "correctAnswer": "в) только приговор суда, вступивший в законную силу",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1344,7 +1343,7 @@ module.exports = [
     ],
     "correctAnswer": "б) исправительные колонии, воспитательные колонии, тюрьмы",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1358,7 +1357,7 @@ module.exports = [
     ],
     "correctAnswer": "г) органами принудительного исполнения по месту жительства (фактического проживания) осужденного.",
     "correctAnswerIndex": 3,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1372,7 +1371,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинетом Министров",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1386,7 +1385,7 @@ module.exports = [
     ],
     "correctAnswer": "г) из Конституции Кыргызской Республики, нормативных правовых актах Кыргызской Республики, международных договоров Кыргызской Республики, Рекомендации (декларации) международных организаций и подзаконных нормативных правовых актах.",
     "correctAnswerIndex": 3,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1400,7 +1399,7 @@ module.exports = [
     ],
     "correctAnswer": "в) исправительная колония особого режима",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1414,7 +1413,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по месту основной работы",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1428,7 +1427,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не менее 1/2 срока",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1442,7 +1441,7 @@ module.exports = [
     ],
     "correctAnswer": "а) вправе получать денежные переводы и отправлять их близким родственникам без разрешения, а для отправки иным лицам требуется разрешение администрации",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1456,7 +1455,7 @@ module.exports = [
     ],
     "correctAnswer": "а) разрешение провести выходной день за пределами колонии",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1470,7 +1469,7 @@ module.exports = [
     ],
     "correctAnswer": "в) усиленного",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1484,7 +1483,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 23 лет",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1498,7 +1497,7 @@ module.exports = [
     ],
     "correctAnswer": "а) администрация исправительного учреждения вносит в суд представление",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1512,7 +1511,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение десяти рабочих дней",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1526,7 +1525,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по истечении трех месяцев со дня вынесения постановления об отказе в условно-досрочном освобождении",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1540,7 +1539,7 @@ module.exports = [
     ],
     "correctAnswer": "а) направляет в орган пробации",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1554,7 +1553,7 @@ module.exports = [
     ],
     "correctAnswer": "а) до достижения ребенком 14 лет",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1568,7 +1567,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение десяти календарных дней со дня вступления приговора суда в законную силу",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1582,7 +1581,7 @@ module.exports = [
     ],
     "correctAnswer": "г) приговор либо изменяющие его определение или постановление суда, вступившие в законную силу, а также акт амнистии или помилования.",
     "correctAnswerIndex": 3,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1596,7 +1595,7 @@ module.exports = [
     ],
     "correctAnswer": "а) лишение свободы, исправительные работы, общественные работы",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1610,7 +1609,7 @@ module.exports = [
     ],
     "correctAnswer": "а) со дня заключения под стражу",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1624,7 +1623,7 @@ module.exports = [
     ],
     "correctAnswer": "в) дети мужского пола, ранее отбывавшие наказание в виде лишения свободы",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1638,7 +1637,7 @@ module.exports = [
     ],
     "correctAnswer": "а) это установленный порядок исполнения и отбывания наказания в виде лишения свободы",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1652,7 +1651,7 @@ module.exports = [
     ],
     "correctAnswer": "а) оплачиваемый труд осужденных включается в их общий трудовой стаж",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1666,7 +1665,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не ранее чем по истечении трех месяцев",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1680,7 +1679,7 @@ module.exports = [
     ],
     "correctAnswer": "а) органы пробации, местной государственной администрации и местного самоуправления",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1694,7 +1693,7 @@ module.exports = [
     ],
     "correctAnswer": "а) срок наказания в виде общественных работ исчисляется в часах, в течение которых осужденный выполнял общественные работы",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1708,7 +1707,7 @@ module.exports = [
     ],
     "correctAnswer": "а) медиатор",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1722,7 +1721,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в качестве меры взыскания, когда осужденный водворен в помещение временной изоляции (ШИЗО)",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1736,7 +1735,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по благоустройству камер, комнат и помещений общего пользования, по благоустройству территории учреждения и прилегающих к ней территорий, за исключением объектов инженерно-технических средств надзора, контроля и охраны, расположенных на основном ограждении и за пределами внутренней запретной зоны, по улучшению культурно-бытовых и санитарно-гигиенических условий проживания",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1750,7 +1749,7 @@ module.exports = [
     ],
     "correctAnswer": "а) продолжительностью один час",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1764,7 +1763,7 @@ module.exports = [
     ],
     "correctAnswer": "в) акыйкатчы (омбудсмен)",
     "correctAnswerIndex": 2,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1778,7 +1777,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение трех месяцев",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1792,7 +1791,7 @@ module.exports = [
     ],
     "correctAnswer": "б) с гражданским процессуальным законодательством",
     "correctAnswerIndex": 1,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1806,7 +1805,7 @@ module.exports = [
     ],
     "correctAnswer": "а) трех месяцев с момента отказа",
     "correctAnswerIndex": 0,
-    "category": "II.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1820,7 +1819,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не могут",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1834,7 +1833,7 @@ module.exports = [
     ],
     "correctAnswer": "а) бережно относиться к имуществу работодателя и работников",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1848,7 +1847,7 @@ module.exports = [
     ],
     "correctAnswer": "в) запрещается, кроме случаев, предусмотренных законодательством",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1862,7 +1861,7 @@ module.exports = [
     ],
     "correctAnswer": "а) отношения между работником и работодателем о личном выполнении работников трудовых функций при обеспечении работодателем условий труда",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1876,7 +1875,7 @@ module.exports = [
     ],
     "correctAnswer": "в) получать работу и заработную плату, обусловленную трудовым договором",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1890,7 +1889,7 @@ module.exports = [
     ],
     "correctAnswer": "б) поощрять работников",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1904,7 +1903,7 @@ module.exports = [
     ],
     "correctAnswer": "а) взаимодействие органов государственной власти, объединений работодателей и профсоюзов, направленные на определение политики в области трудовых отношений",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1918,7 +1917,7 @@ module.exports = [
     ],
     "correctAnswer": "в) выплачивает средний дневной заработок за каждый день задержки",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1932,7 +1931,7 @@ module.exports = [
     ],
     "correctAnswer": "б) вправе на договорных условиях",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1946,7 +1945,7 @@ module.exports = [
     ],
     "correctAnswer": "б) работодатель",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1960,7 +1959,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не менее 1 года",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1974,7 +1973,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не более 3 лет.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -1988,7 +1987,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не более 3-х лет.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2002,7 +2001,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 3-х месяцев.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2016,7 +2015,7 @@ module.exports = [
     ],
     "correctAnswer": "г) соглашение между работником и работодателем об условиях работы, оплате труда и подчинении внутреннему трудовому распорядку.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2030,7 +2029,7 @@ module.exports = [
     ],
     "correctAnswer": "г) является обязательным условием при заключении трудового договора.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2044,7 +2043,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не более 5-ти лет.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2058,7 +2057,7 @@ module.exports = [
     ],
     "correctAnswer": "а) требуется",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2072,7 +2071,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на следующий рабочий день после вступления договора в силу",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2086,7 +2085,7 @@ module.exports = [
     ],
     "correctAnswer": "б) заключен под влиянием обмана, угрозы, а также на крайне невыгодных условиях для работника",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2100,7 +2099,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не засчитывается",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2114,7 +2113,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2128,7 +2127,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в день увольнения работника",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2142,7 +2141,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее, чем за 1 месяц",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2156,7 +2155,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до 1-го месяца",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2170,7 +2169,7 @@ module.exports = [
     ],
     "correctAnswer": "а) поручение работнику работы без изменения трудовой функции и без изменения существенных условий трудового договора",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2184,7 +2183,7 @@ module.exports = [
     ],
     "correctAnswer": "в) 3-х месяцев",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2198,7 +2197,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не допускается",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2212,7 +2211,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не более 10 часов в день",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2226,7 +2225,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не более 24 часов",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2240,7 +2239,7 @@ module.exports = [
     ],
     "correctAnswer": "а) устанавливается в соответствии с медицинским заключением",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2254,7 +2253,7 @@ module.exports = [
     ],
     "correctAnswer": "б) на 1 час",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2268,7 +2267,7 @@ module.exports = [
     ],
     "correctAnswer": "г) допускается только в случае, если работа не запрещена по медицинским показаниям.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2282,7 +2281,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее, чем за 3 дня до его начала",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2296,7 +2295,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до 5-ти календарных дней",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2310,7 +2309,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 1-го месяца",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2324,7 +2323,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 1-го года.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2338,7 +2337,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не включаются",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2352,7 +2351,7 @@ module.exports = [
     ],
     "correctAnswer": "а) накануне этого дня",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2366,7 +2365,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 0,25%.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2380,7 +2379,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не может, за исключением случаев счетной ошибки",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2394,7 +2393,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее, чем за 1 месяц",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2408,7 +2407,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не признаются",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2422,7 +2421,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Кабинетом Министров Кыргызской Республики.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2436,7 +2435,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Кабинет Министров Кыргызской Республики.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2450,7 +2449,7 @@ module.exports = [
     ],
     "correctAnswer": "в) включается",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2464,7 +2463,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не должен быть менее 4-годового размера прожиточного минимума.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2478,7 +2477,7 @@ module.exports = [
     ],
     "correctAnswer": "а) обязан",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2492,7 +2491,7 @@ module.exports = [
     ],
     "correctAnswer": "а) исключается",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2506,7 +2505,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2520,7 +2519,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не устанавливается",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2534,7 +2533,7 @@ module.exports = [
     ],
     "correctAnswer": "а) одновременно с отпуском по основной работе",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2548,7 +2547,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не устанавливается",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2562,7 +2561,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2576,7 +2575,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не менее чем за 1 месяц",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2590,7 +2589,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не должно превышать 1 месяца",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2604,7 +2603,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2618,7 +2617,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2632,7 +2631,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не более 36-ти часов",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2646,7 +2645,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Кабинет Министров Кыргызской Республики.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2660,7 +2659,7 @@ module.exports = [
     ],
     "correctAnswer": "а) спор между работодателем и лицом, состоящим или состоявшим с ним в трудовых отношениях",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2674,7 +2673,7 @@ module.exports = [
     ],
     "correctAnswer": "г) комиссия по трудовым спорам.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2688,7 +2687,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 2-х месяцев со дня ознакомления с приказом об увольнении либо со дня выдачи трудовой книжки.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2702,7 +2701,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 1-го года со дня обнаружения причиненного вреда",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2716,7 +2715,7 @@ module.exports = [
     ],
     "correctAnswer": "в) 3 года со дня нарушения права",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2730,7 +2729,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в 10-дневный срок",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2744,7 +2743,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в 10-дневный срок",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2758,7 +2757,7 @@ module.exports = [
     ],
     "correctAnswer": "а) рассматриваются",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2772,7 +2771,7 @@ module.exports = [
     ],
     "correctAnswer": "а) освобождаются",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2786,7 +2785,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не менее 12-кратного среднемесячного заработка.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2800,7 +2799,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в полном объеме",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2814,7 +2813,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в случаях, когда отмененное решение было основано на сообщенных работником ложных сведениях.",
     "correctAnswerIndex": 3,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2828,7 +2827,7 @@ module.exports = [
     ],
     "correctAnswer": "б) неурегулированные разногласия между работниками и работодателями по поводу установления и изменения условий труда",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2842,7 +2841,7 @@ module.exports = [
     ],
     "correctAnswer": "б) рассмотрение коллективного трудового спора примирительной комиссией с участием посредника",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2856,7 +2855,7 @@ module.exports = [
     ],
     "correctAnswer": "б) рассмотрение примирительной комиссией, рассмотрение с участием посредника",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2870,7 +2869,7 @@ module.exports = [
     ],
     "correctAnswer": "а) до 3-х рабочих дней",
     "correctAnswerIndex": 0,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2884,7 +2883,7 @@ module.exports = [
     ],
     "correctAnswer": "в) до 7 рабочих дней",
     "correctAnswerIndex": 2,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2898,7 +2897,7 @@ module.exports = [
     ],
     "correctAnswer": "б) увольнение работников по инициативе работодателя в связи с их участием в коллективном трудовом споре и забастовке",
     "correctAnswerIndex": 1,
-    "category": "III.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2912,7 +2911,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не распространяется, за исключением случаев, если срок для защиты нарушенного права установлен Семейным кодексом",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2926,7 +2925,7 @@ module.exports = [
     ],
     "correctAnswer": "б) со дня государственной регистрации заключения брака в государственных органах и органах местного самоуправления",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2940,7 +2939,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по истечении 1 месяца",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2954,7 +2953,7 @@ module.exports = [
     ],
     "correctAnswer": "в) взаимное добровольное согласие мужчины и женщины, вступающих в брак, достижение ими брачного возраста и отсутствие обстоятельств, препятствующих заключению брака",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2968,7 +2967,7 @@ module.exports = [
     ],
     "correctAnswer": "в) исполнительные органы местного самоуправления",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2982,7 +2981,7 @@ module.exports = [
     ],
     "correctAnswer": "в) если одно лицо является усыновителем, а другое – усыновленным",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -2996,7 +2995,7 @@ module.exports = [
     ],
     "correctAnswer": "в) обратиться в суд с требованием о признании брака недействительным",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3010,7 +3009,7 @@ module.exports = [
     ],
     "correctAnswer": "г) объявление судом одного из супругов умершим.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3024,7 +3023,7 @@ module.exports = [
     ],
     "correctAnswer": "а) во время ее беременности и в течение года после рождения ребенка",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3038,7 +3037,7 @@ module.exports = [
     ],
     "correctAnswer": "г) органом записи актов гражданского состояния.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3052,7 +3051,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по истечении месяца",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3066,7 +3065,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в судебном порядке, за исключением случаев, предусмотренных законодательством.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3080,7 +3079,7 @@ module.exports = [
     ],
     "correctAnswer": "г) три месяца.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3094,7 +3093,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не ранее истечения 1-го месяца.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3108,7 +3107,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 3-х дней",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3122,7 +3121,7 @@ module.exports = [
     ],
     "correctAnswer": "в) до получения свидетельства о расторжении брака в органе записей актов гражданского состояния",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3136,7 +3135,7 @@ module.exports = [
     ],
     "correctAnswer": "а) органом записей актов гражданского состояния по совместному заявлению супругов, если другой супруг не вступил в новый брак",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3150,7 +3149,7 @@ module.exports = [
     ],
     "correctAnswer": "а) судом",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3164,7 +3163,7 @@ module.exports = [
     ],
     "correctAnswer": "г) брак признается недействительным с момента заключения брака. Стороны возвращаются в первоначальное положение",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3178,7 +3177,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если добрачная фамилия хотя бы одного из супругов является двойной",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3192,7 +3191,7 @@ module.exports = [
     ],
     "correctAnswer": "а) режим совместной собственности супругов",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3206,7 +3205,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 3-х лет со дня, когда он узнал или должен был узнать о совершении данной сделки",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3220,7 +3219,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если в период брака за счет их общего имущества были произведены вложения, значительно увеличивающие стоимость этого имущества",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3234,7 +3233,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в любое время по требованию одного из супругов",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3248,7 +3247,7 @@ module.exports = [
     ],
     "correctAnswer": "б) допускается по обоюдному согласию супругов или по решению суда",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3262,7 +3261,7 @@ module.exports = [
     ],
     "correctAnswer": "а) пропорционально присужденным им долям в общем имуществе",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3276,7 +3275,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в день государственной регистрации заключения брака",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3290,7 +3289,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в письменной форме и подлежит нотариальному удостоверению",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3304,7 +3303,7 @@ module.exports = [
     ],
     "correctAnswer": "а) брак, заключенный без намерения создать семью, для достижения каких-либо выгод, вытекающих из факта регистрации брака",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3318,7 +3317,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение трехсот дней с момента смерти мужа",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3332,7 +3331,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лицо, на иждивении которого находится ребенок",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3346,7 +3345,7 @@ module.exports = [
     ],
     "correctAnswer": "г) судом.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3360,7 +3359,7 @@ module.exports = [
     ],
     "correctAnswer": "а) фамилия матери",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3374,7 +3373,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лица, состоящие в браке между собой и давшие письменное согласие на имплантацию эмбриона другой женщине в целях его вынашивания с согласия женщины, родившей ребенка",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3388,7 +3387,7 @@ module.exports = [
     ],
     "correctAnswer": "в) лицо, фактически являющееся отцом (матерью) ребенка",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3402,7 +3401,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если женщину ошибочно записали матерью ребенка",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3416,7 +3415,7 @@ module.exports = [
     ],
     "correctAnswer": "г) до 18-ти лет.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3430,7 +3429,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по достижении 14-ти лет",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3444,7 +3443,7 @@ module.exports = [
     ],
     "correctAnswer": "а) суд",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3458,7 +3457,7 @@ module.exports = [
     ],
     "correctAnswer": "г) территориальное подразделение уполномоченного государственного органа по защите детей.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3472,7 +3471,7 @@ module.exports = [
     ],
     "correctAnswer": "г) с 10-ти лет.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3486,7 +3485,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не более 50-ти % сумм алиментов, подлежащих выплате",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3500,7 +3499,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по достижении ими 16-ти лет",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3514,7 +3513,7 @@ module.exports = [
     ],
     "correctAnswer": "б) при лишении родительских прав",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3528,7 +3527,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по достижении ими 16-ти лет",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3542,7 +3541,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в исковом",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3556,7 +3555,7 @@ module.exports = [
     ],
     "correctAnswer": "а) злоупотребление своими родительскими правами",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3570,7 +3569,7 @@ module.exports = [
     ],
     "correctAnswer": "а) суд",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3584,7 +3583,7 @@ module.exports = [
     ],
     "correctAnswer": "в) содержать своего ребенка",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3598,7 +3597,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не ранее истечения 6-ти месяцев",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3612,7 +3611,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судебным исполнителем",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3626,7 +3625,7 @@ module.exports = [
     ],
     "correctAnswer": "г) с 10-ти лет.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3640,7 +3639,7 @@ module.exports = [
     ],
     "correctAnswer": "а) родитель, лишенный родительских прав",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3654,7 +3653,7 @@ module.exports = [
     ],
     "correctAnswer": "а) суд",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3668,7 +3667,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по истечении 6-ти месяцев",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3682,7 +3681,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 1/3 заработка или фактического дохода родителей, но не менее 1,5 минимальных заработных плат",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3696,7 +3695,7 @@ module.exports = [
     ],
     "correctAnswer": "г) половина заработка или фактического дохода родителя.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3710,7 +3709,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3724,7 +3723,7 @@ module.exports = [
     ],
     "correctAnswer": "б) определяется в твердой денежной сумме с одного из родителей в пользу другого, менее обеспеченного, с учетом материального и семейного положения",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3738,7 +3737,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в твердой денежной сумме, с учетом материального и семейного положения",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3752,7 +3751,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если один из супругов является нетрудоспособным и нуждается в помощи",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3766,7 +3765,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если бывший супруг осуществляет уход за общим ребенком не достигшим трехлетнего возраста.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3780,7 +3779,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не более 5-ти лет.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3794,7 +3793,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если последние содержали и воспитывали их менее 5-ти лет",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3808,7 +3807,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если последние содержали и воспитывали их менее 5-ти лет",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3822,7 +3821,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в письменной форме и подлежит нотариальному удостоверению.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3836,7 +3835,7 @@ module.exports = [
     ],
     "correctAnswer": "г) допускается сочетание различных способов уплаты, относительно которых достигнуто соглашение.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3850,7 +3849,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с момента обращения в суд или к нотариусу",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3864,7 +3863,7 @@ module.exports = [
     ],
     "correctAnswer": "б) за три года, предшествующие обращению в суд",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3878,7 +3877,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по месту исполнения, исходя из размера алиментов, определенного решением суда",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3892,7 +3891,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в 3-дневный срок",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3906,7 +3905,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не более, чем за три года, предшествующих предъявлению исполнительного документа, за исключением случаев, когда удержание не производилось по вине должника",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3920,7 +3919,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в размере 1/2 процента от суммы невыплаченных алиментов за каждый день просрочки",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3934,7 +3933,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случае отмены решения суда о взыскании алиментов, в связи с представлением получателем ложных документов",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3948,7 +3947,7 @@ module.exports = [
     ],
     "correctAnswer": "б) администрацией организации по месту удержания алиментов",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3962,7 +3961,7 @@ module.exports = [
     ],
     "correctAnswer": "б) при признании судом восстановления трудоспособности или прекращение нуждаемости в помощи получателя",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3976,7 +3975,7 @@ module.exports = [
     ],
     "correctAnswer": "в) при изменении материального или семейного положения одной из сторон",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -3990,7 +3989,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в твердой денежной сумме, подлежащей уплате ежемесячно, исходя из материального и семейного положения",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4004,7 +4003,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по взаимному согласию сторон за исключением случаев уплаты алиментов на несовершеннолетних детей",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4018,7 +4017,7 @@ module.exports = [
     ],
     "correctAnswer": "г) определяется сторонами, но не может быть ниже размера алиментов, которые они могли бы получить при взыскании алиментов в судебном порядке.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4032,7 +4031,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не позднее 3-х дней",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4046,7 +4045,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в трехдневный срок",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4060,7 +4059,7 @@ module.exports = [
     ],
     "correctAnswer": "б) при недостаточности денежных средств",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4074,7 +4073,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в пределах трехлетнего срока",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4088,7 +4087,7 @@ module.exports = [
     ],
     "correctAnswer": "а) судебным исполнителем",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4102,7 +4101,7 @@ module.exports = [
     ],
     "correctAnswer": "в) исходя из размера алиментов, определенного решением суда или соглашением об уплате алиментов",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4116,7 +4115,7 @@ module.exports = [
     ],
     "correctAnswer": "г) исходя из средней заработной платы в данной местности.",
     "correctAnswerIndex": 3,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4130,7 +4129,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не может быть обращено взыскание",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4144,7 +4143,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в любое время по взаимному согласию сторон",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4158,7 +4157,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не допускается",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4172,7 +4171,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по усмотрению сторон, но не ниже уровня, установленного законом",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4186,7 +4185,7 @@ module.exports = [
     ],
     "correctAnswer": "б) опекуны, попечители",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4200,7 +4199,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с момента обращения в суд",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4214,7 +4213,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в твердой денежной сумме, уплачиваемой периодически либо единовременно",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4228,7 +4227,7 @@ module.exports = [
     ],
     "correctAnswer": "б) определяется законодательством государства, в котором это лицо имеет постоянное место жительство",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4242,7 +4241,7 @@ module.exports = [
     ],
     "correctAnswer": "б) территориальное подразделение уполномоченного государственного органа",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4256,7 +4255,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если брак заключен с соблюдением законодательства государства, на территории которого он заключен",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4270,7 +4269,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в суд Кыргызской Республики, дипломатическое представительство или в консульское учреждение Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4284,7 +4283,7 @@ module.exports = [
     ],
     "correctAnswer": "б) законодательством государства, на территории которого они имели последнее совместное место жительство",
     "correctAnswerIndex": 1,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4298,7 +4297,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в дипломатических представительствах или в консульских учреждениях Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "IV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4312,7 +4311,7 @@ module.exports = [
     ],
     "correctAnswer": "а) государствами и другими субъектами международных отношений",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4326,7 +4325,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Россия, США, Китай, Великобритания, Франция",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4340,7 +4339,7 @@ module.exports = [
     ],
     "correctAnswer": "а) межправительственные",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4354,7 +4353,7 @@ module.exports = [
     ],
     "correctAnswer": "а) парафирование",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4368,7 +4367,7 @@ module.exports = [
     ],
     "correctAnswer": "б) совещательным",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4382,7 +4381,7 @@ module.exports = [
     ],
     "correctAnswer": "а) обнародование",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4396,7 +4395,7 @@ module.exports = [
     ],
     "correctAnswer": "в) прекращение",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4410,7 +4409,7 @@ module.exports = [
     ],
     "correctAnswer": "г) депозитарий.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4422,7 +4421,7 @@ module.exports = [
     ],
     "correctAnswer": "в) международные договоры",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4436,7 +4435,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на публичное и частное",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4450,7 +4449,7 @@ module.exports = [
     ],
     "correctAnswer": "а) это отсрочка выполнения международного обязательства по договору со стороны государства, которая устанавливается на неопределенный срок либо до наступления какого-либо события",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4464,7 +4463,7 @@ module.exports = [
     ],
     "correctAnswer": "в) это предварительное подписание договора инициалами сторон, означающее факт полного согласования его текста",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4478,7 +4477,7 @@ module.exports = [
     ],
     "correctAnswer": "в) заблокировать какое-либо решение при несогласии с ним",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4492,7 +4491,7 @@ module.exports = [
     ],
     "correctAnswer": "б) государства равны в правах и обязанностях в международных отношениях",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4506,7 +4505,7 @@ module.exports = [
     ],
     "correctAnswer": "в) демаркация",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4519,7 +4518,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Совет Безопасности ООН",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4533,7 +4532,7 @@ module.exports = [
     ],
     "correctAnswer": "г) это политика принудительного разделения людей по расовому или этническому признаку.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4547,7 +4546,7 @@ module.exports = [
     ],
     "correctAnswer": "а) сообщение соответствующими органами власти официального мнения по поводу каких-либо международных событий",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4561,7 +4560,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Международный уголовный суд",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4579,7 +4578,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Генеральная Ассамблея и Совет Безопасности",
     "correctAnswerIndex": 6,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4593,7 +4592,7 @@ module.exports = [
     ],
     "correctAnswer": "б) разрешение споров между государствами и вынесение консультативных заключений",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4607,7 +4606,7 @@ module.exports = [
     ],
     "correctAnswer": "а) сложившееся в международной практике правило поведения, за которым субъекты международного права признают юридически обязательный характер",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4621,7 +4620,7 @@ module.exports = [
     ],
     "correctAnswer": "б) двусторонние, многосторонние, срочные, бессрочные, межгосударственные, межпарламентские, межправительственные, межведомственные",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4635,7 +4634,7 @@ module.exports = [
     ],
     "correctAnswer": "а) договорная инициатива, составление и принятие текста договора, установление аутентичности текстов договора, выражение согласия на обязательность договора",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4649,7 +4648,7 @@ module.exports = [
     ],
     "correctAnswer": "б) государства не имеют права вмешиваться в дела друг друга без их согласия",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4663,7 +4662,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Совет Безопасности",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4677,7 +4676,7 @@ module.exports = [
     ],
     "correctAnswer": "б) назначается Генеральной Ассамблеей по рекомендации Совета Безопасности ООН",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4691,7 +4690,7 @@ module.exports = [
     ],
     "correctAnswer": "в) переходит к преемникам в справедливых долях",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4705,7 +4704,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 15",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4719,7 +4718,7 @@ module.exports = [
     ],
     "correctAnswer": "а) ратификацию, присоединение или утверждение международного договора",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4733,7 +4732,7 @@ module.exports = [
     ],
     "correctAnswer": "в) геноцид, апартеид, расизм и расовая дискриминация, рабство, колониализм, экоцид",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4747,7 +4746,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4761,7 +4760,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Жогорку Кенеш и органы судебной власти в лице Верховного суда КР и Конституционный суд КР.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4775,7 +4774,7 @@ module.exports = [
     ],
     "correctAnswer": "в) межгосударственные и межправительственные",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4789,7 +4788,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Омбудсмен.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4803,7 +4802,7 @@ module.exports = [
     ],
     "correctAnswer": "а) закона, который в последующем подлежит подписанию Президентом",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4817,7 +4816,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Жогорку Кенешем в форме закона, который в последующем подлежит подписанию Президентом.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4831,7 +4830,7 @@ module.exports = [
     ],
     "correctAnswer": "а) только государства",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4845,7 +4844,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Международный Комитет Красного Креста (МККК)",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4858,7 +4857,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 2014 г., в Астане",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4872,7 +4871,7 @@ module.exports = [
     ],
     "correctAnswer": "г) консульский патент.",
     "correctAnswerIndex": 3,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4886,7 +4885,7 @@ module.exports = [
     ],
     "correctAnswer": "б) посредничество",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4900,7 +4899,7 @@ module.exports = [
     ],
     "correctAnswer": "а) признание существующих границ, отказ от любых посягательств на эти границы, отказ от каких-либо территориальных притязаний в данный момент и в будущем",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4913,7 +4912,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Евразийская экономическая комиссия",
     "correctAnswerIndex": 0,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4927,7 +4926,7 @@ module.exports = [
     ],
     "correctAnswer": "б) ограничение средств и методов ведения войны и защита жертв вооружённых конфликтов",
     "correctAnswerIndex": 1,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4941,7 +4940,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Комитет по правам человека",
     "correctAnswerIndex": 2,
-    "category": "V.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4955,7 +4954,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Президент и Жогорку Кенеш",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4969,7 +4968,7 @@ module.exports = [
     ],
     "correctAnswer": "в) общественно-представительным собранием",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4983,7 +4982,7 @@ module.exports = [
     ],
     "correctAnswer": "а) частная, государственная, муниципальная и иные формы собственности",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -4997,7 +4996,7 @@ module.exports = [
     ],
     "correctAnswer": "б) из республиканского и местных бюджетов, включает доходы и расходы государства",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5011,7 +5010,7 @@ module.exports = [
     ],
     "correctAnswer": "а) ограничивающих права и свободы человека и гражданина",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5025,7 +5024,7 @@ module.exports = [
     ],
     "correctAnswer": "в) принцип обеспечения наилучших интересов ребенка",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5039,7 +5038,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в случаях, установленных законом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5053,7 +5052,7 @@ module.exports = [
     ],
     "correctAnswer": "в) политические и специальные государственные должности",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5067,7 +5066,7 @@ module.exports = [
     ],
     "correctAnswer": "а) определяются законом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5081,7 +5080,7 @@ module.exports = [
     ],
     "correctAnswer": "в) собственностью государства",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5095,7 +5094,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не может",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5109,7 +5108,7 @@ module.exports = [
     ],
     "correctAnswer": "б) имеют",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5123,7 +5122,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на принципах преемственности и научного прогресса",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5137,7 +5136,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в исключительных случаях, предусмотренных законом",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5151,7 +5150,7 @@ module.exports = [
     ],
     "correctAnswer": "г) как непосредственно, так и через своих представителей",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5165,7 +5164,7 @@ module.exports = [
     ],
     "correctAnswer": "а) право на экономическую свободу, свободное использование своих способностей и своего имущества для любой экономической деятельности, не запрещенной законом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5179,7 +5178,7 @@ module.exports = [
     ],
     "correctAnswer": "б) установленная законом ответственность",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5193,7 +5192,7 @@ module.exports = [
     ],
     "correctAnswer": "б) должно быть немедленно освобождено",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5207,7 +5206,7 @@ module.exports = [
     ],
     "correctAnswer": "а) исполнительную власть",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5221,7 +5220,7 @@ module.exports = [
     ],
     "correctAnswer": "в) сроком на 5 лет",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5235,7 +5234,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Президент Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5249,7 +5248,7 @@ module.exports = [
     ],
     "correctAnswer": "б) государственным языком",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5263,7 +5262,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Народу Кыргызской Республики",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5277,7 +5276,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по предложению Совета судей",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5291,7 +5290,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Президент Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5305,7 +5304,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в случае отставки по его заявлению",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5319,7 +5318,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее чем в трехмесячный срок",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5333,7 +5332,7 @@ module.exports = [
     ],
     "correctAnswer": "в) за незаконное вмешательство в полномочия Жогорку Кенеша, деятельность органов судебной власти",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5347,7 +5346,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 25 лет",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5361,7 +5360,7 @@ module.exports = [
     ],
     "correctAnswer": "в) конституционным законом",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5375,7 +5374,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с согласия большинства от общего числа депутатов",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5389,7 +5388,7 @@ module.exports = [
     ],
     "correctAnswer": "б) отзыва депутатского мандата",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5403,7 +5402,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Жогорку Кенеш",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5417,7 +5416,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в порядке, предусмотренном конституционным законом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5431,7 +5430,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Жогорку Кенеш",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5445,7 +5444,7 @@ module.exports = [
     ],
     "correctAnswer": "а) перед Жогорку Кенешем",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5459,7 +5458,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Торага Жогорку Кенеша",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5473,7 +5472,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в пятидневный срок",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5487,7 +5486,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Верховному суду по вопросам его ведения",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5501,7 +5500,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не менее чем в трех чтениях",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5515,7 +5514,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Президентом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5529,7 +5528,7 @@ module.exports = [
     ],
     "correctAnswer": "б) персональную ответственность",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5543,7 +5542,7 @@ module.exports = [
     ],
     "correctAnswer": "а) назначаются Президентом с согласия Жогорку Кенеша",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5557,7 +5556,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Кабинет Министров",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5571,7 +5570,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Президентом",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5585,7 +5584,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на соответствующей территории",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5599,7 +5598,7 @@ module.exports = [
     ],
     "correctAnswer": "б) законом",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5613,7 +5612,7 @@ module.exports = [
     ],
     "correctAnswer": "в) никто не вправе",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5627,7 +5626,7 @@ module.exports = [
     ],
     "correctAnswer": "а) до достижения предельного возраста",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5641,7 +5640,7 @@ module.exports = [
     ],
     "correctAnswer": "в) стаж работы по юридической профессии не менее 15 лет, в том числе судьей не менее 5 лет",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5655,7 +5654,7 @@ module.exports = [
     ],
     "correctAnswer": "а) председатель Верховного суда",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5669,7 +5668,7 @@ module.exports = [
     ],
     "correctAnswer": "в) безупречности",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5683,7 +5682,7 @@ module.exports = [
     ],
     "correctAnswer": "а) осуществляется Президентом по представлению председателя Верховного суда в порядке и случаях, определяемых конституционным законом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5697,7 +5696,7 @@ module.exports = [
     ],
     "correctAnswer": "г) из числа судей, составляющих не менее двух третей его состава, представителей Президента, Жогорку Кенеша, Народного Курултая и юридической общественности, составляющих одну треть его состава",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5711,7 +5710,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Жогорку Кенешу",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5725,7 +5724,7 @@ module.exports = [
     ],
     "correctAnswer": "а) собрание судей",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5739,7 +5738,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Акыйкатчы (Омбудсменом)",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5753,7 +5752,7 @@ module.exports = [
     ],
     "correctAnswer": "а) утверждают местные бюджеты, контролируют их исполнение",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5767,7 +5766,7 @@ module.exports = [
     ],
     "correctAnswer": "б) из местного бюджета",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5781,7 +5780,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента принесения им присяги",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5795,7 +5794,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не моложе 40 лет и не старше 70 лет",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5809,7 +5808,7 @@ module.exports = [
     ],
     "correctAnswer": "б) высшее образование",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5823,7 +5822,7 @@ module.exports = [
     ],
     "correctAnswer": "а) процедура урегулирования спора при содействии медиатора (медиаторов) путем согласования интересов спорящих сторон в целях достижения ими взаимоприемлемого соглашения",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5837,7 +5836,7 @@ module.exports = [
     ],
     "correctAnswer": "в) органам местного самоуправления",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5851,7 +5850,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течении двух месяцев",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5865,7 +5864,7 @@ module.exports = [
     ],
     "correctAnswer": "а) обоснованным и мотивированным",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5878,7 +5877,7 @@ module.exports = [
     ],
     "correctAnswer": "а) судебная коллегия по уголовным делам согласно п.1 ч.2 ст.12 конституционного Закона «О Верховном суде КР и местных судах» от 15.11.2021 г.",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5892,7 +5891,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Пленумом из числа судей Верховного суда по представлению председателя Верховного суда",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5906,7 +5905,7 @@ module.exports = [
     ],
     "correctAnswer": "в) из председателя суда и судей (судьи)",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5920,7 +5919,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Верховным судом",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5934,7 +5933,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Судебным департаментом",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5948,7 +5947,7 @@ module.exports = [
     ],
     "correctAnswer": "б) председателем Верховного суда с согласия Совета судей",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5962,7 +5961,7 @@ module.exports = [
     ],
     "correctAnswer": "г) высший коллегиальный орган исполнительной власти, подчиненный и подотчетный Президенту",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5976,7 +5975,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на общественной полезности",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -5990,7 +5989,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение 3 рабочих дней",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6004,7 +6003,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Генеральным прокурором",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6018,7 +6017,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в пределах срока полномочий Президента",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6032,7 +6031,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 1 мая",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6046,7 +6045,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по мере необходимости, но не реже одного раза в месяц",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6060,7 +6059,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в форме распоряжений",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6074,7 +6073,7 @@ module.exports = [
     ],
     "correctAnswer": "а) центральный государственный орган исполнительной власти, вырабатывающий и реализующий государственную политику и осуществляющий управление в соответствующей сфере (отрасли) деятельности",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6088,7 +6087,7 @@ module.exports = [
     ],
     "correctAnswer": "б) должностное лицо, представляющее Президента и обеспечивающее эффективность государственного управления, реализацию государственной политики в пределах соответствующей области",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6102,7 +6101,7 @@ module.exports = [
     ],
     "correctAnswer": "а) вправе, до первого чтения",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6116,7 +6115,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кабинетом Министров",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6130,7 +6129,7 @@ module.exports = [
     ],
     "correctAnswer": "а) способ организации членов судейского сообщества посредством формирования политики и реализации задач судебной власти через органы судейского самоуправления",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6144,7 +6143,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Съезду судей",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6158,7 +6157,7 @@ module.exports = [
     ],
     "correctAnswer": "а) большинством от числа судей, присутствующих на съезде",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6172,7 +6171,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в составе 20 членов, сроком на 3 года",
     "correctAnswerIndex": 2,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6186,7 +6185,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не менее 20 членов",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6200,7 +6199,7 @@ module.exports = [
     ],
     "correctAnswer": "г) судья, имеющий дисциплинарное взыскание, или председатель суда, в котором работает судья",
     "correctAnswerIndex": 3,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6214,7 +6213,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не допускается",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6228,7 +6227,7 @@ module.exports = [
     ],
     "correctAnswer": "б) к органам государственной власти Кыргызской Республики со специальным статусом",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6242,7 +6241,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не допускается",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6256,7 +6255,7 @@ module.exports = [
     ],
     "correctAnswer": "б) прекращение действия международного договора в отношении стороны международного договора в соответствии с нормами международного права",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6270,7 +6269,7 @@ module.exports = [
     ],
     "correctAnswer": "б) на срочные и бессрочные",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6284,7 +6283,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на двусторонние и многосторонние",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6298,7 +6297,7 @@ module.exports = [
     ],
     "correctAnswer": "б) устанавливается Жогорку Кенешем путем принятия соответствующего постановления Жогорку Кенеша",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6312,7 +6311,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не считается",
     "correctAnswerIndex": 1,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6326,7 +6325,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не приостанавливает",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6340,7 +6339,7 @@ module.exports = [
     ],
     "correctAnswer": "а) составляет не менее двух третей его состава",
     "correctAnswerIndex": 0,
-    "category": "VI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6354,7 +6353,7 @@ module.exports = [
     ],
     "correctAnswer": "б) закон, отменяющий преступность деяния или смягчающий уголовно-правовые последствия преступного деяния, имеет обратное действие во времени",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6368,7 +6367,7 @@ module.exports = [
     ],
     "correctAnswer": "в) деяние, которое хотя формально и содержит признаки какого-либо деяния, предусмотренного Уголовным кодексом, но не причинило и не могло причинить незначительный вред.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6382,7 +6381,7 @@ module.exports = [
     ],
     "correctAnswer": "б) небольшой тяжести, менее тяжкие, тяжкие, особо тяжкие.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6396,7 +6395,7 @@ module.exports = [
     ],
     "correctAnswer": "б) умышленные преступления, за которые законом предусмотрено наказание в виде лишения свободы на срок не свыше пяти лет, а также неосторожные преступления, за которые предусмотрено наказание в виде лишения свободы на срок не свыше десяти лет",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6410,7 +6409,7 @@ module.exports = [
     ],
     "correctAnswer": "г) умышленные преступления, за которые законом предусмотрено наказание в виде лишения свободы на срок свыше десяти лет или пожизненное лишение свободы.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6424,7 +6423,7 @@ module.exports = [
     ],
     "correctAnswer": "а) умысел и неосторожность.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6438,7 +6437,7 @@ module.exports = [
     ],
     "correctAnswer": "в) общественные отношения, охраняемые уголовным законом.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6452,7 +6451,7 @@ module.exports = [
     ],
     "correctAnswer": "в) вина, мотив, цель.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6466,7 +6465,7 @@ module.exports = [
     ],
     "correctAnswer": "г) легкомыслие и небрежность.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6480,7 +6479,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если лицо, осознавало необходимость проявлять осторожность и предвидело возможность причинения вреда, но безосновательно надеялось, что вред причинен не будет",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6494,7 +6493,7 @@ module.exports = [
     ],
     "correctAnswer": "в) физическое вменяемое лицо, совершившее преступление в возрасте, с которого в соответствии с Уголовным кодексом наступает уголовная ответственность",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6508,7 +6507,7 @@ module.exports = [
     ],
     "correctAnswer": "а) прямой и косвенный умысел.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6522,7 +6521,7 @@ module.exports = [
     ],
     "correctAnswer": "в) начиная со следующих суток после дня рождения.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6536,7 +6535,7 @@ module.exports = [
     ],
     "correctAnswer": "б) подстрекателем.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6550,7 +6549,7 @@ module.exports = [
     ],
     "correctAnswer": "г) лицо, склонившее к совершению преступления.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6564,7 +6563,7 @@ module.exports = [
     ],
     "correctAnswer": "б) устойчивая группа из 2-х и более лиц, предварительно сорганизовавшихся для совершения преступлений.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6578,7 +6577,7 @@ module.exports = [
     ],
     "correctAnswer": "б) действия, которые выходят за пределы договоренности соучастников и не охватываются их умыслом.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6592,7 +6591,7 @@ module.exports = [
     ],
     "correctAnswer": "б) наказуемо приготовление только к тяжкому или особо тяжкому преступлению.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6606,7 +6605,7 @@ module.exports = [
     ],
     "correctAnswer": "в) действие, совершенное с прямым умыслом, направленное на совершение преступления, если преступление не было доведено до конца по независящим от лица обстоятельствам.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6620,7 +6619,7 @@ module.exports = [
     ],
     "correctAnswer": "б) очевидное несоответствие защиты характеру и степени общественной опасности посягательства, в результате чего посягающему причиняется явно чрезмерный, невызываемый обстановкой, тяжкий вред.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6634,7 +6633,7 @@ module.exports = [
     ],
     "correctAnswer": "в) прекращение лицом приготовительных действий или бездействий, направленных на совершение преступления, если оно сознавало и имело реальную возможность доведения преступления до конца.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6648,7 +6647,7 @@ module.exports = [
     ],
     "correctAnswer": "в) исправление и ресоциализация виновного, предупреждение совершения новых преступлений, восстановление социальной справедливости.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6662,7 +6661,7 @@ module.exports = [
     ],
     "correctAnswer": "а) общественные работы, ограничение свободы, лишение права занимать определенные должности или заниматься определенной деятельностью, исправительные работы, штраф, содержание в дисциплинарной воинской части, лишение свободы, пожизненное лишение свободы",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6676,7 +6675,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не входит.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6690,7 +6689,7 @@ module.exports = [
     ],
     "correctAnswer": "г) от 200 до 2000 расчетных показателей.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6704,7 +6703,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лишением свободы",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6718,7 +6717,7 @@ module.exports = [
     ],
     "correctAnswer": "б) от 10% до 25 %",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6732,7 +6731,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в случае указания в особенной части Уголовного кодекса",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6746,7 +6745,7 @@ module.exports = [
     ],
     "correctAnswer": "в) совершение преступления в отношении ребенка",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6760,7 +6759,7 @@ module.exports = [
     ],
     "correctAnswer": "г) за совершение преступления против мира и безопасности человечества.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6774,7 +6773,7 @@ module.exports = [
     ],
     "correctAnswer": "б) совершение преступление вследствие стечения личных, семейных, материальных или иных обстоятельств.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6788,7 +6787,7 @@ module.exports = [
     ],
     "correctAnswer": "в) нет, не имеют.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6802,7 +6801,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лицо, осужденное за совершение преступления небольшой тяжести с момента исполнения приговора",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6816,7 +6815,7 @@ module.exports = [
     ],
     "correctAnswer": "в) одному дню лишения свободы соответствуют три дня исправительных работ",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6830,7 +6829,7 @@ module.exports = [
     ],
     "correctAnswer": "в) отдельно назначается наказание за каждое преступление и окончательно определяется путём полного или частичного сложения наказания.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6844,7 +6843,7 @@ module.exports = [
     ],
     "correctAnswer": "б) может, если лицо совершило преступление небольшой тяжести или менее тяжкое преступление и возместило причиненный ущерб.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6858,7 +6857,7 @@ module.exports = [
     ],
     "correctAnswer": "б) полностью или частично присоединяется неотбытая часть наказания по предыдущему приговору.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6872,7 +6871,7 @@ module.exports = [
     ],
     "correctAnswer": "а) назначается наказание по совокупности приговоров.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6886,7 +6885,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Жогорку Кенеш Кыргызской Республики.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6900,7 +6899,7 @@ module.exports = [
     ],
     "correctAnswer": "в) со дня вступления обвинительного приговора в силу.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6914,7 +6913,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 3-х лет.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6928,7 +6927,7 @@ module.exports = [
     ],
     "correctAnswer": "б) публичное извинение с возмещением ущерба.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6942,7 +6941,7 @@ module.exports = [
     ],
     "correctAnswer": "в) передача под надзор с предупреждением.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6956,7 +6955,7 @@ module.exports = [
     ],
     "correctAnswer": "в) совершившим противоправное деяние в невменяемом состоянии.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6970,7 +6969,7 @@ module.exports = [
     ],
     "correctAnswer": "а) лишение жизни другого человека.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6984,7 +6983,7 @@ module.exports = [
     ],
     "correctAnswer": "в) умышленные действия, нарушающие общественный порядок, сопряженное с насилием либо угрозой его применения.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -6998,7 +6997,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с самоубийства или покушения на него, совершенного в результате действий виновного",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7012,7 +7011,7 @@ module.exports = [
     ],
     "correctAnswer": "б) особо тяжкий, тяжкий, менее тяжкий, легкий.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7026,7 +7025,7 @@ module.exports = [
     ],
     "correctAnswer": "г) тяжкий вред здоровью.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7040,7 +7039,7 @@ module.exports = [
     ],
     "correctAnswer": "б) лицо, содействовавшее совершению преступления советами, указаниями.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7054,7 +7053,7 @@ module.exports = [
     ],
     "correctAnswer": "б) с 16 лет.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7068,7 +7067,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если деяние причинило крупный ущерб.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7082,7 +7081,7 @@ module.exports = [
     ],
     "correctAnswer": "а) тайное хищение чужого имущества.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7096,7 +7095,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 10.000 раз превышающая расчетный показатель.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7110,7 +7109,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента фактического завладения чужим имуществом, и появлением у виновного реальной возможности распорядиться похищенным.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7124,7 +7123,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента движения автомобиля с места, где оно находилось.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7138,7 +7137,7 @@ module.exports = [
     ],
     "correctAnswer": "б) способом завладения чужого имущества.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7152,7 +7151,7 @@ module.exports = [
     ],
     "correctAnswer": "б) нападение с целью завладения чужим имуществом совершенное с насилием, опасным для жизни и здоровья.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7166,7 +7165,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с момента предъявления незаконных требований о передаче чужого имущества под угрозой.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7180,7 +7179,7 @@ module.exports = [
     ],
     "correctAnswer": "г) пяти лет.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7194,7 +7193,7 @@ module.exports = [
     ],
     "correctAnswer": "в) создание юридического лица для прикрытия запрещенной деятельности, сопряженное с извлечением доходов в крупном размере.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7208,7 +7207,7 @@ module.exports = [
     ],
     "correctAnswer": "б) перемещение в значительном размере через таможенную границу Евразийского экономического союза товаров, совершенное с обманным использованием средств таможенной идентификации.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7222,7 +7221,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 50 000 раз превышающая расчетный показатель.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7236,7 +7235,7 @@ module.exports = [
     ],
     "correctAnswer": "г) нарушение ветеринарных правил.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7250,7 +7249,7 @@ module.exports = [
     ],
     "correctAnswer": "в) привлекается к уголовной ответственности, ему назначается наказание в случаях предусмотренных Уголовным Кодексом Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7264,7 +7263,7 @@ module.exports = [
     ],
     "correctAnswer": "а) совершение действий, создающих опасность гибели людей, в целях нарушения общественной безопасности, устрашения населения.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7278,7 +7277,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента совершения действий, создающих опасность наступления общественно опасных последствий.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7292,7 +7291,7 @@ module.exports = [
     ],
     "correctAnswer": "а) от 50 до 1400 расчетных показателей.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7306,7 +7305,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Легализация преступных доходов",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7320,7 +7319,7 @@ module.exports = [
     ],
     "correctAnswer": "г) совершение тяжких или особо тяжких преступлений.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7334,7 +7333,7 @@ module.exports = [
     ],
     "correctAnswer": "а) С 14 лет.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7348,7 +7347,7 @@ module.exports = [
     ],
     "correctAnswer": "б) использование должностным лицом своего служебного положения вопреки интересам службы, причинившее значительный вред.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7362,7 +7361,7 @@ module.exports = [
     ],
     "correctAnswer": "а) представитель власти",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7376,7 +7375,7 @@ module.exports = [
     ],
     "correctAnswer": "в) действия, выходящие за пределы полномочий должностного лица",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7390,7 +7389,7 @@ module.exports = [
     ],
     "correctAnswer": "в) насильственное воспрепятствование деторождению направленное на полное или частичное уничтожение расовых групп",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7404,7 +7403,7 @@ module.exports = [
     ],
     "correctAnswer": "г) к преступлениям против интересов государственной и муниципальной службы.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7418,7 +7417,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 1000 раз.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7432,7 +7431,7 @@ module.exports = [
     ],
     "correctAnswer": "а) получения согласия должностного лица на получение взятки.",
     "correctAnswerIndex": 0,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7446,7 +7445,7 @@ module.exports = [
     ],
     "correctAnswer": "в) требование должностным лицом взятки за выполнение в интересах дающего действия (бездействия), нарушающего его законные права.",
     "correctAnswerIndex": 2,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7460,7 +7459,7 @@ module.exports = [
     ],
     "correctAnswer": "б) от двадцати до ста двадцати часов.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7474,7 +7473,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не подлежит.",
     "correctAnswerIndex": 1,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7488,7 +7487,7 @@ module.exports = [
     ],
     "correctAnswer": "г) заранее не обещанное укрывательство тяжкого преступления.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7502,7 +7501,7 @@ module.exports = [
     ],
     "correctAnswer": "г) к преступлениям против порядка подчинения и соблюдения воинской чести.",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7516,7 +7515,7 @@ module.exports = [
     ],
     "correctAnswer": "г) от двух до шести месяцев",
     "correctAnswerIndex": 3,
-    "category": "VII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7530,7 +7529,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение трех месяцев с момента их выдачи",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7544,7 +7543,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в срок не более шести месяцев",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7558,7 +7557,7 @@ module.exports = [
     ],
     "correctAnswer": "б) истек и не восстановлен судом срок предъявления судебного акта, исполнительного листа, исполнительной надписи нотариуса к исполнению",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7572,7 +7571,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по решению суда",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7586,7 +7585,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судебный исполнитель отказывает в принятии такого исполнительного документа и возвращает его в суд, вынесший приговор",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7600,7 +7599,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судебный исполнитель, представители территориального подразделения уполномоченного органа по защите детей и органов внутренних дел, а также психолог, в случае приглашения его территориальным подразделением уполномоченного органа по защите детей",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7614,7 +7613,7 @@ module.exports = [
     ],
     "correctAnswer": "б) выносит постановление о его розыске",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7628,7 +7627,7 @@ module.exports = [
     ],
     "correctAnswer": "г) пребывания должника в части Вооруженных Сил Кыргызской Республики, участвующей в боевых действиях",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7642,7 +7641,7 @@ module.exports = [
     ],
     "correctAnswer": "б) утверждения судом мирового соглашения между взыскателем и должником",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7656,7 +7655,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если взыскатель отказался оставить за собой имущество должника, не реализованное при исполнении исполнительного документа",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7670,7 +7669,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в срок не более одного месяца",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7684,7 +7683,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в судебном порядке",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7698,7 +7697,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 2 процента",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7712,7 +7711,7 @@ module.exports = [
     ],
     "correctAnswer": "а) три года с момента их вручения",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7726,7 +7725,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Председателем Верховного суда Кыргызской Республики по представлению Главного судебного исполнителя Кыргызской Республики по итогам конкурсного отбора",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7740,7 +7739,7 @@ module.exports = [
     ],
     "correctAnswer": "в) нотариально удостоверенные соглашения о добровольном выселении",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7754,7 +7753,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с 6:00 часов по 22:00 часов",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7768,7 +7767,7 @@ module.exports = [
     ],
     "correctAnswer": "г) при объявлении аукциона несостоявшимся",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7782,7 +7781,7 @@ module.exports = [
     ],
     "correctAnswer": "в) при предъявлении удостоверения, выданной на основании решения комиссий по трудовым спорам и профсоюзных органов",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7796,7 +7795,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в 10 рабочих дней",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7810,7 +7809,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по исполнительному документу о приостановлении деятельности (права)",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7824,7 +7823,7 @@ module.exports = [
     ],
     "correctAnswer": "в) 25%",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7838,7 +7837,7 @@ module.exports = [
     ],
     "correctAnswer": "в) несогласия ребенка, достигшего 7 лет",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7852,7 +7851,7 @@ module.exports = [
     ],
     "correctAnswer": "б) вести фотографирование или видеосъемку детей",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7866,7 +7865,7 @@ module.exports = [
     ],
     "correctAnswer": "в) когда истек срок исковой давности; дебитор находится в иностранном государстве, с которым Кыргызской Республикой не заключен договор о правовой помощи; дебитор находится в процессе ликвидации; дебитор прекратил свою деятельность в качестве юридического лица и исключен из единого государственного реестра юридических лиц; в отношении дебитора введена процедура банкротства",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7880,7 +7879,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судебного акта",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7894,7 +7893,7 @@ module.exports = [
     ],
     "correctAnswer": "б) на 50 процентов",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7908,7 +7907,7 @@ module.exports = [
     ],
     "correctAnswer": "в) возвращает ценные бумаги должнику",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7922,7 +7921,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 3 месяцев",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7936,7 +7935,7 @@ module.exports = [
     ],
     "correctAnswer": "г) актом приема-передачи",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7950,7 +7949,7 @@ module.exports = [
     ],
     "correctAnswer": "в) возвратить имущество должнику",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7964,7 +7963,7 @@ module.exports = [
     ],
     "correctAnswer": "в) актом приема-передачи",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7978,7 +7977,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в соответствии с очередностью поступления исполнительных документов в подразделение судебных исполнителей",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -7992,7 +7991,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судебный исполнитель",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8006,7 +8005,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение трех дней",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8020,7 +8019,7 @@ module.exports = [
     ],
     "correctAnswer": "г) от своего имени",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8034,7 +8033,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее двадцати дней до их проведения",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8048,7 +8047,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не менее 2 процентов",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8062,7 +8061,7 @@ module.exports = [
     ],
     "correctAnswer": "б) протокол о результатах аукциона",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8076,7 +8075,7 @@ module.exports = [
     ],
     "correctAnswer": "г) сумма задатка покупателю не возвращается и поступает на специальный счет по развитию исполнительного производства",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8090,7 +8089,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случае взыскания части долга",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8104,7 +8103,7 @@ module.exports = [
     ],
     "correctAnswer": "в) судебные исполнители, в производстве которых не находилось или не находится данное исполнительное производство",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8118,7 +8117,7 @@ module.exports = [
     ],
     "correctAnswer": "г) участия в аукционе взыскателя",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8132,7 +8131,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение пяти рабочих дней со дня их проведения",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8146,7 +8145,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение десяти дней",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8160,7 +8159,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на десять процентов ниже цены, установленной на повторном аукционе",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8174,7 +8173,7 @@ module.exports = [
     ],
     "correctAnswer": "г) при взыскании суммы, превышающей двухсот расчетных показателей, установленных Правительством Кыргызской Республики, в отсутствии согласия взыскателя",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8188,7 +8187,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в трехдневный срок",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8202,7 +8201,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не более 50 процентов",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8216,7 +8215,7 @@ module.exports = [
     ],
     "correctAnswer": "г) денежные суммы, выплачиваемые организацией в связи с регистрацией брака",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8230,7 +8229,7 @@ module.exports = [
     ],
     "correctAnswer": "в) денежные суммы, выплачиваемые в качестве вознаграждений авторам результатов интеллектуальной деятельности",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8244,7 +8243,7 @@ module.exports = [
     ],
     "correctAnswer": "а) из размера средней заработной платы для данной местности на момент взыскания задолженности",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8258,7 +8257,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в органы внутренних дел",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8272,7 +8271,7 @@ module.exports = [
     ],
     "correctAnswer": "в) до истечения трех месяцев со дня вступления приговора в законную силу",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8286,7 +8285,7 @@ module.exports = [
     ],
     "correctAnswer": "г) внести в суд, вынесший судебный акт, представление о замене штрафа, назначенного в качестве наказания, наказанием в виде лишения свободы. Вместе с представлением в суд возвратить исполнительный лист",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8300,7 +8299,7 @@ module.exports = [
     ],
     "correctAnswer": "б) копию приговора",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8314,7 +8313,7 @@ module.exports = [
     ],
     "correctAnswer": "г) пятой",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8328,7 +8327,7 @@ module.exports = [
     ],
     "correctAnswer": "г) право приостановить исполнительное производство",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8342,7 +8341,7 @@ module.exports = [
     ],
     "correctAnswer": "а) постановление",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8356,7 +8355,7 @@ module.exports = [
     ],
     "correctAnswer": "в) составляет об этом акт, возвращает указанное имущество должнику и прекращает исполнительное производство",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8370,7 +8369,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с участием понятых и при содействии сотрудников органов внутренних дел",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8384,7 +8383,7 @@ module.exports = [
     ],
     "correctAnswer": "г) возвращаются должнику",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8398,7 +8397,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не обязан",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8412,7 +8411,7 @@ module.exports = [
     ],
     "correctAnswer": "в) детском саду",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8426,7 +8425,7 @@ module.exports = [
     ],
     "correctAnswer": "б) во вторую",
     "correctAnswerIndex": 1,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8440,7 +8439,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на срок не более десяти рабочих дней",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8454,7 +8453,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все ответы верны",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8468,7 +8467,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все ответы верны",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8482,7 +8481,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все ответы верны",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8496,7 +8495,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в трехдневный срок",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8510,7 +8509,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если взыскатель отказался оставить за собой имущество должника, не реализованное при исполнении исполнительного документа",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8524,7 +8523,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все ответы верны",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8538,7 +8537,7 @@ module.exports = [
     ],
     "correctAnswer": "в) да, вправе",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8552,7 +8551,7 @@ module.exports = [
     ],
     "correctAnswer": "в) отмены или признания недействительным принятого к производству исполнительного документа",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8566,7 +8565,7 @@ module.exports = [
     ],
     "correctAnswer": "а) принятия судом к производству жалобы на постановление о наложении административного взыскания",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8580,7 +8579,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не более чем на десять дней",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8594,7 +8593,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не позднее трех дней",
     "correctAnswerIndex": 0,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8608,7 +8607,7 @@ module.exports = [
     ],
     "correctAnswer": "г) прекратить исполнительное производство и отменить принятые меры по обеспечению исполнительного производства",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8622,7 +8621,7 @@ module.exports = [
     ],
     "correctAnswer": "в) отмены судебного акта, на основании которого выдан исполнительный лист",
     "correctAnswerIndex": 2,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8636,7 +8635,7 @@ module.exports = [
     ],
     "correctAnswer": "г) пять расчетных показателей",
     "correctAnswerIndex": 3,
-    "category": "VIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8649,7 +8648,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Закон о таможенном регулировании",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8662,7 +8661,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Пункты пропуска через Государственную границу Кыргызской Республики, определяемые Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8675,7 +8674,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Таможенный орган",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8688,7 +8687,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8701,7 +8700,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не подлежат",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8714,7 +8713,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Декларация о происхождении товара",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8727,7 +8726,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Поручительство",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8740,7 +8739,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 5 лет с момента выпуска товаров",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8753,7 +8752,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не требуется",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8766,7 +8765,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Таможенный осмотр",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8779,7 +8778,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Акт",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8792,7 +8791,7 @@ module.exports = [
     ],
     "correctAnswer": "б) физических лиц",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8805,7 +8804,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8818,7 +8817,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Только граждане Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8831,7 +8830,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в таможенный орган, в котором проходит службу должностное лицо, принявшее такое решение или совершившее действие",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8844,7 +8843,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в уполномоченный государственный орган в сфере таможенного дела",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8857,7 +8856,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение трех месяцев",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8870,7 +8869,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Нет",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8883,7 +8882,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если жалоба подана лицом, права, свободы или законные интересы которого обжалуемым решением, действием (бездействием) не были затронуты",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8896,7 +8895,7 @@ module.exports = [
     ],
     "correctAnswer": "б) пяти рабочих дней",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8909,7 +8908,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 14 рабочих дней",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8922,7 +8921,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 30 календарных дней",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8935,7 +8934,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на государственном и официальном языке",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8948,7 +8947,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Таможенный осмотр",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8961,7 +8960,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Физических лиц",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8974,7 +8973,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Предписания на проведение таможенного осмотра помещений, территорий и служебного удостоверения должностного лица таможенного органа",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -8987,7 +8986,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Сборы за принятие предварительного решения",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9000,7 +8999,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Закон о таможенном регулировании",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9013,7 +9012,7 @@ module.exports = [
     ],
     "correctAnswer": "а) когда товары, перемещаемые через таможенную границу, являются скоропортящимися",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9026,7 +9025,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Плательщику направляется уведомление о неуплаченных в установленный срок суммах таможенных платежей",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9039,7 +9038,7 @@ module.exports = [
     ],
     "correctAnswer": "б) подлежат возврату",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9052,7 +9051,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Декларантом",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9065,7 +9064,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Регистрации таможенной декларации",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9078,7 +9077,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Таможенный представитель",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9091,7 +9090,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Таможенным перевозчиком",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9104,7 +9103,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Владелец таможенного склада",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9117,7 +9116,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Открытого или закрытого типа",
     "correctAnswerIndex": 2,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9130,7 +9129,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Совершение владельцем таможенного склада в течение одного года трех и более нарушений в сфере таможенного дела",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9143,7 +9142,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Налог на добавленную стоимость",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9156,7 +9155,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 4 месяца",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9169,7 +9168,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Форма таможенного контроля",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9182,7 +9181,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Акт личного таможенного досмотра",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9195,7 +9194,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в двух экземплярах",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9208,7 +9207,7 @@ module.exports = [
     ],
     "correctAnswer": "а) осуществление деятельности по перевозке грузов в течение не менее двух лет",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9221,7 +9220,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Меры таможенно-тарифного регулирования",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9234,7 +9233,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Таможенная декларация",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9247,7 +9246,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 10 календарных дней",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9260,7 +9259,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Письменная форма",
     "correctAnswerIndex": 1,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9273,7 +9272,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не более чем на четыре месяца",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9286,7 +9285,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 30 календарных дней",
     "correctAnswerIndex": 0,
-    "category": "IX.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9300,7 +9299,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не моложе 35 лет",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9314,7 +9313,7 @@ module.exports = [
     ],
     "correctAnswer": "г) проживание в республике в совокупности не менее 15 лет",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9328,7 +9327,7 @@ module.exports = [
     ],
     "correctAnswer": "г) достигший на день выборов 25 лет",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9342,7 +9341,7 @@ module.exports = [
     ],
     "correctAnswer": "а) вся территория Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9356,7 +9355,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 3 дней",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9370,7 +9369,7 @@ module.exports = [
     ],
     "correctAnswer": "в) немедленно",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9384,7 +9383,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее чем в 5-дневный срок",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9398,7 +9397,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение 3 календарных дней с момента вынесения решения суда",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9422,7 +9421,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на 5-лет",
     "correctAnswerIndex": 10,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9436,7 +9435,7 @@ module.exports = [
     ],
     "correctAnswer": "г) право граждан избирать в органы государственной власти и органы местного самоуправления",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9450,7 +9449,7 @@ module.exports = [
     ],
     "correctAnswer": "б) право граждан избираться в органы государственной власти и органы местного самоуправления",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9464,7 +9463,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 5 календарных дней со дня поступления жалобы в Верховный суд Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9478,7 +9477,7 @@ module.exports = [
     ],
     "correctAnswer": "в) только граждане, включенные в список избирателей",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9491,7 +9490,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Президент Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9505,7 +9504,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 5 лет",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9519,7 +9518,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Региональная избирательная комиссия",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9533,7 +9532,7 @@ module.exports = [
     ],
     "correctAnswer": "г) мэры городов районного значения назначаются акимом",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9547,7 +9546,7 @@ module.exports = [
     ],
     "correctAnswer": "г) территориальной избирательной комиссией",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9561,7 +9560,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по пропорциональной системе",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9575,7 +9574,7 @@ module.exports = [
     ],
     "correctAnswer": "в) айылные и городские кенеши",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9589,7 +9588,7 @@ module.exports = [
     ],
     "correctAnswer": "г) кандидат и политическая партия",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9603,7 +9602,7 @@ module.exports = [
     ],
     "correctAnswer": "г) гражданин Кыргызской Республики, не обладающий активным избирательным правом",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9617,7 +9616,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Президент",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9631,7 +9630,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не менее 30",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9645,7 +9644,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в 2-х недельный срок",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9659,7 +9658,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на территории дипломатических представительств, консульских учреждений",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9673,7 +9672,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Центральной избирательной комиссии Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9687,7 +9686,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Центральной избирательной комиссией",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9701,7 +9700,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по мажоритарной",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9715,7 +9714,7 @@ module.exports = [
     ],
     "correctAnswer": "а) за 30 календарных дней",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9729,7 +9728,7 @@ module.exports = [
     ],
     "correctAnswer": "а) гражданин Кыргызской Республики, достигший возраста 21 года, обладающий активным избирательным правом и постоянно проживающий на территории Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9743,7 +9742,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Акимом",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9757,7 +9756,7 @@ module.exports = [
     ],
     "correctAnswer": "а) политической партией",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9771,7 +9770,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не допускается",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9785,7 +9784,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 12",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9799,7 +9798,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 5 дней",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9813,7 +9812,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Президент",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9827,7 +9826,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не допускается",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9841,7 +9840,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с момента официального опубликования результатов выборов в средствах массовой информации",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9855,7 +9854,7 @@ module.exports = [
     ],
     "correctAnswer": "в) со дня окончания срока регистрации всех кандидатов, списков всех кандидатов",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9869,7 +9868,7 @@ module.exports = [
     ],
     "correctAnswer": "б) за 24 часа до начала голосования",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9882,7 +9881,7 @@ module.exports = [
     ],
     "correctAnswer": "б) изготовление агитационных материалов за пределами Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9896,7 +9895,7 @@ module.exports = [
     ],
     "correctAnswer": "б) благотворительной",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9910,7 +9909,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Центральная избирательная комиссия отменяет решение о регистрации кандидата",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9924,7 +9923,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Руководителями дипломатических представительств и консульских учреждений",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9938,7 +9937,7 @@ module.exports = [
     ],
     "correctAnswer": "б) военное или чрезвычайное положение, введенное на всей территории КР или в отдельных местностях",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9952,7 +9951,7 @@ module.exports = [
     ],
     "correctAnswer": "б) решение, принятое на референдуме, является общеобязательным, не нуждается в дополнительном утверждении и действует на всей территории КР",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9966,7 +9965,7 @@ module.exports = [
     ],
     "correctAnswer": "г) нет, не вправе",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9980,7 +9979,7 @@ module.exports = [
     ],
     "correctAnswer": "г) за счет республиканского бюджета",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -9994,7 +9993,7 @@ module.exports = [
     ],
     "correctAnswer": "г) воспользоваться помощью другого избирателя",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10008,7 +10007,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не позднее 12 календарных дней до дня голосования",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10022,7 +10021,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если избиратели не могут прибыть на избирательный участок, поскольку день голосования у них является рабочим днем.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10036,7 +10035,7 @@ module.exports = [
     ],
     "correctAnswer": "в) протокол об итогах голосования",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10050,7 +10049,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в 1-ую очередь осуществляется подсчет голосов по выборам Президента Кыргызской Республики, затем - депутатов Жогорку Кенеша Кыргызской Республики, затем - депутатов местных кенешей",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10064,7 +10063,7 @@ module.exports = [
     ],
     "correctAnswer": "г) после 20 часов в день проведения выборов",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10078,7 +10077,7 @@ module.exports = [
     ],
     "correctAnswer": "б) вслух, путем перекладывания их по одному из одной пачки в другую",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10092,7 +10091,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если число голосов избирателей, поданных за кандидата, набравшего наибольшее число голосов по отношению к другому кандидату, меньше чем число голосов избирателей, поданных против всех кандидатов",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10106,7 +10105,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в полтора раза",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10120,7 +10119,7 @@ module.exports = [
     ],
     "correctAnswer": "в) при признании итогов голосования на участках недействительными, которые влияют на результаты выборов",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10134,7 +10133,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нарушения, не позволяющие достоверно определить количество голосов, полученных каждым кандидатом, списком кандидатов",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10148,7 +10147,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Жогорку Кенешем Кыргызской Республики в форме закона",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10162,7 +10161,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если в голосовании приняло участие более 30% участников референдума, внесенных в список",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10176,7 +10175,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если за вынесенный вопрос проголосовало более половины участников, принявших участие в голосовании",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10190,7 +10189,7 @@ module.exports = [
     ],
     "correctAnswer": "в) заявление не принимается",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10204,7 +10203,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Жогорку Кенешем",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10218,7 +10217,7 @@ module.exports = [
     ],
     "correctAnswer": "а) суд не отменяет регистрацию кандидата",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10232,7 +10231,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Жогорку Кенешем Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10246,7 +10245,7 @@ module.exports = [
     ],
     "correctAnswer": "в) всенародное голосование граждан Кыргызской Республики по важным вопросам государственного значения",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10259,7 +10258,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не менее 30.000 подписей избирателей",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10273,7 +10272,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Президент Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10287,7 +10286,7 @@ module.exports = [
     ],
     "correctAnswer": "в) проекты конституционных законов, законов и иных нормативных правовых актов",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10301,7 +10300,7 @@ module.exports = [
     ],
     "correctAnswer": "б) во время чрезвычайного или военного положения, введенного на всей территории Кыргызской Республики",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10315,7 +10314,7 @@ module.exports = [
     ],
     "correctAnswer": "г) избирательной комиссией",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10329,7 +10328,7 @@ module.exports = [
     ],
     "correctAnswer": "г) принимать непосредственное участие в подсчете избирательных бюллетеней, проводимом членами избирательной комиссии",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10343,7 +10342,7 @@ module.exports = [
     ],
     "correctAnswer": "б) засчитывается",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10357,7 +10356,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нет",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10371,7 +10370,7 @@ module.exports = [
     ],
     "correctAnswer": "б) со дня, следующего за днем официального опубликования решения о назначении выборов",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10384,7 +10383,7 @@ module.exports = [
     ],
     "correctAnswer": "б) назначаются Президентом",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10398,7 +10397,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее чем в 20-дневный срок",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10412,7 +10411,7 @@ module.exports = [
     ],
     "correctAnswer": "а) путем надрезания правого нижнего угла",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10427,7 +10426,7 @@ module.exports = [
     ],
     "correctAnswer": "Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10441,7 +10440,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не подлежат восстановлению",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10455,7 +10454,7 @@ module.exports = [
     ],
     "correctAnswer": "а) для органов законодательной власти",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10469,7 +10468,7 @@ module.exports = [
     ],
     "correctAnswer": "б) избирательная комиссия",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10483,7 +10482,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не может",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10497,7 +10496,7 @@ module.exports = [
     ],
     "correctAnswer": "г) на 5 лет",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10511,7 +10510,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не требуется",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10525,7 +10524,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 30 округов",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10539,7 +10538,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Центральная избирательная комиссия не позднее 7 календарных дней после назначения дня выборов",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10553,7 +10552,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в десятитысячекратном размере.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10567,7 +10566,7 @@ module.exports = [
     ],
     "correctAnswer": "г) за 75 календарных дней.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10581,7 +10580,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 48 часов.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10595,7 +10594,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 48 часов.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10609,7 +10608,7 @@ module.exports = [
     ],
     "correctAnswer": "в) 5 лет.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10623,7 +10622,7 @@ module.exports = [
     ],
     "correctAnswer": "б) сертификат об уровне владения государственным языком.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10637,7 +10636,7 @@ module.exports = [
     ],
     "correctAnswer": "в) выдавать избирателям избирательные бюллетени.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10651,7 +10650,7 @@ module.exports = [
     ],
     "correctAnswer": "в) выдавать избирателям избирательные бюллетени.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10665,7 +10664,7 @@ module.exports = [
     ],
     "correctAnswer": "а) государственными органами, органами местного самоуправления.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10679,7 +10678,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не позднее 60 календарных дней.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10693,7 +10692,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее чем за 25 календарных дней.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10707,7 +10706,7 @@ module.exports = [
     ],
     "correctAnswer": "в) жеребьевкой.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10721,7 +10720,7 @@ module.exports = [
     ],
     "correctAnswer": "г) жеребьевкой.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10735,7 +10734,7 @@ module.exports = [
     ],
     "correctAnswer": "в) органам внутренних дел.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10749,7 +10748,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 8 до 20 часов.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10763,7 +10762,7 @@ module.exports = [
     ],
     "correctAnswer": "а) за 10 календарных дней.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10777,7 +10776,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в день выборов, в 7 часов утра.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10791,7 +10790,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не допускается.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10805,7 +10804,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Центральную избирательную комиссию.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10819,7 +10818,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Центральной избирательной комиссией.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10833,7 +10832,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Центральной избирательной комиссией.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10847,7 +10846,7 @@ module.exports = [
     ],
     "correctAnswer": "а) за один календарный день до дня голосования в период с 8 до 20 часов.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10861,7 +10860,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее 3 календарных дней",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10875,7 +10874,7 @@ module.exports = [
     ],
     "correctAnswer": "г) органов внутренних дел.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10889,7 +10888,7 @@ module.exports = [
     ],
     "correctAnswer": "а) за 2 дня до голосования.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10903,7 +10902,7 @@ module.exports = [
     ],
     "correctAnswer": "а) за 2 дня до голосования.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10917,7 +10916,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по окончании голосования в помещении для голосования.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10931,7 +10930,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не допускается.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10945,7 +10944,7 @@ module.exports = [
     ],
     "correctAnswer": "г) число наблюдателей в каждом избирательном округе.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10959,7 +10958,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 50 календарных дней.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10973,7 +10972,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по предложению территориальных избирательных комиссий.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -10987,7 +10986,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее 5 календарных дней.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11001,7 +11000,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не более 3000 избирателей",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11015,7 +11014,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 12 календарных дней до дня голосования.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11029,7 +11028,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Центральная избирательная комиссия.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11043,7 +11042,7 @@ module.exports = [
     ],
     "correctAnswer": "в) вправе воздерживаться от голосования на заседании.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11057,7 +11056,7 @@ module.exports = [
     ],
     "correctAnswer": "г) на организацию ежедневного питания.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11071,7 +11070,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не позднее чем через 20 календарных дней.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11085,7 +11084,7 @@ module.exports = [
     ],
     "correctAnswer": "б) за 10 календарных дней до дня голосования",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11099,7 +11098,7 @@ module.exports = [
     ],
     "correctAnswer": "б) за 5 календарных дней до дня голосования.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11113,7 +11112,7 @@ module.exports = [
     ],
     "correctAnswer": "в) более чем на 0,1 процента.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11127,7 +11126,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с 8-00 до 20-00 часов по местному времени.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11141,7 +11140,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее чем за 10 календарных дней.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11155,7 +11154,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не позднее чем за 7 календарных дней.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11169,7 +11168,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если проголосовали все граждане, имеющие право на участие в референдуме, включенные в список.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11183,7 +11182,7 @@ module.exports = [
     ],
     "correctAnswer": "б) участковой избирательной комиссией.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11197,7 +11196,7 @@ module.exports = [
     ],
     "correctAnswer": "в) только в целях совершенствования избирательного законодательства, проведения образовательных, научных программ и повышения правовой культуры избирателей.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11211,7 +11210,7 @@ module.exports = [
     ],
     "correctAnswer": "б) иностранные государства, органы государственной власти и анонимные жертвователи.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11225,7 +11224,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по решению суда средства подлежат перечислению в государственный бюджет или Социальный фонд Кыргызской Республики.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11239,7 +11238,7 @@ module.exports = [
     ],
     "correctAnswer": "а) оно подлежит возврату жертвователю в полном объеме, при этом расходы по возврату несёт сам жертвователь.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11253,7 +11252,7 @@ module.exports = [
     ],
     "correctAnswer": "б) средства не зачисляются в избирательный фонд и возвращаются гражданам и организациям за счёт самих жертвователей.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11267,7 +11266,7 @@ module.exports = [
     ],
     "correctAnswer": "в) разрешение на открытие специального счёта даёт Центральная избирательная комиссия, и счёт может быть только один.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11281,7 +11280,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если избирательный фонд не был создан.",
     "correctAnswerIndex": 1,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11295,7 +11294,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 5 календарных дней.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11309,7 +11308,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нет, они не вправе создавать собственные избирательные фонды.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11323,7 +11322,7 @@ module.exports = [
     ],
     "correctAnswer": "г) еженедельно и по требованию ЦИК в течение 24 часов предоставлять информацию о поступлении и расходовании средств в территориальную избирательную комиссию.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11337,7 +11336,7 @@ module.exports = [
     ],
     "correctAnswer": "а) средства подлежат безотлагательному возврату внесшим их гражданам и организациям, при этом расходы по возврату несут жертвователи.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11349,7 +11348,7 @@ module.exports = [
     ],
     "correctAnswer": "в) кандидат или его уполномоченный представитель, при этом договоры не могут заключаться позднее дня, предшествующего дню голосования.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11363,7 +11362,7 @@ module.exports = [
     ],
     "correctAnswer": "в) только представители средств массовой информации и международные наблюдатели.",
     "correctAnswerIndex": 2,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11377,7 +11376,7 @@ module.exports = [
     ],
     "correctAnswer": "г) они являются предварительной информацией и не имеют юридического значения.",
     "correctAnswerIndex": 3,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11391,7 +11390,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Информация о поступлении и расходовании средств избирательных фондов, финансовые отчёты кандидатов и партий, суммы избирательных взносов и перечисления в государственный бюджет.",
     "correctAnswerIndex": 0,
-    "category": "X.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11405,7 +11404,7 @@ module.exports = [
     ],
     "correctAnswer": "а) допускается по отдельным категориям дел",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11419,7 +11418,7 @@ module.exports = [
     ],
     "correctAnswer": "в) судья лично заинтересован в исходе дела; является родственником стороны по делу; раньше принимал участие в рассмотрении данного дела",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11433,7 +11432,7 @@ module.exports = [
     ],
     "correctAnswer": "в) дела о банкротстве (несостоятельности), споры по оспариванию актов нотариуса, совершенных нотариальных действий или отказа в их совершении",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11447,7 +11446,7 @@ module.exports = [
     ],
     "correctAnswer": "а) любое заинтересованное лицо за защитой своих нарушенных или оспариваемых прав, свобод и охраняемых законом интересов",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11461,7 +11460,7 @@ module.exports = [
     ],
     "correctAnswer": "а) лицо, не достигшее совершеннолетия",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11475,7 +11474,7 @@ module.exports = [
     ],
     "correctAnswer": "а) дело не подсудно данному суду",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11489,7 +11488,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если имеется заключенное между сторонами соглашение о передаче спора на разрешение третейского суда",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11503,7 +11502,7 @@ module.exports = [
     ],
     "correctAnswer": "б) определение о прекращении производства по делу",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11517,7 +11516,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если в производстве суда имеется несколько однородных дел в которых участвуют одни и те же стороны и такое объединение приведет к более быстрому и правильному рассмотрению споров.",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11531,7 +11530,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если по какому-либо требованию, по которому лица, участвующие в деле, представляли доказательства и давали объяснения, не было вынесено решение",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11545,7 +11544,7 @@ module.exports = [
     ],
     "correctAnswer": "в) суд, рассмотревший дело или выдавший исполнительный лист",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11559,7 +11558,7 @@ module.exports = [
     ],
     "correctAnswer": "г) после смерти гражданина, индивидуального предпринимателя, являющегося одной из сторон по делу, спорное правоотношение не допускает правопреемства.",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11573,7 +11572,7 @@ module.exports = [
     ],
     "correctAnswer": "а) направления официального запроса в государственные органы или органы местного самоуправления по толкованию нормативных правовых актов",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11587,7 +11586,7 @@ module.exports = [
     ],
     "correctAnswer": "б) определение суда об отказе в привлечении к участию в деле в качестве третьего лица",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11601,7 +11600,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в производстве этого или другого суда, третейского суда имеется возбужденное ранее дело по спору между теми же сторонами, о том же предмете и по тем же основаниям",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11615,7 +11614,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 5-дневный срок с момента поступления дела в суд.",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11629,7 +11628,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее следующего дня с момента поступления дела в суд",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11643,7 +11642,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в 5-дневный срок с момента обращения в суд",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11657,7 +11656,7 @@ module.exports = [
     ],
     "correctAnswer": "в) если заявление подано без соблюдения требований ст.ст. 134, 135 Гражданского процессуального кодекса Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11671,7 +11670,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее следующего дня после поступления заявления в суд",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11685,7 +11684,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до исполнения решения суда",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11699,7 +11698,7 @@ module.exports = [
     ],
     "correctAnswer": "а) тем же судом по заявлению лиц, участвующих в деле",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11713,7 +11712,7 @@ module.exports = [
     ],
     "correctAnswer": "б) срок не предусмотрен",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11727,7 +11726,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до 3-х месяцев со дня поступления заявления в суд, если не предусмотрено иное",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11741,7 +11740,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до 1-го месяца со дня принятия заявления к производству суда",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11755,7 +11754,7 @@ module.exports = [
     ],
     "correctAnswer": "б) до 2-х месяцев со дня поступления дела в суд",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11769,7 +11768,7 @@ module.exports = [
     ],
     "correctAnswer": "в) о расторжении брака",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11783,7 +11782,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не позднее 5 дней со дня объявления решения",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11797,7 +11796,7 @@ module.exports = [
     ],
     "correctAnswer": "б) решение",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11811,7 +11810,7 @@ module.exports = [
     ],
     "correctAnswer": "в) о прекращении производства по делу",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11825,7 +11824,7 @@ module.exports = [
     ],
     "correctAnswer": "г) определение, вынесенное судом при выявлении нарушения законности",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11839,7 +11838,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение 5 дней со дня подписания протокола",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11853,7 +11852,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 5 дней со дня подачи замечания",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11867,7 +11866,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее 3-х дней со дня вынесения решения",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11881,7 +11880,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в суд, вынесший заочное решение, в течение 5 дней с момента получения ответчиком копии решения",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11895,7 +11894,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 3-дневный срок со дня поступления заявления в суд",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11909,7 +11908,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если от должника поступит возражение",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11923,7 +11922,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в 10-дневный срок со дня получения должником копии приказа",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11937,7 +11936,7 @@ module.exports = [
     ],
     "correctAnswer": "б) об установлении юридических фактов; об усыновлении (удочерении) ребенка; об установлении опеки",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11951,7 +11950,7 @@ module.exports = [
     ],
     "correctAnswer": "б) своим новым решением отменяет свое ранее вынесенное решение",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11965,7 +11964,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение пяти дней с момента возбуждения дела",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11979,7 +11978,7 @@ module.exports = [
     ],
     "correctAnswer": "а) тем же судьей",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -11993,7 +11992,7 @@ module.exports = [
     ],
     "correctAnswer": "г) на лицах, участвующих в деле",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12007,7 +12006,7 @@ module.exports = [
     ],
     "correctAnswer": "а) обстоятельства дела, которые по закону должны быть подтверждены определенными средствами доказывания, не могут подтверждаться никакими другими средствами доказывания",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12021,7 +12020,7 @@ module.exports = [
     ],
     "correctAnswer": "а) истец и его представитель",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12035,7 +12034,7 @@ module.exports = [
     ],
     "correctAnswer": "а) из вводной, описательной, мотивировочной и резолютивной",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12049,7 +12048,7 @@ module.exports = [
     ],
     "correctAnswer": "а) всеми процессуальными правами истца",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12063,7 +12062,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в тридцатидневный срок со дня их поступления в суд",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12077,7 +12076,7 @@ module.exports = [
     ],
     "correctAnswer": "в) да, вправе",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12091,7 +12090,7 @@ module.exports = [
     ],
     "correctAnswer": "в) может, в случае признания судом уважительными причины пропуска установленного законом срока, если законом не установлено иное",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12105,7 +12104,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не позднее двух месяцев",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12119,7 +12118,7 @@ module.exports = [
     ],
     "correctAnswer": "а) смерти гражданина, являвшегося стороной в деле, если спорное правоотношение допускает правопреемство",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12133,7 +12132,7 @@ module.exports = [
     ],
     "correctAnswer": "г) вправе",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12147,7 +12146,7 @@ module.exports = [
     ],
     "correctAnswer": "а) вправе",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12161,7 +12160,7 @@ module.exports = [
     ],
     "correctAnswer": "а) с момента их вынесения",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12175,7 +12174,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение 10 дней после его вынесения",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12189,7 +12188,7 @@ module.exports = [
     ],
     "correctAnswer": "а) заявление от имени заинтересованного лица подписано или подано лицом, не имеющим полномочий на его подписание или предъявление иска",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12203,7 +12202,7 @@ module.exports = [
     ],
     "correctAnswer": "б) постановление, определение",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12217,7 +12216,7 @@ module.exports = [
     ],
     "correctAnswer": "а) судебные акты по делам о банкротстве в отношении должника, где была применена процедура специального администрирования, в результате чего должник был ликвидирован и исключен из государственного реестра юридических лиц",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12231,7 +12230,7 @@ module.exports = [
     ],
     "correctAnswer": "а) судом, принявшим эти акты по существу дела",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12245,7 +12244,7 @@ module.exports = [
     ],
     "correctAnswer": "г) судом первой инстанции",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12259,7 +12258,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 3-х лет со дня вступления судебного акта либо акта иного органа в законную силу или со следующего дня после дня принятия судебного акта",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12273,7 +12272,7 @@ module.exports = [
     ],
     "correctAnswer": "б) истец, ответчик, третьи лица",
     "correctAnswerIndex": 1,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12287,7 +12286,7 @@ module.exports = [
     ],
     "correctAnswer": "а) когда заявление не подлежит рассмотрению и разрешению в порядке гражданского судопроизводства",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12301,7 +12300,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если встречное требование направлено к зачету первоначального требования",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12315,7 +12314,7 @@ module.exports = [
     ],
     "correctAnswer": "а) районным или приравненным к нему судом",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12329,7 +12328,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 3-х лет с момента принятия решения",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12343,7 +12342,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если одна из сторон представит суду доказательства о недееспособности одной из сторон при заключении соглашения о передаче дела в третейский суд",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12357,7 +12356,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не может",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12371,7 +12370,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да, по соглашению сторон до принятия решения в суде первой инстанции",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12385,7 +12384,7 @@ module.exports = [
     ],
     "correctAnswer": "г) районным судом, на территории которого находится суд аксакалов",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12399,7 +12398,7 @@ module.exports = [
     ],
     "correctAnswer": "а) замена в случае выбытия стороны спорного или установленного решением правоотношения",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12413,7 +12412,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в 30-дневный срок со дня его поступления в суд",
     "correctAnswerIndex": 3,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12427,7 +12426,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в срок, не превышающий 3-х лет со дня вступления решения в законную силу",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12441,7 +12440,7 @@ module.exports = [
     ],
     "correctAnswer": "а) органы и лица, выступающие в гражданском процессе на началах равенства прав и состязательности",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12455,7 +12454,7 @@ module.exports = [
     ],
     "correctAnswer": "в) представлять доказательства",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12469,7 +12468,7 @@ module.exports = [
     ],
     "correctAnswer": "а) наравне с гражданами и юридическими лицами Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12483,7 +12482,7 @@ module.exports = [
     ],
     "correctAnswer": "в) для разъяснения возникающих при рассмотрении дела вопросов, требующих специальных познаний",
     "correctAnswerIndex": 2,
-    "category": "XI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12497,7 +12496,7 @@ module.exports = [
     ],
     "correctAnswer": "а) к спорам, возникающим из гражданских, семейных и трудовых правоотношений",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12511,7 +12510,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если спор затрагивает интересы лиц, не участвующих в медиации",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12525,7 +12524,7 @@ module.exports = [
     ],
     "correctAnswer": "в) медиативное соглашение",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12539,7 +12538,7 @@ module.exports = [
     ],
     "correctAnswer": "б) достижение сторонами взаимоприемлемого соглашения",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12553,7 +12552,7 @@ module.exports = [
     ],
     "correctAnswer": "в) для разъяснения сущности процедуры медиации",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12567,7 +12566,7 @@ module.exports = [
     ],
     "correctAnswer": "а) сотрудничества и равноправия сторон",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12581,7 +12580,7 @@ module.exports = [
     ],
     "correctAnswer": "а) медиативного соглашения",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12595,7 +12594,7 @@ module.exports = [
     ],
     "correctAnswer": "а) гражданство Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12609,7 +12608,7 @@ module.exports = [
     ],
     "correctAnswer": "б) запрет на допрос медиатора в качестве свидетеля о сведениях, ставших ему известными в ходе медиации",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12623,7 +12622,7 @@ module.exports = [
     ],
     "correctAnswer": "г) тридцать календарных дней.",
     "correctAnswerIndex": 3,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12637,7 +12636,7 @@ module.exports = [
     ],
     "correctAnswer": "а) медиация может быть проведена на любом этапе судебного разбирательства до начала исполнительного производства",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12651,7 +12650,7 @@ module.exports = [
     ],
     "correctAnswer": "а) для сторон медиации",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12665,7 +12664,7 @@ module.exports = [
     ],
     "correctAnswer": "а) медиативное соглашение выполняет роль мирового соглашения по спорам, находящимся в производстве суда",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12679,7 +12678,7 @@ module.exports = [
     ],
     "correctAnswer": "б) производство по делу приостанавливается",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12693,7 +12692,7 @@ module.exports = [
     ],
     "correctAnswer": "в) возвращается половина суммы государственной пошлины",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12707,7 +12706,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нормативными правовыми актами КР, нормами морали и нравственности, исторически сложившимися из традиций и обычаев народа Кыргызстана, не противоречащих законодательству Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12721,7 +12720,7 @@ module.exports = [
     ],
     "correctAnswer": "б) на государственном и/или на официальном языках",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12735,7 +12734,7 @@ module.exports = [
     ],
     "correctAnswer": "а) по спорам, возникающим из семейных правоотношений граждан, не являющимся преступлениями и правонарушениями",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12749,7 +12748,7 @@ module.exports = [
     ],
     "correctAnswer": "а) согласие сторон",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12763,7 +12762,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в форме решения",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12777,7 +12776,7 @@ module.exports = [
     ],
     "correctAnswer": "в) обязать возместить причиненный ущерб",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12791,7 +12790,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в районном или городском суде, на территории которого образован суд аксакалов.",
     "correctAnswerIndex": 3,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12805,7 +12804,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 10 дней со дня вынесения решения",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12819,7 +12818,7 @@ module.exports = [
     ],
     "correctAnswer": "в) лицом, в отношении которого вынесено решение, или другими заинтересованными лицами, участвующими в деле",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12833,7 +12832,7 @@ module.exports = [
     ],
     "correctAnswer": "б) посредством выдачи судом исполнительного листа на принудительное исполнение решения суда аксакалов",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12847,7 +12846,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение месяца со дня окончания срока исполнения решения",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12861,7 +12860,7 @@ module.exports = [
     ],
     "correctAnswer": "а) о возврате заявления",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12875,7 +12874,7 @@ module.exports = [
     ],
     "correctAnswer": "б) сторона, в пользу которой вынесено решение",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12889,7 +12888,7 @@ module.exports = [
     ],
     "correctAnswer": "б) соответствие решения суда аксакалов действующему законодательству, обычаям и традициям народа Кыргызстана",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12903,7 +12902,7 @@ module.exports = [
     ],
     "correctAnswer": "а) медиация",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12917,7 +12916,7 @@ module.exports = [
     ],
     "correctAnswer": "б) регламент третейского суда",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12931,7 +12930,7 @@ module.exports = [
     ],
     "correctAnswer": "г) граждане, организации, органы государственной власти и местного самоуправления.",
     "correctAnswerIndex": 3,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12945,7 +12944,7 @@ module.exports = [
     ],
     "correctAnswer": "а) соглашением сторон, а в части, не урегулированной соглашением сторон Законом КР «О третейских судах в Кыргызской Республике»",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12959,7 +12958,7 @@ module.exports = [
     ],
     "correctAnswer": "в) при наличии соглашения сторон о передаче спора данному третейскому суду или в силу закона",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12973,7 +12972,7 @@ module.exports = [
     ],
     "correctAnswer": "б) письменной",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -12987,7 +12986,7 @@ module.exports = [
     ],
     "correctAnswer": "а) наименование третейского суда",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13001,7 +13000,7 @@ module.exports = [
     ],
     "correctAnswer": "а) третейский суд обязан по заявлению стороны третейского разбирательства провести повторное третейское разбирательство",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13015,7 +13014,7 @@ module.exports = [
     ],
     "correctAnswer": "б) третейского суда",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13029,7 +13028,7 @@ module.exports = [
     ],
     "correctAnswer": "а) до начала рассмотрения спора по существу",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13043,7 +13042,7 @@ module.exports = [
     ],
     "correctAnswer": "б) право сторон заявлять возражения против несоблюдения закона или третейского соглашения в установленные сроки, с риском утраты такого права в будущем",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13057,7 +13056,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не вправе, поскольку третейский суд вправе распорядиться о принятии какой-либо стороной мер по обеспечению иска в отношении предмета спора",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13071,7 +13070,7 @@ module.exports = [
     ],
     "correctAnswer": "б) третейский суд самостоятельно решает вопросы о наличии или действительности третейского соглашения и своей компетенции по рассмотрению спора",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13085,7 +13084,7 @@ module.exports = [
     ],
     "correctAnswer": "г) решение третейского суда обжалованию не подлежит.",
     "correctAnswerIndex": 3,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13099,7 +13098,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если заявленные в ходе третейского разбирательства требования, не были отражены в решении третейского суда.",
     "correctAnswerIndex": 3,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13113,7 +13112,7 @@ module.exports = [
     ],
     "correctAnswer": "б) посредством выдачи судом исполнительного листа на принудительное исполнение решения третейского суда",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13127,7 +13126,7 @@ module.exports = [
     ],
     "correctAnswer": "в) сторона третейского разбирательства, в пользу которой вынесено решение",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13141,7 +13140,7 @@ module.exports = [
     ],
     "correctAnswer": "в) компетентный суд",
     "correctAnswerIndex": 2,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13155,7 +13154,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если одна из сторон не была должным образом уведомлена о назначении арбитра или третейском разбирательстве",
     "correctAnswerIndex": 1,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13169,7 +13168,7 @@ module.exports = [
     ],
     "correctAnswer": "а) о возмещении вреда, причиненного жизни или здоровью гражданина",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13183,7 +13182,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в течение трех лет с момента принятия решения",
     "correctAnswerIndex": 0,
-    "category": "XII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13197,7 +13196,7 @@ module.exports = [
     ],
     "correctAnswer": "б) во Всеобщей декларации прав человека",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13211,7 +13210,7 @@ module.exports = [
     ],
     "correctAnswer": "а) 1975 год",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13225,7 +13224,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в Конвенции о ликвидации всех форм дискриминации в отношении женщин",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13239,7 +13238,7 @@ module.exports = [
     ],
     "correctAnswer": "в) ООН-женщины",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13253,7 +13252,7 @@ module.exports = [
     ],
     "correctAnswer": "г) 25 ноября",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13267,7 +13266,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Комитет ООН по ликвидации дискриминации в отношении женщин",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13281,7 +13280,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Семейный кодекс Кыргызской Республики",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13295,7 +13294,7 @@ module.exports = [
     ],
     "correctAnswer": "г) уголовная ответственность и ответственность за правонарушение",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13309,7 +13308,7 @@ module.exports = [
     ],
     "correctAnswer": "б) менее тяжкое преступление",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13323,7 +13322,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Умышленные действия одного члена семьи/приравненного к нему лица в отношении другого члена семьи/приравненного к нему лица, причиняющие ему физические или психические страдания, либо наносящие вред физическому или психическому развитию, повлекшие менее тяжкий вред здоровью.",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13337,7 +13336,7 @@ module.exports = [
     ],
     "correctAnswer": "г) общественные работы или лишение свободы.",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13351,7 +13350,7 @@ module.exports = [
     ],
     "correctAnswer": "г) физическое вменяемое лицо, достигшее 16 лет, являющееся членом семьи",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13365,7 +13364,7 @@ module.exports = [
     ],
     "correctAnswer": "в) член семьи или приравненное к нему лицо",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13379,7 +13378,7 @@ module.exports = [
     ],
     "correctAnswer": "а) прямой умысел",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13393,7 +13392,7 @@ module.exports = [
     ],
     "correctAnswer": "б) действия, причиняющие физические или психические страдания, либо наносящие вред физическому или психическому развитию, повлекшие менее тяжкий вред здоровью",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13407,7 +13406,7 @@ module.exports = [
     ],
     "correctAnswer": "б) материальным составом",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13421,7 +13420,7 @@ module.exports = [
     ],
     "correctAnswer": "б) умышленное применение физического, психологического, экономического насилия или угроза физическим насилием, а также пренебрежительное отношение, совершенные одним членом семьи/приравненным к нему лицом в отношении другого члена семьи/приравненного к нему лица",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13435,7 +13434,7 @@ module.exports = [
     ],
     "correctAnswer": "г) физическое вменяемое лицо, достигшее 16 лет, являющийся членом семьи или приравненное к нему лицо.",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13449,7 +13448,7 @@ module.exports = [
     ],
     "correctAnswer": "б) документ, предоставляющий государственную защиту пострадавшему от семейного насилия и влекущий применение определенных мер воздействия к лицу, совершившему семейное насилие",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13463,7 +13462,7 @@ module.exports = [
     ],
     "correctAnswer": "а) на тридцать дней",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13477,7 +13476,7 @@ module.exports = [
     ],
     "correctAnswer": "в) лицу, пострадавшему от семейного насилия, и лицу, совершившему семейное насилие",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13491,7 +13490,7 @@ module.exports = [
     ],
     "correctAnswer": "б) запрет на прямые и косвенные контакты с лицом, пострадавшим от семейного насилия, а также с ребенком/детьми лица, совершившего семейное насилие, или ребенком/детьми лица, пострадавшего от семейного насилия; запрет находиться в месте совместного проживания (пребывания) с лицом, пострадавшим от семейного насилия; запрет лично и через третьих лиц разыскивать лицо, пострадавшее от семейного насилия, если оно находиться в месте, неизвестном лицу, совершившему семейное насилие, преследовать его; обязанность лица, совершившего семейное насилие, пройти коррекционную программу по изменению насильственного поведения",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13505,7 +13504,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в Кодексе Кыргызской Республики о правонарушениях",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13519,7 +13518,7 @@ module.exports = [
     ],
     "correctAnswer": "г) любые требования, предусмотренные гражданским и семейным законодательством, для защиты прав и интересов",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13533,7 +13532,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все вышеперечисленные права",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13547,7 +13546,7 @@ module.exports = [
     ],
     "correctAnswer": "б) любое различие, исключение или предпочтение, ограничивающие права и интересы лиц по признаку пола, направлено на ослабление или лишение признания, пользования или осуществления равноправия мужчин и женщин в политической, экономической, социальной, культурной, гражданской или любых других областях общественной жизни",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13561,7 +13560,7 @@ module.exports = [
     ],
     "correctAnswer": "г) все вышеуказанное",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13575,7 +13574,7 @@ module.exports = [
     ],
     "correctAnswer": "а) воспроизводство гендерных стереотипов через средства массовой информации, образование, культуру",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13589,7 +13588,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на членах семьи разного пола",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13603,7 +13602,7 @@ module.exports = [
     ],
     "correctAnswer": "в) наличие в составе какой-либо организации лиц разного пола в установленной пропорции",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13617,7 +13616,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не более 70 процентов лиц одного пола",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13631,7 +13630,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не более 70 процентов лиц одного пола",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13645,7 +13644,7 @@ module.exports = [
     ],
     "correctAnswer": "г) всеми вышеуказанными",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13659,7 +13658,7 @@ module.exports = [
     ],
     "correctAnswer": "г) обучение навыкам уважительного отношения к сотрудникам по профессии",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13673,7 +13672,7 @@ module.exports = [
     ],
     "correctAnswer": "в) действия сексуального характера, выраженные словесно или физически, унижающие и оскорбляющие лицо, находящееся в трудовой, служебной, материальной, семейной и иной зависимости",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13687,7 +13686,7 @@ module.exports = [
     ],
     "correctAnswer": "а) прохождение коррекционной программы по изменению насильственного поведения",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13701,7 +13700,7 @@ module.exports = [
     ],
     "correctAnswer": "б) понуждение лица к половому сношению, мужеложству, лесбиянству или совершению иных действий сексуального характера путем шантажа либо использования материальной или иной зависимости потерпевшего (потерпевшей)",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13715,7 +13714,7 @@ module.exports = [
     ],
     "correctAnswer": "в) уголовная ответственность",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13729,7 +13728,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Кабинет Министров",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13743,7 +13742,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Суд",
     "correctAnswerIndex": 2,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13757,7 +13756,7 @@ module.exports = [
     ],
     "correctAnswer": "а) государственными органами, органами местного самоуправления и гражданским обществом",
     "correctAnswerIndex": 0,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13771,7 +13770,7 @@ module.exports = [
     ],
     "correctAnswer": "г) активное или пассивное поведение, которое проявляется в виде унижения, презрения, а также ограничения прав или оказания привилегий в связи с половой принадлежностью лица.",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13785,7 +13784,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Жогорку Кенеш",
     "correctAnswerIndex": 1,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13799,7 +13798,7 @@ module.exports = [
     ],
     "correctAnswer": "г) особо тяжкое преступление",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13813,7 +13812,7 @@ module.exports = [
     ],
     "correctAnswer": "г) прекращение уголовного дела по изнасилованию ребенка не допускается",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13827,7 +13826,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не применяется",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13841,7 +13840,7 @@ module.exports = [
     ],
     "correctAnswer": "г) особо тяжкое преступление",
     "correctAnswerIndex": 3,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13856,7 +13855,7 @@ module.exports = [
     ],
     "correctAnswer": "Кыргызской Республики",
     "correctAnswerIndex": 4,
-    "category": "XIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13870,7 +13869,7 @@ module.exports = [
     ],
     "correctAnswer": "а) административно-правовые (публично-правовые) отношения",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13884,7 +13883,7 @@ module.exports = [
     ],
     "correctAnswer": "в) административный истец, административный ответчик",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13898,7 +13897,7 @@ module.exports = [
     ],
     "correctAnswer": "б) принцип объективного расследования",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13912,7 +13911,7 @@ module.exports = [
     ],
     "correctAnswer": "в) о признании незаконным действия нотариуса, выраженные в отказе выдать свидетельство о праве на наследство",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13926,7 +13925,7 @@ module.exports = [
     ],
     "correctAnswer": "в) о признании недействительным постановлений органов местного самоуправления",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13940,7 +13939,7 @@ module.exports = [
     ],
     "correctAnswer": "в) да",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13954,7 +13953,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если он воспользовался административной процедурой в качестве заявителя.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13968,7 +13967,7 @@ module.exports = [
     ],
     "correctAnswer": "а) эксперт, специалист, переводчик и свидетель",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13982,7 +13981,7 @@ module.exports = [
     ],
     "correctAnswer": "а) органы, действующие в пределах полномочий, предоставленных им законом, учредительными документами, либо их представители",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -13996,7 +13995,7 @@ module.exports = [
     ],
     "correctAnswer": "б) нет, не может, лишь с согласия истца",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14010,7 +14009,7 @@ module.exports = [
     ],
     "correctAnswer": "в) административный ответчик, административный истец участвует в собирании доказательств, суд",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14024,7 +14023,7 @@ module.exports = [
     ],
     "correctAnswer": "а) истец ходатайствует о рассмотрении дела в порядке упрощенного (письменного) процесса, и другие участники процесса не возражают",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14038,7 +14037,7 @@ module.exports = [
     ],
     "correctAnswer": "б) на стадии подготовки дела к судебному разбирательству",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14052,7 +14051,7 @@ module.exports = [
     ],
     "correctAnswer": "г) да.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14066,7 +14065,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нет, если это необходимо для правильного разрешения спора",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14080,7 +14079,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 3 месяца",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14094,7 +14093,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14108,7 +14107,7 @@ module.exports = [
     ],
     "correctAnswer": "в) нет",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14122,7 +14121,7 @@ module.exports = [
     ],
     "correctAnswer": "г) право.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14136,7 +14135,7 @@ module.exports = [
     ],
     "correctAnswer": "в) да",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14150,7 +14149,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по инициативе самого третьего лица, по ходатайству участников процесса, по инициативе суда.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14164,7 +14163,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нет",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14178,7 +14177,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение тридцати дней после оглашения судом определения",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14192,7 +14191,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Со дня получения заявителем копии акта либо со дня, когда он узнал о его вынесении",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14206,7 +14205,7 @@ module.exports = [
     ],
     "correctAnswer": "б) выдается по решениям, обязывающим ответчика принять административный акт или совершить определенные действия, а также в иных случаях",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14220,7 +14219,7 @@ module.exports = [
     ],
     "correctAnswer": "в) нет",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14234,7 +14233,7 @@ module.exports = [
     ],
     "correctAnswer": "б) административный ответчик может признать иск полностью или в части на любой стадии административного судопроизводства",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14248,7 +14247,7 @@ module.exports = [
     ],
     "correctAnswer": "а) принятие иска, подготовка дела к судебному разбирательству и разбирательство дела по существу",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14262,7 +14261,7 @@ module.exports = [
     ],
     "correctAnswer": "б) с согласия сторон судья вправе приступить к судебному разбирательству по делу непосредственно после предварительного судебного заседания",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14276,7 +14275,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Разъяснение порядка и сроков обжалования решения суда. Объявление участникам процесса срока подготовки мотивированного решения суда. Разъяснение участникам процесса права на ознакомление с протоколом и внесение в него замечаний",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14290,7 +14289,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Мотивированное решение составляется не позднее пяти дней со дня окончания судебного разбирательства",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14304,7 +14303,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Кыргызпатент",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14318,7 +14317,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Адвокатура КР.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14332,7 +14331,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Решения, действия или бездействие органов государственной власти, органов местного самоуправления, должностных лиц, государственных и муниципальных служащих.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14346,7 +14345,7 @@ module.exports = [
     ],
     "correctAnswer": "в) административный суд",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14360,7 +14359,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 3 месяца",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14374,7 +14373,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Любое лицо, чьи права и свободы нарушены решением, действием или бездействием государственного органа, должностного лица либо иного органа, осуществляющего публичные функции.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14388,7 +14387,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Решение или определение административного суда первой инстанции",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14402,7 +14401,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Государственный орган, орган местного самоуправления или должностное лицо, осуществляющее публичные функции",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14416,7 +14415,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Приостановление действия обжалуемого решения до рассмотрения дела по существу",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14430,7 +14429,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Решения, вступившие в законную силу и нарушающие материальное или процессуальное право",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14444,7 +14443,7 @@ module.exports = [
     ],
     "correctAnswer": "в) путем направления копии определения о времени и месте судебного заседания по почте заказным письмом с уведомлением о вручении адресату, распиской, телефонограммой, телеграммой, по факсимильной связи или электронной почте либо с использованием иных средств связи",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14458,7 +14457,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да, если непринятие обеспечительных мер может затруднить или сделать невозможным исполнение решения суда или если очевидны признаки противоправности административного акта, действия (бездействия) административного органа",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14472,7 +14471,7 @@ module.exports = [
     ],
     "correctAnswer": "г) да, предусмотрен.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14486,7 +14485,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да, решения участковых и территориальных избирательных комиссий обжалуются в суде только после рассмотрения соответствующих жалоб вышестоящими избирательными комиссиями",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14500,7 +14499,7 @@ module.exports = [
     ],
     "correctAnswer": "в) заявление в суд подается незамедлительно, с момента, когда заявителю стало известно о нарушении его избирательных прав, принятии решений, совершении действий (бездействии), но не позднее трех календарных дней",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14514,7 +14513,7 @@ module.exports = [
     ],
     "correctAnswer": "б) нет, вступившее в законную силу решение суда может быть обжаловано в кассационном порядке в течение трех календарных дней с момента вынесения решения",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14528,7 +14527,7 @@ module.exports = [
     ],
     "correctAnswer": "в) сроки подачи жалоб восстановлению не подлежат",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14542,7 +14541,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в трехдневный срок с момента поступления",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14556,7 +14555,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если был нарушен порядок привлечения судьи к дисциплинарной ответственности",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14570,7 +14569,7 @@ module.exports = [
     ],
     "correctAnswer": "б) решения по выборным делам, решения о признании недействительным решения Дисциплинарной комиссии о досрочном освобождении судьи от занимаемой должности",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14584,7 +14583,7 @@ module.exports = [
     ],
     "correctAnswer": "а) заявление подается в суд по месту жительства заявителя",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14598,7 +14597,7 @@ module.exports = [
     ],
     "correctAnswer": "а) заявление подается в районный суд по месту нахождения нотариуса или должностного лица, уполномоченных на совершение нотариального действия",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14612,7 +14611,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в порядке искового производства по гражданским делам",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14626,7 +14625,7 @@ module.exports = [
     ],
     "correctAnswer": "г) не разрешается.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14640,7 +14639,7 @@ module.exports = [
     ],
     "correctAnswer": "г) определением судьи апелляционной инстанции жалоба возвращается в пятидневный срок с момента ее поступления в суд.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14654,7 +14653,7 @@ module.exports = [
     ],
     "correctAnswer": "г) обязан проверить.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14668,7 +14667,7 @@ module.exports = [
     ],
     "correctAnswer": "г) на усмотрение суда апелляционной инстанции.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14682,7 +14681,7 @@ module.exports = [
     ],
     "correctAnswer": "г) да, по заявлению лиц, участвующих в деле.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14696,7 +14695,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в тридцатидневный срок со дня оглашения решения",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14710,7 +14709,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение трех месяцев со дня вынесения судебного акта апелляционной инстанции, если иное не предусмотрено законом",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14724,7 +14723,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в месячный срок.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14738,7 +14737,7 @@ module.exports = [
     ],
     "correctAnswer": "в) может быть восстановлен судом кассационной инстанции",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14752,7 +14751,7 @@ module.exports = [
     ],
     "correctAnswer": "г) да.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14766,7 +14765,7 @@ module.exports = [
     ],
     "correctAnswer": "в) является правом суда",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14780,7 +14779,7 @@ module.exports = [
     ],
     "correctAnswer": "б) дату ознакомления с мотивированным судебным актом",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14794,7 +14793,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не обязан мотивировать свое решение",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14808,7 +14807,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14822,7 +14821,7 @@ module.exports = [
     ],
     "correctAnswer": "в) да",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14836,7 +14835,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нет, Верховный суд Кыргызской Республики, не возвращая дело, направляет копии жалобы (представления) и приложенных к ней документов участникам процесса вместе с извещением",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14851,7 +14850,7 @@ module.exports = [
     ],
     "correctAnswer": "Закон КР «Об основах административной деятельности и административных процедурах»:",
     "correctAnswerIndex": 4,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14865,7 +14864,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на отношения, связанные с публично-правовой сферой",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14879,7 +14878,7 @@ module.exports = [
     ],
     "correctAnswer": "в) специально созданные органы, наделенные законом полномочиями постоянно или временно осуществлять административные процедуры",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14893,7 +14892,7 @@ module.exports = [
     ],
     "correctAnswer": "а) возбуждения, рассмотрения и завершения процедуры",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14907,7 +14906,7 @@ module.exports = [
     ],
     "correctAnswer": "в) заявитель, заинтересованные лица, административный орган, должностное лицо административного органа",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14921,7 +14920,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да",
     "correctAnswerIndex": 0,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14935,7 +14934,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если имеется требование закона о принятии административного акта или в случае наличия дискреционного полномочия, возложенного законом на административный орган",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14949,7 +14948,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в устной форме, письменной форме, в виде световых, звуковых сигналов и знаков, изображения и в иных формах, предусмотренных законодательством",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14963,7 +14962,7 @@ module.exports = [
     ],
     "correctAnswer": "в) информирующие",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14977,7 +14976,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Законом установлен досудебный порядок урегулирования спора, за исключением актов, отмена которых может повлечь изъятие имущества помимо воли собственника.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -14991,7 +14990,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Административные правоотношения, возникающие в сфере публичной власти и государственного управления.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15005,7 +15004,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Подача жалобы или административного иска",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15019,7 +15018,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Административный орган в пределах своих полномочий должен обеспечить эффективное использование средств и ресурсов для принятия решения в возможно короткий срок",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15033,7 +15032,7 @@ module.exports = [
     ],
     "correctAnswer": "в) В административный орган, принявший обжалуемый акт, или в вышестоящий административный орган",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15047,7 +15046,7 @@ module.exports = [
     ],
     "correctAnswer": "б) В вышестоящий административный орган или вышестоящему должностному лицу",
     "correctAnswerIndex": 1,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15061,7 +15060,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Действие или бездействие административного органа обжалуется в судебном порядке",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15075,7 +15074,7 @@ module.exports = [
     ],
     "correctAnswer": "г) Жалоба подлежит рассмотрению в вышестоящем административном органе, а процедура рассмотрения жалобы в органе, который принял акт, прекращается.",
     "correctAnswerIndex": 3,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15089,7 +15088,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Да, досудебный порядок является обязательным (за исключением случаев, установленных законом)",
     "correctAnswerIndex": 2,
-    "category": "XIV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15103,7 +15102,7 @@ module.exports = [
     ],
     "correctAnswer": "в) основанным на административном или ином властном подчинении одной стороны другой",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15117,7 +15116,7 @@ module.exports = [
     ],
     "correctAnswer": "в) когда это прямо указано в законе",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15131,7 +15130,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случаях, предусмотренных законом",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15145,7 +15144,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случаях намеренного причиненного вреда и ограничения конкуренций, суд может отказать лицу в защите принадлежащего ему права",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15159,7 +15158,7 @@ module.exports = [
     ],
     "correctAnswer": "г) расходы, которые лицо произвело или должно будет произвести для восстановления нарушенного права, утрата или повреждение его имущества (реальный ущерб), а также неполученные доходы, которые это лицо получило бы (упущенная выгода).",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15173,7 +15172,7 @@ module.exports = [
     ],
     "correctAnswer": "в) уступка прав требования кредитором другому лицу",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15187,7 +15186,7 @@ module.exports = [
     ],
     "correctAnswer": "г) судом.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15201,7 +15200,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случае смерти",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15215,7 +15214,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в случаях и в порядке, предусмотренных законодательством.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15229,7 +15228,7 @@ module.exports = [
     ],
     "correctAnswer": "мелкие бытовые сделки, сделки, направленные на безвозмездное получение выгод, не требующие нотариального удостоверения или оформления либо государственной регистрации",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15243,7 +15242,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в случаях когда патологическое влечение к азартным играм, злоупотребление спиртными напитками, сильнодействующими веществами, наркотическими средствами, психотропными веществами",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15257,7 +15256,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в течение месяца",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15271,7 +15270,7 @@ module.exports = [
     ],
     "correctAnswer": "г) по возможности.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15285,7 +15284,7 @@ module.exports = [
     ],
     "correctAnswer": "а) попечительство",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15299,7 +15298,7 @@ module.exports = [
     ],
     "correctAnswer": "в) товарораспорядительный документ на груз",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15313,7 +15312,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по месту государственной регистрации",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15327,7 +15326,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не менее 7 членов",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15341,7 +15340,7 @@ module.exports = [
     ],
     "correctAnswer": "б) индивидуальные предприниматели",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15355,7 +15354,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в течение первого года деятельности",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15369,7 +15368,7 @@ module.exports = [
     ],
     "correctAnswer": "б) 25% от числа всех акций",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15383,7 +15382,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если количество акционеров превышает 50 человек",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15397,7 +15396,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если другое участвующее общество имеет более 20% его голосующих акций",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15411,7 +15410,7 @@ module.exports = [
     ],
     "correctAnswer": "б) собственник",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15425,7 +15424,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не является",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15439,7 +15438,7 @@ module.exports = [
     ],
     "correctAnswer": "в) в случаях предусмотренных законодательством или соглашением сторон",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15453,7 +15452,7 @@ module.exports = [
     ],
     "correctAnswer": "б) мнимая сделка",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15467,7 +15466,7 @@ module.exports = [
     ],
     "correctAnswer": "г) в течение 3 лет со дня, когда началось ее исполнение.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15481,7 +15480,7 @@ module.exports = [
     ],
     "correctAnswer": "а) доверенности удостоверенные врачами госпиталей, командирами частей, начальниками мест лишения свободы, администрацией соцучреждений, уполномоченными банками и финучреждениями, органами власти – для защиты интересов нетрудоспособных родителей",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15495,7 +15494,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на требования собственника об устранении всяких нарушений его права, хотя бы эти нарушения не были соединены с лишением владения",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15509,7 +15508,7 @@ module.exports = [
     ],
     "correctAnswer": "г) с момента принятия регистрирующим органом соответствующего решения.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15523,7 +15522,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не имеет собственника или собственник которой неизвестен, либо вещь, от права собственности на которую собственник отказался",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15537,7 +15536,7 @@ module.exports = [
     ],
     "correctAnswer": "в) до 20% стоимости вещи",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15551,7 +15550,7 @@ module.exports = [
     ],
     "correctAnswer": "в) по соглашению всех участников долевой собственности",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15565,7 +15564,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не допускается",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15579,7 +15578,7 @@ module.exports = [
     ],
     "correctAnswer": "г) деньги и ценные бумаги на предъявителя.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15593,7 +15592,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не применяются",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15607,7 +15606,7 @@ module.exports = [
     ],
     "correctAnswer": "б) когда личность кредитора имеет существенное значение для должника",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15621,7 +15620,7 @@ module.exports = [
     ],
     "correctAnswer": "в) недействительность соглашения о неустойке",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15635,7 +15634,7 @@ module.exports = [
     ],
     "correctAnswer": "б) имущества, изъятые из гражданского оборота, права, носящие личный характер требования, неразрывно связанных с личностью кредитора, имущества, приватизация которого запрещена",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15649,7 +15648,7 @@ module.exports = [
     ],
     "correctAnswer": "в) если залог обеспечивает обязательства по договору, подлежащему нотариальному удостоверению, а также в случаях, предусмотренных соглашением сторон",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15663,7 +15662,7 @@ module.exports = [
     ],
     "correctAnswer": "а) выдачей залогового билета",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15677,7 +15676,7 @@ module.exports = [
     ],
     "correctAnswer": "а) является",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15691,7 +15690,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по возмещению вреда, причиненного жизни или здоровью и по уплате алиментов",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15705,7 +15704,7 @@ module.exports = [
     ],
     "correctAnswer": "в) буквально",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15719,7 +15718,7 @@ module.exports = [
     ],
     "correctAnswer": "б) сам должник",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15733,7 +15732,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если извещение об отзыве акцепта поступило ранее или одновременно с самим акцептом.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15747,7 +15746,7 @@ module.exports = [
     ],
     "correctAnswer": "а) в месте жительства гражданина или месте нахождения юридического лица, направившего оферту",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15761,7 +15760,7 @@ module.exports = [
     ],
     "correctAnswer": "в) если в аукционе и конкурсе участвовал один участник",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15775,7 +15774,7 @@ module.exports = [
     ],
     "correctAnswer": "в) с момента передачи товара покупателю",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15789,7 +15788,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если договор позволяет определить наименование и количество товара",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15803,7 +15802,7 @@ module.exports = [
     ],
     "correctAnswer": "в) о публикации судебного решения",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15817,7 +15816,7 @@ module.exports = [
     ],
     "correctAnswer": "б) права, полученные на основании разрешения на занятие соответствующей деятельностью",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15831,7 +15830,7 @@ module.exports = [
     ],
     "correctAnswer": "б) когда договор содержит обещание дарения в будущем",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15845,7 +15844,7 @@ module.exports = [
     ],
     "correctAnswer": "б) граждане, а также некоммерческие организации, если это не противоречит закону и соответствует целям их деятельности",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15859,7 +15858,7 @@ module.exports = [
     ],
     "correctAnswer": "а) если срок действия договора составляет 3 года и более",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15873,7 +15872,7 @@ module.exports = [
     ],
     "correctAnswer": "г) входят.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15887,7 +15886,7 @@ module.exports = [
     ],
     "correctAnswer": "в) неиспользование товарного знака в течение 3-х лет непрерывно",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15901,7 +15900,7 @@ module.exports = [
     ],
     "correctAnswer": "г) неупотребляемые вещи.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15915,7 +15914,7 @@ module.exports = [
     ],
     "correctAnswer": "в) произведение, не известное на момент заключения договора",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15929,7 +15928,7 @@ module.exports = [
     ],
     "correctAnswer": "а) нотариус, исполнитель завещания или суд",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15943,7 +15942,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не может",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15957,7 +15956,7 @@ module.exports = [
     ],
     "correctAnswer": "г) при письменном согласии всех наследников, принявших наследство и письменном согласии всех наследников, принявших наследство.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15971,7 +15970,7 @@ module.exports = [
     ],
     "correctAnswer": "а) билетом",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15985,7 +15984,7 @@ module.exports = [
     ],
     "correctAnswer": "г) когда они переданы правообладателю по его просьбе.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -15999,7 +15998,7 @@ module.exports = [
     ],
     "correctAnswer": "б) права, которые не указаны в договоре в качестве отчуждаемых",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16013,7 +16012,7 @@ module.exports = [
     ],
     "correctAnswer": "а) дети, зачатые при жизни наследодателя и родившиеся живыми после открытия наследства",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16027,7 +16026,7 @@ module.exports = [
     ],
     "correctAnswer": "б) уничтожить изготовленные изображения товарного знака",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16041,7 +16040,7 @@ module.exports = [
     ],
     "correctAnswer": "а) допускается",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16055,7 +16054,7 @@ module.exports = [
     ],
     "correctAnswer": "в) со дня поступления суммы вклада в банк",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16069,7 +16068,7 @@ module.exports = [
     ],
     "correctAnswer": "в) на возмещение вреда, причиненного жизни и здоровью и требование о взыскании алиментов",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16083,7 +16082,7 @@ module.exports = [
     ],
     "correctAnswer": "б) не допускается",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16097,7 +16096,7 @@ module.exports = [
     ],
     "correctAnswer": "г) договор поручения.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16111,7 +16110,7 @@ module.exports = [
     ],
     "correctAnswer": "б) договор комиссии",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16125,7 +16124,7 @@ module.exports = [
     ],
     "correctAnswer": "а) ручательство комиссионера за исполнение сделки третьим лицом",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16139,7 +16138,7 @@ module.exports = [
     ],
     "correctAnswer": "в) договор агентирования",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16153,7 +16152,7 @@ module.exports = [
     ],
     "correctAnswer": "г) отдельные предметы, относящиеся к движимому имуществу, и вещи, определяемые родовыми признаками, а также деньги.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16167,7 +16166,7 @@ module.exports = [
     ],
     "correctAnswer": "а) не всегда влечет",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16181,7 +16180,7 @@ module.exports = [
     ],
     "correctAnswer": "в) не учитывается",
     "correctAnswerIndex": 2,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16195,7 +16194,7 @@ module.exports = [
     ],
     "correctAnswer": "б) судом",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16209,7 +16208,7 @@ module.exports = [
     ],
     "correctAnswer": "г) залоговое свидетельство.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16223,7 +16222,7 @@ module.exports = [
     ],
     "correctAnswer": "а) двойное складское свидетельство, простое складское свидетельство",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16237,7 +16236,7 @@ module.exports = [
     ],
     "correctAnswer": "г) выдачей именной сохранной квитанции.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16251,7 +16250,7 @@ module.exports = [
     ],
     "correctAnswer": "б) противоправных интересов",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16265,7 +16264,7 @@ module.exports = [
     ],
     "correctAnswer": "г) если нет наследников ни по закону, ни по завещанию либо никто из наследников не имеет права наследовать либо все они отказались от наследства.",
     "correctAnswerIndex": 3,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16279,7 +16278,7 @@ module.exports = [
     ],
     "correctAnswer": "б) в случаях, когда постройка возведена на земельном участке, не отведенном для этих целей, создана с существенным нарушением градостроительных норм и правил",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16293,7 +16292,7 @@ module.exports = [
     ],
     "correctAnswer": "а) негласное товарищество",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16307,7 +16306,7 @@ module.exports = [
     ],
     "correctAnswer": "а) да, необходима",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16321,7 +16320,7 @@ module.exports = [
     ],
     "correctAnswer": "б) допускается",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16335,7 +16334,7 @@ module.exports = [
     ],
     "correctAnswer": "б) ежемесячно",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16349,7 +16348,7 @@ module.exports = [
     ],
     "correctAnswer": "а) является",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16363,7 +16362,7 @@ module.exports = [
     ],
     "correctAnswer": "б) вознаграждение",
     "correctAnswerIndex": 1,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16377,7 +16376,7 @@ module.exports = [
     ],
     "correctAnswer": "а) независимо от суммы",
     "correctAnswerIndex": 0,
-    "category": "XV.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16391,7 +16390,7 @@ module.exports = [
     ],
     "correctAnswer": "в) нет",
     "correctAnswerIndex": 2,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16405,7 +16404,7 @@ module.exports = [
     ],
     "correctAnswer": "в) данные, указанные в правоустанавливающих или право удостоверяющих документах",
     "correctAnswerIndex": 2,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16419,7 +16418,7 @@ module.exports = [
     ],
     "correctAnswer": "а) без перевода (трансформации) на основании градостроительной документации",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16433,7 +16432,7 @@ module.exports = [
     ],
     "correctAnswer": "б) по акту исполнительного органа местного самоуправления в зависимости от целевого назначения земельного участка",
     "correctAnswerIndex": 1,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16447,7 +16446,7 @@ module.exports = [
     ],
     "correctAnswer": "а) для предоставления участков до 36 м² операторам электросвязи и для установки линии электропередачи",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16461,7 +16460,7 @@ module.exports = [
     ],
     "correctAnswer": "г) при предоставлении земельного участка в собственность или срочное (временное) пользование.",
     "correctAnswerIndex": 3,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16475,7 +16474,7 @@ module.exports = [
     ],
     "correctAnswer": "а) дача официального толкования законов в сфере земельных отношений",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16489,7 +16488,7 @@ module.exports = [
     ],
     "correctAnswer": "б) перевод (трансформация) в категорию земель государственного лесного фонда",
     "correctAnswerIndex": 1,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16503,7 +16502,7 @@ module.exports = [
     ],
     "correctAnswer": "б) если участок не используется или часть участка не используется в течение 3 лет",
     "correctAnswerIndex": 1,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16517,7 +16516,7 @@ module.exports = [
     ],
     "correctAnswer": "б) пашня орошаемая равноценна многолетним насаждениям; пашня богарная равноценна залежи; пастбище равноценно сенокосу",
     "correctAnswerIndex": 1,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16531,7 +16530,7 @@ module.exports = [
     ],
     "correctAnswer": "после изъятия земель органом местного самоуправления на основании градостроительной документации, правил застройки и землепользования",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16545,7 +16544,7 @@ module.exports = [
     ],
     "correctAnswer": "в соответствии с законодательством Кыргызской Республики о земельной амнистии",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16557,7 +16556,7 @@ module.exports = [
     ],
     "correctAnswer": "без изъятия земельного участка, местной районной государственной администрацией на основании градостроительной документации, правил застройки и землепользования",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16569,7 +16568,7 @@ module.exports = [
     ],
     "correctAnswer": "на всех землях независимо от принадлежности и формы собственности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16582,7 +16581,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение 10 рабочих дней",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16594,7 +16593,7 @@ module.exports = [
     ],
     "correctAnswer": "с момента выдачи документа, удостоверяющего право на переведённый (трансформированный) земельный участок",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16608,7 +16607,7 @@ module.exports = [
     ],
     "correctAnswer": "да, индексированные карты являются составной (графической) частью государственного земельного кадастра",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16621,7 +16620,7 @@ module.exports = [
     ],
     "correctAnswer": "индексированные карты на уровне республики, области, города Бишкек, административного района и айылного аймака с соответствующими границами и кодами",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16634,7 +16633,7 @@ module.exports = [
     ],
     "correctAnswer": "для решения научных и практических задач по инвентаризации, оценке, планированию, прогнозу, управлению земельными ресурсами и другим вопросам",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16647,7 +16646,7 @@ module.exports = [
     ],
     "correctAnswer": "это совокупность земельно-регистрационной, земельно-учётной, земельно-оценочной информации, предназначенная для органов государственной власти всех уровней, а также заинтересованных физических и юридических лиц",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16659,7 +16658,7 @@ module.exports = [
     ],
     "correctAnswer": "при использовании, восстановлении и охране земель, предоставлении и изъятии земельных участков, определении размеров платы за землю, проведении землеустройства, оценке хозяйственной деятельности и других мероприятиях, связанных с использованием и охраной земель",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16672,7 +16671,7 @@ module.exports = [
     ],
     "correctAnswer": "меры по обеспечению иска принимаются в пределах суммы иска без остановки строительства объекта и ввода его в эксплуатацию до завершения судебных разбирательств",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16684,7 +16683,7 @@ module.exports = [
     ],
     "correctAnswer": "только после установления границ участка в натуре (на местности) и выдачи кадастрового плана",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16696,7 +16695,7 @@ module.exports = [
     ],
     "correctAnswer": "в своих прежних населённых пунктах по спискам очередности, существовавшим до проведения административно-территориальной реформы",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16708,7 +16707,7 @@ module.exports = [
     ],
     "correctAnswer": "земли для приусадебного участка под строительство индивидуального жилого дома",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16720,7 +16719,7 @@ module.exports = [
     ],
     "correctAnswer": "20 лет",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16733,7 +16732,7 @@ module.exports = [
     ],
     "correctAnswer": "повышение продуктивности земель",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16744,7 +16743,7 @@ module.exports = [
     ],
     "correctAnswer": "угодья, на которых обитают эндемичные виды фауны и произрастают эндемичные виды растительности.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16756,7 +16755,7 @@ module.exports = [
     ],
     "correctAnswer": "только во временное пользование на срок действия права пользования недрами с последующей обязательной рекультивацией",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16769,7 +16768,7 @@ module.exports = [
     ],
     "correctAnswer": "в порядке универсального правопреемства (наследование, реорганизация)",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16782,7 +16781,7 @@ module.exports = [
     ],
     "correctAnswer": "право на земельный участок",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16795,7 +16794,7 @@ module.exports = [
     ],
     "correctAnswer": "земельные доли площадью до 5 га",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16808,7 +16807,7 @@ module.exports = [
     ],
     "correctAnswer": "государство, граждане КР, кооперативы и юридические лица КР, осуществляющие выращивание и/или переработку сельскохозяйственной продукции",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16820,7 +16819,7 @@ module.exports = [
     ],
     "correctAnswer": "если они расположены в приграничных территориях с неустановленными границами",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16831,7 +16830,7 @@ module.exports = [
     ],
     "correctAnswer": "в соответствии с планом по управлению пастбищами и ежегодным планом использования пастбищ.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16844,7 +16843,7 @@ module.exports = [
     ],
     "correctAnswer": "от поголовья скота и вида сельскохозяйственных животных",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16856,7 +16855,7 @@ module.exports = [
     ],
     "correctAnswer": "на основе распределения пастбищ в границах бывших советских и коллективных хозяйств с учетом границ существующих административно-территориальных единиц",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16867,7 +16866,7 @@ module.exports = [
     ],
     "correctAnswer": "основные направления использования земель населенных пунктов для промышленного, жилищного и иного строительства, благоустройства и размещения мест отдыха населения.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16879,7 +16878,7 @@ module.exports = [
     ],
     "correctAnswer": "из земель, используемых в качестве путей сообщения либо для удовлетворения культурно-бытовых потребностей населения (дороги, улицы, площади, тротуары, зеленые насаждения, парки, водоемы и др.)",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16891,7 +16890,7 @@ module.exports = [
     ],
     "correctAnswer": "не используются для капитального строительства и не предоставляются в собственность и субаренду",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16903,7 +16902,7 @@ module.exports = [
     ],
     "correctAnswer": "являются государственной собственностью, за исключением земель автомобильных дорог, находящихся в муниципальной или частной собственности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16917,7 +16916,7 @@ module.exports = [
     ],
     "correctAnswer": "Законодательством Кыргызской Республики в соответствующих сферах",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16928,7 +16927,7 @@ module.exports = [
     ],
     "correctAnswer": "индивидуальная, не повторяющаяся на территории Кыргызской Республики совокупность регистрационных номеров, присваиваемая единицам недвижимого имущества и сохраняющаяся на протяжении существования объекта.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16940,7 +16939,7 @@ module.exports = [
     ],
     "correctAnswer": "граница в натуре, закрепленная межевыми знаками установленного образца с привязкой к капитальным зданиям, постоянным естественным ориентирам или геодезическим пунктам, все поворотные точки которой имеют известные координаты",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16953,7 +16952,7 @@ module.exports = [
     ],
     "correctAnswer": "граница, не закрепленная в натуре межевыми знаками установленного образца",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16964,7 +16963,7 @@ module.exports = [
     ],
     "correctAnswer": "ограничение прав на владение, распоряжение, пользование недвижимостью, включая права третьих лиц (аренда, залог, ипотека, сервитуты, обязательства по договору, решения суда и др.), а также соглашения о добровольных взносах на общее содержание имущества.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16977,7 +16976,7 @@ module.exports = [
     ],
     "correctAnswer": "преимущественное право покупки или аренды недвижимого имущества в сроки, по цене и на условиях, обусловленных сторонами в предварительном договоре",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -16988,7 +16987,7 @@ module.exports = [
     ],
     "correctAnswer": "все права, связанные с недвижимым имуществом, в том числе право собственности, право хозяйственного ведения, право оперативного управления, бессрочное пользование земельным участком, ипотека, аренда на срок три года и более, сервитуты, ограничения прав, права по решениям суда, права природопользования и иные права, подлежащие регистрации по закону.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17001,7 +17000,7 @@ module.exports = [
     ],
     "correctAnswer": "документ установленной формы, составленный по результатам технического обследования единицы недвижимого имущества",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17013,7 +17012,7 @@ module.exports = [
     ],
     "correctAnswer": "права и ограничения прав на единицу недвижимого имущества, а также сделки с ним",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17024,7 +17023,7 @@ module.exports = [
     ],
     "correctAnswer": "площадь земли в замкнутых границах.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17036,7 +17035,7 @@ module.exports = [
     ],
     "correctAnswer": "в государственной, муниципальной, частной собственности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17048,7 +17047,7 @@ module.exports = [
     ],
     "correctAnswer": "в исключительной собственности государства",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17061,7 +17060,7 @@ module.exports = [
     ],
     "correctAnswer": "земли в границах населенного пункта, за исключением земель, находящихся в частной, государственной собственности и предоставленных государственным землепользователям, а также земельные участки вне границ населенного пункта, приобретенные ими для решения вопросов местного значения",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17074,7 +17073,7 @@ module.exports = [
     ],
     "correctAnswer": "документ, предоставляющий право на использование пастбищ для выпаса скота",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17086,7 +17085,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров Кыргызской Республики, местные государственные администрации в пределах своей компетенции",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17098,7 +17097,7 @@ module.exports = [
     ],
     "correctAnswer": "на правах срочного (временного) пользования или передаваться в собственность в случае обращения взыскания по ипотечному кредиту с обязательством последующего отчуждения земельного участка в течение 2 лет",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17110,7 +17109,7 @@ module.exports = [
     ],
     "correctAnswer": "земельные участки, сформированные из сельскохозяйственных угодий (за исключением пастбищ) и находящиеся в государственной собственности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17122,7 +17121,7 @@ module.exports = [
     ],
     "correctAnswer": "право лица на ограниченное целевое пользование земельным участком, находящимся в собственности или в пользовании у другого лица",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17135,7 +17134,7 @@ module.exports = [
     ],
     "correctAnswer": "на праве аренды на 5 лет, за исключением земель богарной пашни и занятых многолетними насаждениями, земель для ведения семеноводческого, племенного, экспериментального хозяйства, научно-исследовательских, опытно-селекционных, сортоиспытательных работ и сельскохозяйственных кооперативов, которые предоставляются сроком до 20 лет",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17146,7 +17145,7 @@ module.exports = [
     ],
     "correctAnswer": "письменная форма и подлежат государственной регистрации и не требуют нотариального удостоверения, за исключением случаев, предусмотренных законом.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17158,7 +17157,7 @@ module.exports = [
     ],
     "correctAnswer": "из всех земель, находящиеся в границах Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17170,7 +17169,7 @@ module.exports = [
     ],
     "correctAnswer": "7",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17182,7 +17181,7 @@ module.exports = [
     ],
     "correctAnswer": "земельные участки, используемые для производства сельскохозяйственной продукции",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17196,7 +17195,7 @@ module.exports = [
     ],
     "correctAnswer": "земельный участок, отведенный органами государственной власти или местного самоуправления гражданам для индивидуального жилищного строительства и ведения домохозяйства",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17210,7 +17209,7 @@ module.exports = [
     ],
     "correctAnswer": "сельскохозяйственное угодье, которое ранее использовалось под пашню и более одного года, начиная с осени, не используется для посева сельскохозяйственных культур и не подготовлено под пары в течение 3 лет",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17221,7 +17220,7 @@ module.exports = [
     ],
     "correctAnswer": "местные кенеши.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17232,7 +17231,7 @@ module.exports = [
     ],
     "correctAnswer": "предоставление права специально уполномоченным органом.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17244,7 +17243,7 @@ module.exports = [
     ],
     "correctAnswer": "на праве бессрочного (без указания срока) или срочного (временное) пользования",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17257,7 +17256,7 @@ module.exports = [
     ],
     "correctAnswer": "право собственности, право бессрочного пользования, право срочного пользования, сервитут",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17269,7 +17268,7 @@ module.exports = [
     ],
     "correctAnswer": "изъятие земельного участка, компенсация понесенных собственником или землепользователем убытков или предоставление другого равноценного земельного участка",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17283,7 +17282,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17294,7 +17293,7 @@ module.exports = [
     ],
     "correctAnswer": "арендатор, надлежащим образом исполнявший свои обязанности.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17308,7 +17307,7 @@ module.exports = [
     ],
     "correctAnswer": "государственный акт о праве частной собственности на земельный участок и бессрочного (без указания срока) пользования земельным участком",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17322,7 +17321,7 @@ module.exports = [
     ],
     "correctAnswer": "земли, имеющие маломощный почвенный слой с низким баллом бонитета и требующие больших затрат по их мелиоративному улучшению",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17336,7 +17335,7 @@ module.exports = [
     ],
     "correctAnswer": "орошаемая и богарная пашня, залежь, земли, занятые многолетними плодовыми насаждениями, культурные пастбища, сенокосы и пастбища коренного улучшения",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17350,7 +17349,7 @@ module.exports = [
     ],
     "correctAnswer": "сначала эта часть участка в установленном порядке выделяется в самостоятельный земельный участок с последующей государственной регистрацией",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17364,7 +17363,7 @@ module.exports = [
     ],
     "correctAnswer": "иностранное лицо обязано в течение 1-го года с момента возникновения права на земельный участок произвести его отчуждение гражданину Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17378,7 +17377,7 @@ module.exports = [
     ],
     "correctAnswer": "право на земельный участок",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17390,7 +17389,7 @@ module.exports = [
     ],
     "correctAnswer": "иностранные юридические лица, иностранные граждане и лица без гражданства, выступающие стороной в земельно-правовых отношениях",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17401,7 +17400,7 @@ module.exports = [
     ],
     "correctAnswer": "на основании решения уполномоченного органа.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17414,7 +17413,7 @@ module.exports = [
     ],
     "correctAnswer": "земельный участок переходит государству или муниципальному собственнику",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17427,7 +17426,7 @@ module.exports = [
     ],
     "correctAnswer": "угрозы возникновения стихийных бедствий",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17439,7 +17438,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17452,7 +17451,7 @@ module.exports = [
     ],
     "correctAnswer": "на основании договора между уполномоченным органом и собственником земельного участка, а в случае несогласия - судом",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17464,7 +17463,7 @@ module.exports = [
     ],
     "correctAnswer": "сельскохозяйственные угодья и земли, занятые внутрихозяйственными дорогами, необходимыми для функционирования сельского хозяйства",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17478,7 +17477,7 @@ module.exports = [
     ],
     "correctAnswer": "все земли, находящиеся в черте населенного пункта",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17490,7 +17489,7 @@ module.exports = [
     ],
     "correctAnswer": "земли, предоставленные для размещения и постоянной деятельности военно-учебных заведений, выполняющих задачи в области обороны и безопасности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17502,7 +17501,7 @@ module.exports = [
     ],
     "correctAnswer": "земли природных территорий оздоровительного назначения",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17513,7 +17512,7 @@ module.exports = [
     ],
     "correctAnswer": "земли, предоставленные для нужд лесного хозяйства.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17527,7 +17526,7 @@ module.exports = [
     ],
     "correctAnswer": "земли, занятые гидротехническими сооружениями",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17541,7 +17540,7 @@ module.exports = [
     ],
     "correctAnswer": "все земли, находящиеся в государственной собственности и не предоставленные в собственность или пользование",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17555,7 +17554,7 @@ module.exports = [
     ],
     "correctAnswer": "уполномоченный государственный орган, предоставивший земельный участок, а в случае несогласия - суд",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17567,7 +17566,7 @@ module.exports = [
     ],
     "correctAnswer": "государство, граждане Кыргызской Республики, кооперативы и юридические лица Кыргызской Республики, занимающиеся выращиванием и (или) переработкой сельскохозяйственной продукции",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17579,7 +17578,7 @@ module.exports = [
     ],
     "correctAnswer": "иностранным лицам",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17590,7 +17589,7 @@ module.exports = [
     ],
     "correctAnswer": "не допускается.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17601,7 +17600,7 @@ module.exports = [
     ],
     "correctAnswer": "путем продажи на торгах, которые могут проводиться в электронном формате.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17615,7 +17614,7 @@ module.exports = [
     ],
     "correctAnswer": "неделимыми",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17626,7 +17625,7 @@ module.exports = [
     ],
     "correctAnswer": "местная государственная администрация или уполномоченный государственный орган, определяемый Кабинетом Министров.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17640,7 +17639,7 @@ module.exports = [
     ],
     "correctAnswer": "дорога, предназначенная для прогона скота",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17651,7 +17650,7 @@ module.exports = [
     ],
     "correctAnswer": "нет, запрещается предоставление пастбищ в аренду и субаренду.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17662,7 +17661,7 @@ module.exports = [
     ],
     "correctAnswer": "исполнительный орган местного самоуправления.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17676,7 +17675,7 @@ module.exports = [
     ],
     "correctAnswer": "не позднее 30 дней с момента заключения (составления) правоустанавливающего документа",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17687,7 +17686,7 @@ module.exports = [
     ],
     "correctAnswer": "когда отпадут основания, по которым сервитут был установлен.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17700,7 +17699,7 @@ module.exports = [
     ],
     "correctAnswer": "систему мероприятий, направленных на организацию рационального использования и охраны земель, создание благоприятной экологической среды и улучшения природных ландшафтов",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17711,7 +17710,7 @@ module.exports = [
     ],
     "correctAnswer": "система постоянного наблюдения за состоянием земельного фонда для своевременного выявления изменений, их оценки, предупреждения и устранения последствий негативных процессов.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17723,7 +17722,7 @@ module.exports = [
     ],
     "correctAnswer": "1 раз на всей территории Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17734,7 +17733,7 @@ module.exports = [
     ],
     "correctAnswer": "указывается.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17746,7 +17745,7 @@ module.exports = [
     ],
     "correctAnswer": "не допускается, кроме гидротехнических сооружений",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17760,7 +17759,7 @@ module.exports = [
     ],
     "correctAnswer": "вокруг гидротехнических сооружений и устройств водохранилищ, каналов, водозаборных и защитных сооружений",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17772,7 +17771,7 @@ module.exports = [
     ],
     "correctAnswer": "в порядке, определяемом Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17784,7 +17783,7 @@ module.exports = [
     ],
     "correctAnswer": "государственной",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17797,7 +17796,7 @@ module.exports = [
     ],
     "correctAnswer": "деление территории земель населенных пунктов на зоны с установлением их функционального и правового режима использования",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17810,7 +17809,7 @@ module.exports = [
     ],
     "correctAnswer": "земель населенного пункта",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17821,7 +17820,7 @@ module.exports = [
     ],
     "correctAnswer": "органом, утверждающим генеральный план проекта застройки сельского населенного пункта.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17834,7 +17833,7 @@ module.exports = [
     ],
     "correctAnswer": "не предоставляются",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17846,7 +17845,7 @@ module.exports = [
     ],
     "correctAnswer": "восстановление естественных кормовых угодий, подвергшихся деградации или нарушению",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17860,7 +17859,7 @@ module.exports = [
     ],
     "correctAnswer": "собственниками земельных участков и землепользователями",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17873,7 +17872,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17884,7 +17883,7 @@ module.exports = [
     ],
     "correctAnswer": "когда невозможно восстановить плодородие почв деградированных сельскохозяйственных угодий.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17897,7 +17896,7 @@ module.exports = [
     ],
     "correctAnswer": "качественное состояние земель",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17911,7 +17910,7 @@ module.exports = [
     ],
     "correctAnswer": "основной документ по учету и оценке земель, источник информации о количественном и качественном состоянии и оценки земельного участка",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17925,7 +17924,7 @@ module.exports = [
     ],
     "correctAnswer": "специально уполномоченным государственным органом",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17936,7 +17935,7 @@ module.exports = [
     ],
     "correctAnswer": "ежегодно.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17947,7 +17946,7 @@ module.exports = [
     ],
     "correctAnswer": "все земли, находящиеся в границах Кыргызской Республики.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17959,7 +17958,7 @@ module.exports = [
     ],
     "correctAnswer": "гражданская, административная и уголовная",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17972,7 +17971,7 @@ module.exports = [
     ],
     "correctAnswer": "судьба земельного участка следует судьбе здания",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17984,7 +17983,7 @@ module.exports = [
     ],
     "correctAnswer": "передается, стоимость участка включается в стоимость имущественного комплекса",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -17995,7 +17994,7 @@ module.exports = [
     ],
     "correctAnswer": "природно-сельскохозяйственное районирование, группировку, классификацию и бонитировку почв, их характеристику по агроэкономическим, экологическим, технологическим и градостроительным признакам.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18007,7 +18006,7 @@ module.exports = [
     ],
     "correctAnswer": "с момента выдачи документа, удостоверяющего право на переведенный земельный участок",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18020,7 +18019,7 @@ module.exports = [
     ],
     "correctAnswer": "Индексированные карты",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18034,7 +18033,7 @@ module.exports = [
     ],
     "correctAnswer": "собственник здания или сооружения",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18046,7 +18045,7 @@ module.exports = [
     ],
     "correctAnswer": "не является",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18058,7 +18057,7 @@ module.exports = [
     ],
     "correctAnswer": "на праве общей долевой собственности",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18070,7 +18069,7 @@ module.exports = [
     ],
     "correctAnswer": "с согласия большинства собственников помещений, с разделом пропорционально их долям",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18081,7 +18080,7 @@ module.exports = [
     ],
     "correctAnswer": "приусадебный участок с жилым домом.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18092,7 +18091,7 @@ module.exports = [
     ],
     "correctAnswer": "использовать участок по своему усмотрению без учета его целевого назначения.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18103,7 +18102,7 @@ module.exports = [
     ],
     "correctAnswer": "не нарушать права собственников смежных участков и иных лиц.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18116,7 +18115,7 @@ module.exports = [
     ],
     "correctAnswer": "нет",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18129,7 +18128,7 @@ module.exports = [
     ],
     "correctAnswer": "при отсутствии других вариантов размещения объектов, по решению уполномоченного органа и с согласия собственника",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18141,7 +18140,7 @@ module.exports = [
     ],
     "correctAnswer": "прокладки и эксплуатации линий электропередач, которые не могут быть обеспечены без установления принудительного сервитута; доступа к земельному участку, если другой доступ невозможен, крайне затруднен или требует несоразмерных расходов",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18153,7 +18152,7 @@ module.exports = [
     ],
     "correctAnswer": "лицо, в интересах которого устанавливается сервитут",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18164,7 +18163,7 @@ module.exports = [
     ],
     "correctAnswer": "передачи и перехода права на земельный участок.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18175,7 +18174,7 @@ module.exports = [
     ],
     "correctAnswer": "путем заключения договора о возмездном изъятии земельного участка между уполномоченным органом и правообладателем на основании решения об изъятии.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18187,7 +18186,7 @@ module.exports = [
     ],
     "correctAnswer": "арендная плата и земельный налог.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18198,7 +18197,7 @@ module.exports = [
     ],
     "correctAnswer": "по выбору правообладателя: в виде прав на равнозначный земельный участок, денежной компенсации или их сочетания.",
     "correctAnswerIndex": 0,
-    "category": "XVI.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18211,7 +18210,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18223,7 +18222,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18235,7 +18234,7 @@ module.exports = [
     ],
     "correctAnswer": "доступными и платными",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18247,7 +18246,7 @@ module.exports = [
     ],
     "correctAnswer": "юридические лица, созданные в соответствии с законодательством Кыргызской Республики, а также физические лица, в том числе иностранные граждане, зарегистрированные в качестве индивидуальных предпринимателей",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18261,7 +18260,7 @@ module.exports = [
     ],
     "correctAnswer": "часть естественного пространства, наделенная режимом особой охраны в целях предупреждения от вредного воздействия хозяйственной деятельности либо стихийных сил природы",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18275,7 +18274,7 @@ module.exports = [
     ],
     "correctAnswer": "да, не позднее чем за 12 месяцев до истечения срока, на которое выдано разрешение",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18286,7 +18285,7 @@ module.exports = [
     ],
     "correctAnswer": "да, могут передать разрешение другому лицу за исключением разрешений, относящихся к орошению. Владелец разрешения на водопользование для орошения, который продает участок земли или иначе распоряжается своими интересами в отношении земли, к которой относится разрешение, может либо отказаться от разрешения в Государственной водной администрации или передать его новому владельцу или пользователю земли.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18299,7 +18298,7 @@ module.exports = [
     ],
     "correctAnswer": "являются исключительной собственностью государства",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18313,7 +18312,7 @@ module.exports = [
     ],
     "correctAnswer": "более 3-х месяцев",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18326,7 +18325,7 @@ module.exports = [
     ],
     "correctAnswer": "часть земной коры, расположенная ниже почвенного слоя, а при его отсутствии - ниже земной поверхности и дна водоемов и водотоков, простирающаяся до глубин, доступных для геологического изучения и освоения, включая россыпные проявления полезных ископаемых",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18337,7 +18336,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинетом Министров Кыргызской Республики.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18349,7 +18348,7 @@ module.exports = [
     ],
     "correctAnswer": "остатки сырья, материалов, полуфабрикатов, иных изделий и продуктов, образующихся в процессе хозяйственной деятельности",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18363,7 +18362,7 @@ module.exports = [
     ],
     "correctAnswer": "в Кыргызской Республике в равной степени признаются и защищаются частная, государственная, муниципальная и иные формы собственности",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18375,7 +18374,7 @@ module.exports = [
     ],
     "correctAnswer": "естественные источники потребления человеком природы (земельные, водные, лесные ресурсы, полезные ископаемые, запасы минерального сырья, радиоактивные материалы, животный и растительный мир, их компоненты и другие природные блага)",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18387,7 +18386,7 @@ module.exports = [
     ],
     "correctAnswer": "Давыдова и Лысый",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18400,7 +18399,7 @@ module.exports = [
     ],
     "correctAnswer": "все виды пользования природными ресурсами, осуществляемые с их изъятием (добыванием, сбором, выборкой и др.) из окружающей среды",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18413,7 +18412,7 @@ module.exports = [
     ],
     "correctAnswer": "территориальному органу управления государственным лесным фондом",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18427,7 +18426,7 @@ module.exports = [
     ],
     "correctAnswer": "совокупность всех форм эксплуатации природно-ресурсного потенциала и мер по его сохранению",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18440,7 +18439,7 @@ module.exports = [
     ],
     "correctAnswer": "Территория, где формируются реки",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18452,7 +18451,7 @@ module.exports = [
     ],
     "correctAnswer": "леса, находящиеся на землях государственного лесного фонда и землях других категорий земельного фонда",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18463,7 +18462,7 @@ module.exports = [
     ],
     "correctAnswer": "лесные земли.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18474,7 +18473,7 @@ module.exports = [
     ],
     "correctAnswer": "в письменной форме с обязательной государственной регистрацией.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18487,7 +18486,7 @@ module.exports = [
     ],
     "correctAnswer": "совокупность нормативных правовых актов, устанавливающих порядок охраны природы, рационального использования природных ресурсов, защиты окружающей среды в целях обеспечения научно обоснованного сочетания экономических интересов и достижения оптимального качества окружающей среды",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18500,7 +18499,7 @@ module.exports = [
     ],
     "correctAnswer": "до 50 лет",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18512,7 +18511,7 @@ module.exports = [
     ],
     "correctAnswer": "одного раза в год",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18525,7 +18524,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение 30 дней",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18538,7 +18537,7 @@ module.exports = [
     ],
     "correctAnswer": "лицензия",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18552,7 +18551,7 @@ module.exports = [
     ],
     "correctAnswer": "до 4 лет с последующим продлением в соответствии с техническим проектом до 3 лет",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18564,7 +18563,7 @@ module.exports = [
     ],
     "correctAnswer": "3) разовую плату за право пользования недрами (бонус) и текущую плату за пользование недрами (роялти)",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18575,7 +18574,7 @@ module.exports = [
     ],
     "correctAnswer": "животный и растительный мир",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18589,7 +18588,7 @@ module.exports = [
     ],
     "correctAnswer": "сдачи отчета о выполненных работах с начала текущего года до момента окончания срока лицензии",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18600,7 +18599,7 @@ module.exports = [
     ],
     "correctAnswer": "6",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18611,7 +18610,7 @@ module.exports = [
     ],
     "correctAnswer": "до 20 лет с последующим продлением до истощения запасов полезных ископаемых.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18623,7 +18622,7 @@ module.exports = [
     ],
     "correctAnswer": "Закон КР о недрах",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18637,7 +18636,7 @@ module.exports = [
     ],
     "correctAnswer": "физическое или юридическое лицо, имеющее право пользования недрами",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18651,7 +18650,7 @@ module.exports = [
     ],
     "correctAnswer": "охранять и бережно относиться к окружающей природной среде, растительному и животному миру",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18662,7 +18661,7 @@ module.exports = [
     ],
     "correctAnswer": "не менее чем на один год.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18676,7 +18675,7 @@ module.exports = [
     ],
     "correctAnswer": "не более двух метров",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18687,7 +18686,7 @@ module.exports = [
     ],
     "correctAnswer": "до двадцати лет.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18700,7 +18699,7 @@ module.exports = [
     ],
     "correctAnswer": "конкурсов, аукционов, по правилу \"первой поданной заявки\", принятия решения Кабинетом Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18712,7 +18711,7 @@ module.exports = [
     ],
     "correctAnswer": "претендент, предложивший наибольшую денежную сумму",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18723,7 +18722,7 @@ module.exports = [
     ],
     "correctAnswer": "совокупность сведений о количественном и качественном состоянии природных ресурсов.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18736,7 +18735,7 @@ module.exports = [
     ],
     "correctAnswer": "аннулирование лицензии на основании решения уполномоченного государственного органа по недропользованию, а также прекращение концессионного договора или соглашения о разделе продукции",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18750,7 +18749,7 @@ module.exports = [
     ],
     "correctAnswer": "почвозащитные, водоохранные, климаторегулирующие",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18762,7 +18761,7 @@ module.exports = [
     ],
     "correctAnswer": "исчисляемые в денежном выражении экономические и внеэкономические потери общества, возникающие в результате изменения окружающей среды",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18775,7 +18774,7 @@ module.exports = [
     ],
     "correctAnswer": "для продуцирования (выращивания) растений",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18789,7 +18788,7 @@ module.exports = [
     ],
     "correctAnswer": "проведение наблюдений за параметрами окружающей среды, оценка и прогноз ее состояния",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18803,7 +18802,7 @@ module.exports = [
     ],
     "correctAnswer": "1) 5",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18817,7 +18816,7 @@ module.exports = [
     ],
     "correctAnswer": "не допускается",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18831,7 +18830,7 @@ module.exports = [
     ],
     "correctAnswer": "в) предельное количество изъятия, потребления природного ресурса",
     "correctAnswerIndex": 2,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18845,7 +18844,7 @@ module.exports = [
     ],
     "correctAnswer": "не позднее чем за 45 календарных дней",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18858,7 +18857,7 @@ module.exports = [
     ],
     "correctAnswer": "генеральный прокурор Кыргызской Республики и подчинённые ему прокуроры",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18871,7 +18870,7 @@ module.exports = [
     ],
     "correctAnswer": "в межгосударственных, республиканских, отраслевых и территориальных программах, а также в планах предприятий и целевых экологических программах",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18883,7 +18882,7 @@ module.exports = [
     ],
     "correctAnswer": "добровольное и обязательное экологическое страхование",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18895,7 +18894,7 @@ module.exports = [
     ],
     "correctAnswer": "относительно удовлетворительная, напряженная, критическая, кризисная или зона чрезвычайной экологической ситуации, катастрофическая или зона экологического бедствия",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18909,7 +18908,7 @@ module.exports = [
     ],
     "correctAnswer": "Зоны чрезвычайной (кризисной) экологической ситуации",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18922,7 +18921,7 @@ module.exports = [
     ],
     "correctAnswer": "Президент Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18935,7 +18934,7 @@ module.exports = [
     ],
     "correctAnswer": "организация ведения кадастров природных ресурсов, обеспечение экологического образования и воспитания граждан",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18947,7 +18946,7 @@ module.exports = [
     ],
     "correctAnswer": "утверждение правил регулирования труда и занятости населения",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18958,7 +18957,7 @@ module.exports = [
     ],
     "correctAnswer": "осуществляют государственные полномочия и участвуют в экологических программах.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18972,7 +18971,7 @@ module.exports = [
     ],
     "correctAnswer": "уполномоченный государственный орган по охране окружающей среды после согласования с санитарно-эпидемиологическим органом и Государственной водной администрацией",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18985,7 +18984,7 @@ module.exports = [
     ],
     "correctAnswer": "на срок не более трех лет, не может передаваться без письменного разрешения",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -18996,7 +18995,7 @@ module.exports = [
     ],
     "correctAnswer": "определение структуры управления лесным хозяйством и контроля за состоянием, воспроизводством, охраной, защитой лесов, использованием лесных ресурсов.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19009,7 +19008,7 @@ module.exports = [
     ],
     "correctAnswer": "регистрация договоров на аренду земельных участков государственного лесного фонда, участие в приемке завершенных лесохозяйственных объектов",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19021,7 +19020,7 @@ module.exports = [
     ],
     "correctAnswer": "невыполнения требований по аккумулированию средств для рекультивации земельного участка, нарушения сроков оплаты бонуса и/или лицензионных платежей",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19035,7 +19034,7 @@ module.exports = [
     ],
     "correctAnswer": "если недропользователь подал заявление о продлении не позднее 5 дней до окончания срока приостановления и устранение нарушений невозможно в течение приостановленного срока",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19047,7 +19046,7 @@ module.exports = [
     ],
     "correctAnswer": "со дня принятия решения",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19060,7 +19059,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение 10 рабочих дней со дня принятия",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19071,7 +19070,7 @@ module.exports = [
     ],
     "correctAnswer": "да, в судебном порядке.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19084,7 +19083,7 @@ module.exports = [
     ],
     "correctAnswer": "право приостанавливается по заявлению недропользователя, а сроки действия лицензии продлеваются на время форс-мажора",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19096,7 +19095,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение 10 рабочих дней со дня подачи заявления",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19110,7 +19109,7 @@ module.exports = [
     ],
     "correctAnswer": "обратиться в суд с иском к предыдущему недропользователю о понуждении к заключению договора купли-продажи и определении компенсации",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19122,7 +19121,7 @@ module.exports = [
     ],
     "correctAnswer": "осуществления единой научно-технической политики в лесном хозяйстве, сохранения биоразнообразия, адаптации к последствиям изменения климата",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19135,7 +19134,7 @@ module.exports = [
     ],
     "correctAnswer": "приоритет заготовки древесины для коммерческого экспорта",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19147,7 +19146,7 @@ module.exports = [
     ],
     "correctAnswer": "Республиканский государственный орган управления лесным хозяйством",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19160,7 +19159,7 @@ module.exports = [
     ],
     "correctAnswer": "предоставление в аренду участков государственного лесного фонда",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19171,7 +19170,7 @@ module.exports = [
     ],
     "correctAnswer": "разработка налоговой политики в лесной отрасли.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19184,7 +19183,7 @@ module.exports = [
     ],
     "correctAnswer": "всем министерствам, государственным комитетам, административным ведомствам и организациям, независимо от их ведомственной принадлежности и форм собственности, а также гражданам",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19195,7 +19194,7 @@ module.exports = [
     ],
     "correctAnswer": "разработка и утверждение государственных программ развития лесного хозяйства.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19209,7 +19208,7 @@ module.exports = [
     ],
     "correctAnswer": "лесопатологическое обследование и мониторинг, обеспечение соблюдения санитарных правил в лесах",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19222,7 +19221,7 @@ module.exports = [
     ],
     "correctAnswer": "организация сбора налогов с лесопользователей",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19234,7 +19233,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19247,7 +19246,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19259,7 +19258,7 @@ module.exports = [
     ],
     "correctAnswer": "граждане, общественные организации (объединения)",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19272,7 +19271,7 @@ module.exports = [
     ],
     "correctAnswer": "в содействии государственным органам, лицам, ведущим лесное хозяйство, в проведении лесохозяйственных и иных мероприятий в области использования, охраны, защиты и воспроизводства лесов, участии в проведении работ по приведению лесов в надлежащее санитарное состояние, а также в предупреждении, обнаружении и тушении лесных пожаров",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19284,7 +19283,7 @@ module.exports = [
     ],
     "correctAnswer": "с уполномоченным санитарно-эпидемиологическим органом и Государственной водной администрацией",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19297,7 +19296,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение 30 дней, отказ должен быть мотивирован",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19311,7 +19310,7 @@ module.exports = [
     ],
     "correctAnswer": "засухи либо маловодья или чрезвычайных ситуаций; нарушения условий разрешения; по просьбе владельца разрешения; если это необходимо в интересах общественности; если необходимо обеспечить соответствие установленным стандартам качества вод",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19322,7 +19321,7 @@ module.exports = [
     ],
     "correctAnswer": "уполномоченный государственный орган по охране окружающей среды, размер платы устанавливает Правительство Кыргызской Республики.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19335,7 +19334,7 @@ module.exports = [
     ],
     "correctAnswer": "подробное описание информации по мониторингу, представляемой уполномоченному государственному органу по охране окружающей среды владельцем разрешения, в соответствии с условиями разрешения",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19347,7 +19346,7 @@ module.exports = [
     ],
     "correctAnswer": "Кабинет Министров",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19358,7 +19357,7 @@ module.exports = [
     ],
     "correctAnswer": "направить письменное уведомление ответственному лицу, которое обязано осуществить работы по охране водных ресурсов.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19371,7 +19370,7 @@ module.exports = [
     ],
     "correctAnswer": "государственная водная администрация и уполномоченный орган по гидрогеологии",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19383,7 +19382,7 @@ module.exports = [
     ],
     "correctAnswer": "заготовка льда и использование веществ, влияющих на ускорение таяния ледников",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19395,7 +19394,7 @@ module.exports = [
     ],
     "correctAnswer": "стимулирует и обеспечивает проводимые исследования или разработку новых технологий, создание установок и новых видов оборудования, уменьшающих потребление воды, предотвращающих или снижающих загрязнение водных ресурсов",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19409,7 +19408,7 @@ module.exports = [
     ],
     "correctAnswer": "уполномоченный орган по охране окружающей среды совместно с Государственной водной администрацией",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19420,7 +19419,7 @@ module.exports = [
     ],
     "correctAnswer": "зоны санитарной охраны, зоны формирования стока, зоны охраны подземных вод, водоохранные зоны, зоны чрезвычайных экологических ситуаций и экологических катастроф.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19433,7 +19432,7 @@ module.exports = [
     ],
     "correctAnswer": "разрабатывается уполномоченным государственным санитарно-эпидемиологическим органом и утверждается Правительством Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19444,7 +19443,7 @@ module.exports = [
     ],
     "correctAnswer": "Правительство Кыргызской Республики.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19458,7 +19457,7 @@ module.exports = [
     ],
     "correctAnswer": "Правительство Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19471,7 +19470,7 @@ module.exports = [
     ],
     "correctAnswer": "территории, уязвимые для загрязнения подземных вод",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19482,7 +19481,7 @@ module.exports = [
     ],
     "correctAnswer": "забор подземных вод.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19495,7 +19494,7 @@ module.exports = [
     ],
     "correctAnswer": "размещение и эксплуатация животноводческих ферм",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19507,7 +19506,7 @@ module.exports = [
     ],
     "correctAnswer": "Президент Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19521,7 +19520,7 @@ module.exports = [
     ],
     "correctAnswer": "Государственной водной администрации, уполномоченного органа по чрезвычайным ситуациям и органа по гидрометеорологии",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19534,7 +19533,7 @@ module.exports = [
     ],
     "correctAnswer": "Государственная водная администрация",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19545,7 +19544,7 @@ module.exports = [
     ],
     "correctAnswer": "территории риска и виды деятельности, подлежащие запрету или ограничению.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19559,7 +19558,7 @@ module.exports = [
     ],
     "correctAnswer": "возведение без письменного согласия Государственной водной администрации зданий и сооружений на территории риска возможных наводнений, схода селей и оползней",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19572,7 +19571,7 @@ module.exports = [
     ],
     "correctAnswer": "систему оповещения, ответственные органы, меры эвакуации и обеспечения пострадавших",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19584,7 +19583,7 @@ module.exports = [
     ],
     "correctAnswer": "на основании бассейновых планов и данных за предыдущие годы",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19597,7 +19596,7 @@ module.exports = [
     ],
     "correctAnswer": "вводить ограничения на водопользование, лимитировать или ограничивать сбросы и временно устанавливать новые приоритеты",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19609,7 +19608,7 @@ module.exports = [
     ],
     "correctAnswer": "граждане обязаны бережно относиться к окружающей среде, соблюдать природоохранное законодательство и не распространять ложную экологическую информацию",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19621,7 +19620,7 @@ module.exports = [
     ],
     "correctAnswer": "право участвовать в проведении общественной экологической экспертизы",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19633,7 +19632,7 @@ module.exports = [
     ],
     "correctAnswer": "нарушать права и законные интересы других природопользователей",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19645,7 +19644,7 @@ module.exports = [
     ],
     "correctAnswer": "государственные органы охраны окружающей среды, образования, другие государственные органы, общественные организации и средства массовой информации",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19656,7 +19655,7 @@ module.exports = [
     ],
     "correctAnswer": "организация массовых культурных и развлекательных мероприятий.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19670,7 +19669,7 @@ module.exports = [
     ],
     "correctAnswer": "если предоставление информации может повредить международным отношениям, военным интересам государства, сохранению коммерческих тайн предприятий или расследованию уголовного дела",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19684,7 +19683,7 @@ module.exports = [
     ],
     "correctAnswer": "дисциплинарная, административная, уголовная и гражданско-правовая ответственность",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19696,7 +19695,7 @@ module.exports = [
     ],
     "correctAnswer": "дисциплинарная и полная материальная ответственность",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19709,7 +19708,7 @@ module.exports = [
     ],
     "correctAnswer": "самовольное пользование недрами",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19722,7 +19721,7 @@ module.exports = [
     ],
     "correctAnswer": "непредоставление или нарушение сроков предоставления лицензий, неисполнение законодательства и непринятие мер против незаконного вмешательства",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19736,7 +19735,7 @@ module.exports = [
     ],
     "correctAnswer": "при ухудшении естественных свойств недр из-за действий третьих лиц и органов власти, исключающих недропользование",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19747,7 +19746,7 @@ module.exports = [
     ],
     "correctAnswer": "за безопасность плотины, безопасную эксплуатацию, техническое обслуживание и причиненный ущерб.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19759,7 +19758,7 @@ module.exports = [
     ],
     "correctAnswer": "плотины республиканского, бассейнового и районного значения",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19770,7 +19769,7 @@ module.exports = [
     ],
     "correctAnswer": "высота плотины, объём воды, риск разрушения, потенциальный ущерб, изменение качества воды, социально-экономическое и межгосударственное значение.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19784,7 +19783,7 @@ module.exports = [
     ],
     "correctAnswer": "Правительство Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19797,7 +19796,7 @@ module.exports = [
     ],
     "correctAnswer": "комиссию по обеспечению безопасности плотин как независимый технический орган",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19809,7 +19808,7 @@ module.exports = [
     ],
     "correctAnswer": "выдаёт обязательные для исполнения предписания владельцам или пользователям плотин о проведении ремонтных или строительных работ",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19820,7 +19819,7 @@ module.exports = [
     ],
     "correctAnswer": "раз в 5 лет для республиканских, раз в 10 лет для бассейновых, раз в 15 лет для районных плотин.",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19833,7 +19832,7 @@ module.exports = [
     ],
     "correctAnswer": "в течение шести месяцев",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19845,7 +19844,7 @@ module.exports = [
     ],
     "correctAnswer": "проверка качества эксплуатации ирригационных и дренажных систем, надзор за исполнением рекомендаций, координация деятельности пользователей и консультации по компетенции",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19859,7 +19858,7 @@ module.exports = [
     ],
     "correctAnswer": "Правительство Кыргызской Республики",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19871,7 +19870,7 @@ module.exports = [
     ],
     "correctAnswer": "определение потребности средств на содержание и техническое обслуживание ирригационных и дренажных систем и финансовых возможностей поставщика воды",
     "correctAnswerIndex": 0,
-    "category": "XVII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19885,7 +19884,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Устройство обработки информации",
     "correctAnswerIndex": 1,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19899,7 +19898,7 @@ module.exports = [
     ],
     "correctAnswer": "а) функциональное устройство, способное выполнять значительный объём вычислений",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19913,7 +19912,7 @@ module.exports = [
     ],
     "correctAnswer": "а) Устройство для вывода информации на бумагу",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19927,7 +19926,7 @@ module.exports = [
     ],
     "correctAnswer": "г) устройство для защиты электрического оборудования от перебоев и проблем в сети электропитания.",
     "correctAnswerIndex": 3,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19941,7 +19940,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Устройство ввода изображения с листа в компьютер",
     "correctAnswerIndex": 2,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19955,7 +19954,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Процессор",
     "correctAnswerIndex": 1,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19969,7 +19968,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Устройство для ввода информации",
     "correctAnswerIndex": 1,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19983,7 +19982,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Устройство для отображения информации",
     "correctAnswerIndex": 1,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -19997,7 +19996,7 @@ module.exports = [
     ],
     "correctAnswer": "в) Устройство ввода информации",
     "correctAnswerIndex": 2,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20011,7 +20010,7 @@ module.exports = [
     ],
     "correctAnswer": "б) Устройство для хранения информации",
     "correctAnswerIndex": 1,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20024,7 +20023,7 @@ module.exports = [
     ],
     "correctAnswer": "программа, обеспечивающая взаимодействие ОС с физическим устройством",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20035,7 +20034,7 @@ module.exports = [
     ],
     "correctAnswer": "совокупность средств и правил, обеспечивающих логическое или физическое взаимодействие устройств и программ вычислительной системы.",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20048,7 +20047,7 @@ module.exports = [
     ],
     "correctAnswer": "Архив",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20062,7 +20061,7 @@ module.exports = [
     ],
     "correctAnswer": "группа из восьми битов, обрабатываемых как единое целое",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20074,7 +20073,7 @@ module.exports = [
     ],
     "correctAnswer": "область памяти для временного хранения информации",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20087,7 +20086,7 @@ module.exports = [
     ],
     "correctAnswer": "Excel",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20100,7 +20099,7 @@ module.exports = [
     ],
     "correctAnswer": "Power Point",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20112,56 +20111,29 @@ module.exports = [
     ],
     "correctAnswer": "числовые, текстовые, формулы",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
     "questionId": 1476,
-    "questionText": "Какая клавиша используется для удаления неправильно введённого символа, расположенного слева от курсора? Delete",
+    "questionText": "Какая клавиша используется для удаления неправильно введённого символа, расположенного слева от курсора?",
     "options": [
-      "Baskspace",
-      "Ctrl+alt",
-      "Caps lock"
+      "Baskspace"
     ],
     "correctAnswer": "Baskspace",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
-    "language": "ru"
-  },
-  {
-    "questionId": 1477,
-    "questionText": "С помощью какой клавиши можно удалить символы, находящиеся справа от курсора? Enter Tab Backspase",
-    "options": [
-      "Delete."
-    ],
-    "correctAnswer": "Delete.",
-    "correctAnswerIndex": 0,
-    "category": "XVIII.",
-    "language": "ru"
-  },
-  {
-    "questionId": 1478,
-    "questionText": "Копирование выделенного объекта производится при нажатой клавише… Alt+Shift Alt+ Ctrl",
-    "options": [
-      "Ctrl+С",
-      "Ctrl+ Alt + Shift."
-    ],
-    "correctAnswer": "Ctrl+С",
-    "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
     "questionId": 1479,
-    "questionText": "Какие комбинации клавиш чаще всего используются для переключения клавиатуры с русского на английский язык и наоборот? Ctrl+V",
+    "questionText": "Какие комбинации клавиш чаще всего используются для переключения клавиатуры с русского на английский язык и наоборот?",
     "options": [
-      "Alt+ Shift",
-      "Ctrl+C",
-      "Ctrl+Alt+Del."
+      "Alt+ Shift"
     ],
     "correctAnswer": "Alt+ Shift",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20175,7 +20147,7 @@ module.exports = [
     ],
     "correctAnswer": "кликнуть на рабочем столе правой клавишей мыши, затем выбрать «Папка» в подменю создать",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20188,7 +20160,7 @@ module.exports = [
     ],
     "correctAnswer": "кликнуть на крестик в правом верхнем углу окна",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20201,7 +20173,7 @@ module.exports = [
     ],
     "correctAnswer": "подчёркиванием красной линией",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20214,7 +20186,7 @@ module.exports = [
     ],
     "correctAnswer": "при помощи меню правой кнопки – СОЗДАТЬ-ФАЙЛ (или папку)",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20222,12 +20194,11 @@ module.exports = [
     "questionText": "Имя пользователя, которое используется для входа в информационные системы, приложения или другие программы? пароль",
     "options": [
       "логин",
-      "Face ID",
-      "IP адрес."
+      "Face ID"
     ],
     "correctAnswer": "логин",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20240,7 +20211,7 @@ module.exports = [
     ],
     "correctAnswer": "веб-страница",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20254,7 +20225,7 @@ module.exports = [
     ],
     "correctAnswer": "вид вредоносных программ, способных внедряться в код других программ",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20265,7 +20236,7 @@ module.exports = [
     ],
     "correctAnswer": "Для первого сохранения файла с новым создаваемым именем или в новое место.",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20279,7 +20250,7 @@ module.exports = [
     ],
     "correctAnswer": "Локальная сеть",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20291,7 +20262,7 @@ module.exports = [
     ],
     "correctAnswer": "Уникальный сетевой адрес узла в компьютерной сети",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20304,7 +20275,7 @@ module.exports = [
     ],
     "correctAnswer": "Программа для поиска и просмотра на экране компьютера информации из компьютерной сети",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20317,7 +20288,7 @@ module.exports = [
     ],
     "correctAnswer": "секретный ключ подписи хранится на защищённом сервере",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20328,7 +20299,7 @@ module.exports = [
     ],
     "correctAnswer": "Организует службу передачи сообщений с помощью почтовых адресов пользователей.",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20339,7 +20310,7 @@ module.exports = [
     ],
     "correctAnswer": "Облачная электронная подпись.",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20351,7 +20322,7 @@ module.exports = [
     ],
     "correctAnswer": "Для аудио и видео фиксации судебного заседания",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20363,7 +20334,7 @@ module.exports = [
     ],
     "correctAnswer": "автоматизированная информационная система",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20375,7 +20346,7 @@ module.exports = [
     ],
     "correctAnswer": "Для создания базы электронных судебных дел",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20387,7 +20358,7 @@ module.exports = [
     ],
     "correctAnswer": "Государственный реестр судебных актов",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20401,7 +20372,7 @@ module.exports = [
     ],
     "correctAnswer": "Для опубликования вынесенных судебных актов на портале в деперсонифицированном виде",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20415,7 +20386,7 @@ module.exports = [
     ],
     "correctAnswer": "Система Межведомственного Электронного Взаимодействия",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20428,7 +20399,7 @@ module.exports = [
     ],
     "correctAnswer": "Для взаимодействия между государственными органами и МСУ",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20442,7 +20413,7 @@ module.exports = [
     ],
     "correctAnswer": "Автоматическое распределение дел",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20455,7 +20426,7 @@ module.exports = [
     ],
     "correctAnswer": "Распределение судебных дел между судьями местного и Верховного судов",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20467,7 +20438,7 @@ module.exports = [
     ],
     "correctAnswer": "Видео-конференц связь",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20480,7 +20451,7 @@ module.exports = [
     ],
     "correctAnswer": "Для проведения он-лайн конференций или заседаний",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20494,7 +20465,7 @@ module.exports = [
     ],
     "correctAnswer": "Электронная цифровая подпись",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20508,7 +20479,7 @@ module.exports = [
     ],
     "correctAnswer": "Используется в электронных службах, предоставляемых государственными органами",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20522,7 +20493,7 @@ module.exports = [
     ],
     "correctAnswer": "для автоматизации документооборота",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   },
   {
@@ -20534,7 +20505,7 @@ module.exports = [
     ],
     "correctAnswer": "информационная система, предназначенная для автоматизации документооборота",
     "correctAnswerIndex": 0,
-    "category": "XVIII.",
+    "category": "UNCLASSIFIED",
     "language": "ru"
   }
 ];
