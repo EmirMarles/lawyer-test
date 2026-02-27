@@ -26,7 +26,11 @@ export default function MainTestPage({ setAnswers, timerBool }) {
     // const [hydrated, setHydrated] = useState(false)
     const navigate = useNavigate()
     const location = useLocation()
-    const categoryKey = location.state?.categoryKey || null;
+    // Prefer category from navigation state; fall back to category in URL (/main-test-page/category-KEY)
+    const stateCategoryKey = location.state?.categoryKey
+    const urlCategoryMatch = location.pathname.match(/category-([^/]+)/)
+    const urlCategoryKey = urlCategoryMatch ? decodeURIComponent(urlCategoryMatch[1]) : null
+    const categoryKey = stateCategoryKey || urlCategoryKey || null;
 
     // SAVING THE ANSWERS //
 
@@ -34,7 +38,6 @@ export default function MainTestPage({ setAnswers, timerBool }) {
         localStorage.setItem('answers', JSON.stringify(arrayOfAnswers))
         console.log('answers saved locally:', JSON.parse(localStorage.getItem('answers')))
     }, [arrayOfAnswers])
-
 
     // SETTING THE PROGRESS BAR //
     useEffect(() => {
