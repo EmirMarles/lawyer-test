@@ -1,7 +1,6 @@
 import './HomePage.css'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
-import axios from 'axios'
 import { CATEGORIES } from '../const/categories.js'
 
 const apiUrl = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');

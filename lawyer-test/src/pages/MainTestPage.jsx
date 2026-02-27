@@ -74,6 +74,7 @@ export default function MainTestPage({ setAnswers, timerBool }) {
 
         const fetchCategory = async () => {
             try {
+                console.log('fetching category questions:', categoryKey)
                 setLoading(true);
                 setError(null);
                 const response = await axios.get(`${apiUrl}/api/questions/by-category`, {
